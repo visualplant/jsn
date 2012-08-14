@@ -1,0 +1,354 @@
+<?php ?>
+
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8" />
+	<title>alias made</title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	
+	<!-- 1140px Grid styles for IE -->
+	<!--[if lte IE 9]><link rel="stylesheet" href="css/ie.css" type="text/css" media="screen" /><![endif]-->
+
+	<!-- The 1140px Grid - http://cssgrid.net/ -->
+	<link rel="stylesheet" href="css/1140.css" type="text/css" media="screen" />
+	
+	<!-- Your styles -->
+	<link rel="stylesheet" href="css/styles.css" type="text/css" media="screen" />
+	
+	<!--css3-mediaqueries-js - http://code.google.com/p/css3-mediaqueries-js/ - Enables media queries in some unsupported browsers-->
+	<script type="text/javascript" src="js/css3-mediaqueries.js"></script>
+
+</head>
+
+
+<body>
+
+<? include('includes/topbar.php') ?>
+
+<div class="container">
+	<div class="row">
+	
+		<div class="threecol">
+			<div class="box project">
+				<div class="name">Visualplant:</div>
+				<div class="tagline">
+					Video-as-a-service (VAAS)
+				</div>
+				
+				<div class="back">
+					<br clear="all"><br />
+				
+					<a href="javascript:history.go(-1)" class="back-button">back</a>
+				</div>
+				
+			</div>
+		</div>
+		
+		<div class="ninecol last">
+			<div class="box work">
+				
+				<div class="row opener-row">
+					<div class="sixcol opener">
+						A <span style="color:#999;">video platform</span>
+						with customizable players and cloud-based content management.
+					</div>
+					
+					<div class="fivecol last opener-image">
+						<img src="images/visualplant/vp-logo.png" class="opener-image" alt="VISUALPLANT logo">
+					</div>
+				</div>
+		
+				
+				
+				<div class="byline">
+					How I did it &mdash; 
+					<span class="byline-name">by Jason Schmidt</span>
+				</div>
+				
+				
+
+				<div class="text-head">Background</div>
+				
+				<div class="text-cols body-text">
+
+					In 2002 I was recruited by a magazine publisher to become the Design Director for their Internet division.
+					They had just acquired the most popular video site on the Web and wanted to "integrate it."
+					I worked with their editorial team to redesign the 
+					site and create a new content management workflow specifically for video publishing. We relaunched in 
+					60 days and turned it profitable 
+					in the first year by catering to business users. I became intimately acquainted with the unique challenges of putting video
+					on the Web.
+
+				</div> <!-- /text-cols -->
+				
+				<div class="section-divider">&nbsp;</div>
+				
+				<div class="text-head">Problem</div>
+			
+				<div class="text-cols body-text">
+					
+					Most businesses had high-speed 
+					Internet at the time, 
+					but Cable and DSL penetration for consumers was sparse.
+					This combined with a lack of file standards and
+					competing browser plugins made the consumer experience for video lousy.
+					No single company could solve all the problems alone. Lack of content and poor quality 
+					yielded low viewership causing publishers to misread
+					the problem as one of disinterest which in turn discouraged technologists from tackling the space.	
+					But like text and audio before, video would inevitably come of age.
+					Someone needed to take  
+					the initiative to innovate the publishing tools, 
+					to create a "Wordpress for video" at the opportune moment when the market was ready for it.
+					
+					<img src="images/visualplant/codec-soup.png" class="text-image" alt="Video codec craziness!"> 
+		
+				</div>
+				
+				<div class="section-divider" style="margin-bottom:20px;">&nbsp;</div>
+				
+				<div style="text-align:center;color:#666;">
+					<span class="break-head">2006: The year of Net video</span>
+				</div>
+				
+				<div class="section-divider" style="margin-top:20px;">&nbsp;</div>
+				
+				
+				<div class="text-head">Market timing</div>
+			
+				<div class="text-cols body-text">
+					By 2006 video codecs like Sorenson had matured enough to achieve decent quality and reduced file size. Macromedia's Flash 
+					plug-in provided the right blend of browser independence and player interactivity. High bandwidth penetration for 
+					consumers finally surpassed 50%. 
+					
+					I gambled Web video was finally poised to take off. Perhaps, it was wishful thinking and a little luck.
+					I left my full-time job to bootstrap a video-as-a-service (VAAS) platform. My former employer became 
+					my first client, and my new company, Visualplant, was profitable in the first year.
+				</div>
+				
+				<div class="section-divider">&nbsp;</div>
+				
+				<div class="text-head">Approach</div>
+			
+				<div class="text-cols body-text">
+					Every product follows a unique path, but those with any success share at least one thing in common: they launch fast. 
+					It was less than 30 days from my first design comp to when I launched Visualplant 
+					to over 1 million users in its beta debut.
+					<br /><br />
+					How did I build one of the first ever scalable Web video services in a month? The honest answer is I didn't. 
+					I created a video player that consumed manually-encoded files.
+					Ironically, I put most of my 
+					first efforts into designing a player when players already cluttered the market. Why?
+					
+					Because I needed to excite my potential clients on the look of the future, and I didn't have the time or money to build the plumbing just 
+					yet. I showed them a newly-designed, custom-branded, fullscreen video player with auto-playback playlists
+					and offered to serve their biggest viewing 
+					event of the year for free. They loved the interface, the quality and the no risk proposal, so they took me up on it. 
+					
+					<div class="quote">
+						<div class="quotation-mark"></div>
+							Get customers, not investors.
+						<div class="quote-credit">&mdash;TIM O'REILLY</div>
+					</div>
+					
+				</div>
+				
+				<br clear="all"><br />
+
+				<div class="full-width-box">
+					
+					<div class="caption">
+						Visualplant Web Player combining video, audio, images, captions and targetted advertising.
+					</div>
+					
+					<img src="images/visualplant/player.jpg" width="100%" alt="">
+					
+					<div class="caption">
+						Branched from Jeroen Wijering's open source SDK.
+					</div>
+					
+				</div>
+				
+				<br clear="all">
+				
+				<div class="text-cols body-text">
+				
+					The demo earned me the clout to request 
+					a follow-up sales meeting. I presented with the tact, "if you like the video player, then get a load of the platform 
+					behind the scenes."
+					I came with design mockups of the dashboard and 
+					<span style="font-style:italic">convinced my first client to sign an agreement to pay for a platform that did not yet exist</span>.
+	
+					While the agreement was in legal, I assembled a small team from my network to begin engineering.
+					The most critical tools, including the uploader/encoder, title manager and impression reporting came first.
+					
+					<div class="quote">
+						<div class="quotation-mark"></div>
+							Design first, then code.
+						<div class="quote-credit">&mdash;JASON SCHMIDT</div>
+					</div>
+				
+				</div>
+				
+				<br clear="all"><br />
+				
+				<div class="full-width-box">
+				
+					<div class="caption">Title Manager</div>
+					<img src="images/visualplant/library.png" width="100%" alt="">
+					
+					<br clear="all"><br />
+				
+					<div class="caption">Custom reporting tool</div>
+					<img src="images/visualplant/impressionreporting.png" width="100%" alt="">
+				
+				</div>
+				
+				<div class="section-divider">&nbsp;</div>
+				
+				<div class="text-head">Traction</div>
+		
+				<div class="text-cols body-text">
+					
+					With the income to develop and the traffic to attract more clients, we did both. 
+					Releasing new features almost weekly, within ten months we had developed a multi-tier, dynamically scalable 
+					platform with two primary interfaces: a web services API
+					for developers and a WYSIWYG templating engine for non-technical publishers.
+					I designed each tool on the micro-level, writing
+					pseudo-code to describe every user and system interaction,
+					and I diagrammed a meta-view of the platform allowing my programmers
+					to see the forest through the trees and for my clients to appreciate what they were
+					paying for.
+					
+					<div class="opener" style="margin-top:20px;">
+						Software design, documentation and marketing interwoven:
+					</div>
+					
+				</div>
+				
+				<div class="full-width-box">
+					<img src="images/visualplant/vp-diagram.png" width="100%" alt="">
+				</div>
+				
+				<div class="section-divider">&nbsp;</div>
+				
+				<div class="text-head">Lesson</div>
+			
+				<div class="text-cols body-text">
+					Creating Visualplant taught me more than ever that design is an iterative task. Much more than polishing 
+					a user interface or perfecting code for a final release, it is choosing the right time to pursue the right product 
+					and using design 
+					to inspire belief in a mission. The team, investors, clients, press and users 
+					all need to be engaged immediately and continually. 
+					
+					In the past I focused on the minutiae of product design from 
+					set-go, but I learned to invest perfectionism in the long term vision that gets realized over many months 
+					and often years. Today my design method encompasses a collaboration between me and everyone who 
+					touches the product. That does <i>not</i> mean "design by committee." 
+					Rather, I create 
+					a vision of what to build, design in phases and observe how users respond to each release. 
+					Course adjustments and sometimes pivots are essential to designing something great. Because nothing can 
+					be called great until it proves itself in action.
+				</div>
+				
+			
+				
+				<div class="credits-head">CREDITS</div>
+				
+				<div class="credits-box">
+
+					<div class="threecol credits">
+						<div class="roles">
+							Founder / Director / Product Designer
+						</div>
+						<div class="credit-name">Jason Schmidt</div>
+					</div>
+					
+					<div class="twocol credits">
+						<div class="roles">
+							Senior Software Developer
+						</div>
+						<div class="credit-name">Matthew Rice</div>
+					</div>
+					
+					<div class="twocol credits">
+						<div class="roles">
+							Software Developer
+						</div>
+						<div class="credit-name">Vitaliy Heleznov</div>
+					</div>
+					
+					<div class="twocol credits">
+						<div class="roles">
+							Software Developer
+						</div>
+						<div class="credit-name">Vadim Zacez</div>
+					</div>
+					
+					<div class="twocol credits">
+						<div class="roles">
+							Software Developer
+						</div>
+						<div class="credit-name">David Lafferty</div>
+					</div>
+					
+				</div>
+				
+				<div class="credits-box credits-box-2">
+
+					<div class="threecol credits">
+						<div class="roles">
+							Legal Counsel
+						</div>
+						<div class="credit-name">Amy Laub</div>
+					</div>
+					
+					<div class="twocol credits">
+						<div class="roles">
+							Software Developer
+						</div>
+						<div class="credit-name">Brian Brandes</div>
+					</div>
+					
+					<div class="twocol credits">
+						<div class="roles">
+							Software Developer
+						</div>
+						<div class="credit-name">Ryan Provost</div>
+					</div>
+					
+					<div class="twocol credits">
+						<div class="roles">
+							Sales Engineer
+						</div>
+						<div class="credit-name">Craig Miller</div>
+					</div>
+					
+					<div class="twocol credits">
+						<div class="roles">
+							Technical Consultant
+						</div>
+						<div class="credit-name">Chris Mollis</div>
+					</div>
+					
+				</div>
+				
+				<div class="full-width-box" style="text-align:center;margin-top:50px;margin-bottom:40px;">
+					<a href="traveal.php" class="case-study-button">next case study &raquo;</a>
+				</div>
+		
+				
+			</div> <!-- /ninecol -->
+		</div> <!-- /box work -->
+		
+	</div> <!-- /row -->
+</div> <!-- /container -->
+
+<? include('includes/footer.php') ?>
+
+
+</body>
+
+</html>

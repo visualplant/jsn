@@ -1,7 +1,7 @@
 <div class="container topbar">
 	<div class="row">
 	
-		<div class="sevencol top-logo">
+		<div class="sevencol top-logo" onclick="javascript:window.location = 'index.php'">
 			alias <span style="color:#eee;">made</span>
 		</div>
 		

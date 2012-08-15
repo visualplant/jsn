@@ -34,12 +34,12 @@
 
 		<div class="twocol text-head project-name">Visualplant:</div>
 		
-		<div class="sevencol portfolio-thumb">
-			<p><a href="visualplant.php"><img src="images/visualplant/vp-home.jpg" alt=""></a></p>
+		<div class="sevencol portfolio-thumb" style="background-image:url(images/visualplant/vp-home.jpg);background-repeat:no-repeat;">
+			<a href="visualplant.php"><p style="min-height:300px;"></p></a>
 		</div>
 
-		<div class="threecol last portfolio-thumb">
-			<p><a href="visualplant.php"><img src="images/visualplant/uploader-solo.png" alt=""></a></p>
+		<div class="threecol last portfolio-thumb" style="background-image:url(images/visualplant/uploader-solo.png);background-repeat:no-repeat;">
+			<a href="visualplant.php"><p style="min-height:300px;"></p></a>
 		</div>
 		
 	</div>
@@ -80,12 +80,12 @@
 
 		<div class="twocol text-head project-name">Mokini:</div>
 		
-		<div class="sixcol portfolio-thumb">
-			<p><a href="mokini.php"><img src="images/mokini/mokini-start.png" alt=""></a></p>
+		<div class="sixcol portfolio-thumb" style="background-image:url(images/mokini/mokini-start.png);background-position:44% 3%;background-repeat:no-repeat;">
+			<a href="mokini.php"><p style="min-height:300px;"></p></a>
 		</div>
 
-		<div class="fourcol last portfolio-thumb">
-			<p><a href="mokini.php"><img src="images/mokini/mokini-events-new.png" alt=""></a></p>
+		<div class="fourcol last portfolio-thumb" style="background-image:url(images/mokini/mokini-events-new.png);background-repeat:no-repeat;">
+			<a href="mokini.php"><p style="min-height:300px;"></p></a>
 		</div>
 		
 	</div>
@@ -130,15 +130,34 @@
 
 		<div class="twocol text-head project-name">Traveal:</div>
 		
-		<div class="threecol portfolio-thumb">
-			<p><a href="traveal.php"><img src="images/traveal/Traveal-logo.png" alt=""></a>
-			<br /><br />
-			<a href="traveal.php"><img src="images/traveal/Traveal-Places.png" alt=""></a>
-			</p>
+		<div class="fourcol portfolio-thumb" style="background-image:url(images/traveal/Traveal-logo.png);background-position:55% 55%;background-repeat:no-repeat;">
+			<a href="traveal.php"><p style="min-height:120px;"></p></a>
 		</div>
 		
-		<div class="sevencol last portfolio-thumb">
-			<p><a href="traveal.php"><img src="images/traveal/Traveal-Deals.png" alt=""></a></p>
+		<div class="sixcol last portfolio-thumb" style="background-image:url(images/traveal/Traveal-Deals.png);background-position:77% 0%;background-repeat:no-repeat;">
+			<a href="traveal.php"><p style="min-height:120px;"></p></a>
+		</div>
+
+	</div>
+</div>
+
+<br style="clear:both;height:20px;" />
+
+<div class="container">
+	<div class="row">
+
+		<div class="twocol text-head project-name"></div>
+		
+		<div class="twocol portfolio-thumb" style="background-image:url(images/traveal/Traveal-Deals.png);background-position:12% 65%;background-repeat:no-repeat;">
+			<a href="traveal.php"><p style="min-height:120px;"></p></a>
+		</div>
+		
+		<div class="fivecol portfolio-thumb" style="background-image:url(images/traveal/Traveal-Deals.png);background-position:64% 80%;background-repeat:no-repeat;">
+			<a href="traveal.php"><p style="min-height:120px;"></p></a>
+		</div>
+		
+		<div class="threecol last portfolio-thumb" style="background-image:url(images/traveal/Traveal-Deals.png);background-position:51% 100%;background-repeat:no-repeat;">
+			<a href="traveal.php"><p style="min-height:120px;"></p></a>
 		</div>
 
 	</div>
@@ -183,8 +202,12 @@
 
 		<div class="twocol text-head project-name">The Pulse:</div>
 		
-		<div class="tencol portfolio-thumb last">
-			<p><img src="images/sony/pulse1.png" alt=""></p>
+		<div class="fourcol portfolio-thumb" style="background-image:url(images/sony/pulse1.png);background-position:0% 0%;background-repeat:no-repeat;">
+			<p style="min-height:300px;"></p>
+		</div>
+		
+		<div class="sixcol portfolio-thumb last" style="background-image:url(images/sony/pulse1.png);background-position:70% 100%;background-repeat:no-repeat;">
+			<p style="min-height:300px;"></p>
 		</div>
 
 
@@ -223,8 +246,8 @@
 
 		<div class="twocol text-head project-name">Advertising Age:</div>
 		
-		<div class="tencol portfolio-thumb last">
-			<p><img src="images/adage/adage-home.png" alt=""></p>
+		<div class="tencol portfolio-thumb last" style="background-image:url(images/adage/adage-home.png);background-position: 42% 0%;background-repeat:no-repeat;">
+			<p style="min-height:300px;"></p>
 		</div>
 
 
@@ -263,12 +286,12 @@
 
 		<div class="twocol text-head project-name">Ruckus:</div>
 		
-		<div class="twocol portfolio-thumb">
-			<p><img src="images/ruckus/ruckus-logo.jpg" alt=""></p>
+		<div class="twocol portfolio-thumb" style="background-image:url(images/ruckus/ruckus-logo.jpg);background-position: 37% 10%;background-repeat:no-repeat;">
+			<p style="min-height:300px;"></p>
 		</div>
 		
-		<div class="eightcol portfolio-thumb last">
-			<p><img src="images/ruckus/ruckus.png" alt=""></p>
+		<div class="eightcol portfolio-thumb last" style="background-image:url(images/ruckus/ruckus.png);background-position: 0% 0%;background-repeat:no-repeat;">
+			<p style="min-height:300px;"></p>
 		</div>
 
 
@@ -308,12 +331,12 @@
 
 		<div class="twocol text-head project-name">Upstairs:</div>
 		
-		<div class="eightcol portfolio-thumb">
-			<p><img src="images/upstairs/upstairsCover-new.jpg" alt=""></p>
+		<div class="eightcol portfolio-thumb" style="background-image:url(images/upstairs/upstairsCover-new.jpg);background-position: 50% 50%;background-repeat:no-repeat;">
+			<p style="min-height:300px;"></p>
 		</div>
 		
-		<div class="twocol portfolio-thumb last">
-			<p><img src="images/upstairs/title.jpg" alt=""></p>
+		<div class="twocol portfolio-thumb last" style="background-image:url(images/upstairs/title.jpg);background-position: 50% 95%;background-repeat:no-repeat;">
+			<p style="min-height:300px;"></p>
 		</div>
 
 
@@ -353,12 +376,12 @@
 
 		<div class="twocol text-head project-name">Capsule:</div>
 		
-		<div class="twocol portfolio-thumb">
-			<p><img src="images/capsule/capsule-ipad-logo.png" alt=""></p>
+		<div class="twocol portfolio-thumb" style="background-image:url(images/capsule/capsule-ipad-logo.png);background-position: 50% 50%;background-repeat:no-repeat;">
+			<p style="min-height:300px;"></p>
 		</div>
 		
-		<div class="eightcol portfolio-thumb last">
-			<p><img src="images/capsule/capsule-ipad-browse.png" alt=""></p>
+		<div class="eightcol portfolio-thumb last" style="background-image:url(images/capsule/capsule-ipad-browse.png);background-position: 3% 2%;background-repeat:no-repeat;">
+			<p style="min-height:300px;"></p>
 		</div>
 
 
@@ -399,8 +422,12 @@
 
 		<div class="twocol text-head project-name">Talisman:</div>
 		
-		<div class="sixcol portfolio-thumb last">
-			<p><img src="images/talisman/talisman.png" alt=""></p>
+		<div class="sixcol portfolio-thumb" style="background-image:url(images/talisman/talisman.png);background-position: 40% 2%;background-repeat:no-repeat;">
+			<p style="min-height:300px;"></p>
+		</div>
+		
+		<div class="fourcol portfolio-thumb last" style="background-image:url(images/talisman/talisman.png);background-position: 54% 65%;background-repeat:no-repeat;">
+			<p style="min-height:300px;"></p>
 		</div>
 
 	</div>

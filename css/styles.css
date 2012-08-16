@@ -32,7 +32,7 @@ a:active.globalnav {
 	color: #ccc;
 }
 
-a:link.active-page, a:visited.active-page {
+a:link.selected-page, a:visited.selected-page {
 	color:#eee;
 }
 
@@ -104,7 +104,7 @@ a:link.globalnav-active, a:visited.globalnav-active {
 
 .body-text {
 	font-size:0.9em;
-	line-height:1.8em;
+	line-height:1.6em;
 }
 
 .text-cols-1 {
@@ -175,6 +175,7 @@ ul.credits {
 	height:6px;
 	text-align:center;
 	background-image:url('../images/gradient-divider.png');
+	background-size:100%;
 	background-repeat:no-repeat;
 	background-position:center;
 }

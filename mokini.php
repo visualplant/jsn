@@ -1,4 +1,4 @@
-<?php ?>
+<?php $page="portfolio" ?>
 
 <!doctype html>
 <html lang="en">
@@ -100,7 +100,7 @@
 				<div class="full-width-box">
 
 					<div class="opener" style="margin-top:20px;text-align:center;">
-					Our platform captured the ephemeral chatter of exclusive interest groups.
+					Proxying a myriad of sources, our platform captured the ephemeral chatter of exclusive interest groups.
 					</div>
 					
 				</div>

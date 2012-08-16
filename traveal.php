@@ -1,4 +1,4 @@
-<?php ?>
+<?php $page="portfolio" ?>
 
 <!doctype html>
 <html lang="en">

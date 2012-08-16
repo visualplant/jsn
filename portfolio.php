@@ -1,21 +1,13 @@
-<?php ?>
+<?php $page="portfolio" ?>
 
 <!doctype html>
 <html lang="en">
 
-
 <? include('includes/head.php') ?>
-
 
 <body>
 
-
-
 <? include('includes/topbar.php') ?>
-
-<style type="text/css">
-a:visited.portfolio {color:#eee;}
-</style>
 
 <div class="container">
 	<div class="row">
@@ -24,7 +16,7 @@ a:visited.portfolio {color:#eee;}
 		
 		<div class="eightcol last" style="margin-top:80px;">
 		
-			<div class="name portfolio-head">
+			<div class="name portfolio-head box">
 				<p>Web . Mobile . Desktop</p>
 			</div>
 			

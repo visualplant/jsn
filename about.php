@@ -1,4 +1,4 @@
-<?php ?>
+<?php $page="about" ?>
 
 <!doctype html>
 <html lang="en">
@@ -9,16 +9,10 @@
 
 <? include('includes/topbar.php') ?>
 
-<style type="text/css">
-a:visited.about {color:#eee;}
-</style>
-
 <div class="container">
 	<div class="row">
 
-		<div class="twocol">
-			
-		</div>
+		<div class="twocol"></div>
 		
 		<div class="eightcol last" style="margin-top:80px;">
 		
@@ -62,8 +56,8 @@ a:visited.about {color:#eee;}
 				<br /><br />
 				
 				When Web 1.0 dot-bombed and 80% of the workforce changed careers, Jason kept working 
-				in the field. He went on to become Ad Age's first Web Design Director and later founded 
-				two tech startups while spreading himself way too thin.
+				in the field. He went on to become Ad Age's first Web Design Director, later founded 
+				two tech startups and spread himself way too thin.
 				
 				<br /><br />
 				

@@ -53,6 +53,10 @@ a:active.back-button {
 	border:1px solid #666;
 }
 
+a:link.globalnav-active, a:visited.globalnav-active {
+	color:#eee;
+}
+
 
 
 .container {
@@ -127,7 +131,7 @@ a:active.back-button {
 }
 
 .portfolio-head {
-	
+	margin-bottom:20px;
 }
 
 .text-head {
@@ -322,7 +326,7 @@ ul.credits {
 /* END TOP BAR */
 
 .name {
-	font-size:2.2em;
+	font-size:2.8em;
 	line-height:1.3em;
 	font-weight:bold;
 	color:#39434c;

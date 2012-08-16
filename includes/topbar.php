@@ -6,8 +6,8 @@
 		</div>
 		
 		<div class="fivecol last" style="text-align:right;margin-top:15px;z-index:3;width:35%;">
-			<a href="about.php" class="globalnav">about</a> 
-			<a href="portfolio.php" class="globalnav">portfolio</a> 
+			<a href="about.php" class="globalnav about">about</a> 
+			<a href="portfolio.php" class="globalnav portfolio">portfolio</a> 
 			<a href="http://blog.visualplant.net" class="globalnav" target="_blank">blog</a>
 			<a href="mailto:jsn@visualplant.net" class="globalnav">contact</a>
 		</div>

@@ -9,6 +9,10 @@
 
 <? include('includes/topbar.php') ?>
 
+<style type="text/css">
+a:visited.about {color:#eee;}
+</style>
+
 <div class="container">
 	<div class="row">
 

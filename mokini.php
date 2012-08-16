@@ -65,15 +65,16 @@
 					
 					College campuses are a hotbed of diverse interest groups with academic and social agendas. 
 					Communication between people and groups is loose and de-centralized. 
-
-					I conducted my own research at Stanford University and found that students and faculty use a myriad of modalities 
+					<br /><br />
+					My co-founders and I conducted our own research at Stanford University and found that students and faculty use a myriad of modalities 
 					to broadcast one-to-many messages:
 					Web forums, Facebook, Twitter and even old-school mailing lists. 
 					Such real-time communication is spontaneous and intimate, but sadly the information is massively redundant,
 					missed by many intended recipients, unsearchable by the community and largely ephemeral. 
+					
 					I teamed up with two Machine Learning software developers to address 
 					this problem on campus. Since college tends to be a dense microcosm of society,
-					Stanford was a good place to prove our beta.
+					Stanford was a good place to test our concept.
 
 				</div>
 				
@@ -84,15 +85,27 @@
 				
 				<div class="text-cols body-text">
 					
-					We began by creating a simple Web tool for users to add trusted sources to exclusive interest groups. If necessary, we 
-					would use the tool ourselves to seed groups with sources.
-					Most importantly, users did not need to change their communication habits; they could continue to use their usual 
+					We began by creating a simple Web tool for users to add trusted sources from their interest groups. We 
+					used the tool internally to kickstart the sources.
+					Users did not need to change their communication habits; they could continue to use their usual 
 					modalities to broadcast and 
-					receive. But now, with a growing number of sources in-tow and proxied to our platform, <i>we could capture the broadcast content</i>.
+					receive. But now, with a growing number of sources in-tow and proxied to our platform,
+					for the first time ever <i>we captured the ephemeral chatter of exclusive interest groups</i>.
+		
 					
 				</div>
 				
-				<br clear="all"><br />
+				<div class="section-divider">&nbsp;</div>
+				
+				<div class="full-width-box">
+
+					<div class="opener" style="margin-top:20px;text-align:center;">
+					Our platform captured the ephemeral chatter of exclusive interest groups.
+					</div>
+					
+				</div>
+				
+				<div class="section-divider">&nbsp;</div>
 				
 				<div class="full-width-box">
 					
@@ -133,8 +146,8 @@
 				
 				<div class="full-width-box">
 
-					<div class="opener" style="margin-top:20px;">
-					As the platform gained traction, the community
+					<div class="opener" style="margin-top:20px;text-align:center;">
+					As the platform gained traction,<br /> the community
 					increasingly trusted it as their group hub.
 					</div>
 					

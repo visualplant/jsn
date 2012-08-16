@@ -27,6 +27,7 @@ a:visited.about {color:#eee;}
 			</div>
 			
 		</div>
+
 		
 	</div>
 </div>
@@ -47,7 +48,7 @@ a:visited.about {color:#eee;}
 				
 				<br /><br />
 				
-				Already competent in Photoshop, he learned HTML in two weeks and scored a job doing it for 
+				Already competent in Photoshop, he learned HTML in a couple weeks and scored a job doing it for 
 				BMG Music Service. He went from
 				coding static files to working on a multi-tier Java Beans Web app with dozens of permutations 
 				customized for a myriad of user demographics. He got a little excited when his boss referred to him
@@ -60,13 +61,13 @@ a:visited.about {color:#eee;}
 				
 				<br /><br />
 				
-				When Web 1.0 dot-bombed and 80% of the workforce changed careers, Jason never stopped working 
-				in the field. He went on to found two tech startups and learned the lesson of spreading himself 
-				too thin.
+				When Web 1.0 dot-bombed and 80% of the workforce changed careers, Jason kept working 
+				in the field. He went on to become Ad Age's first Web Design Director and later founded 
+				two tech startups while spreading himself way too thin.
 				
 				<br /><br />
 				
-				Years later, Jason learned to write about himself in the 3rd person.
+				Shortly after, Jason learned to write about himself in the 3rd person.
 				
 
 			</div> <!-- /text-cols -->

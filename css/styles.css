@@ -296,7 +296,7 @@ ul.credits {
 .topbar-repeat {
 	position:relative;
 	width:100%;
-	height:46px;
+	height:26px;
 	overflow:hidden;
 	border-bottom: 1px solid #ddd;
 	background-image:url('../images/header-gradient.png');

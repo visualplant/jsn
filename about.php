@@ -42,7 +42,7 @@
 				
 				<br /><br />
 				
-				Already competent in Photoshop, he learned HTML in a couple weeks and scored a job doing it for 
+				Previously trained as a writer, musician and graphic designer, he learned HTML in a couple weeks and scored a job doing it for 
 				BMG Music Service. He went from
 				coding static files to working on a multi-tier Java Beans Web app with dozens of permutations 
 				customized for a myriad of user demographics. He got a little excited when his boss referred to him

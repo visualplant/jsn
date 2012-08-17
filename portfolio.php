@@ -439,9 +439,8 @@
 		<div class="twocol"></div>
 		
 		<div class="fivecol body-text">
-			<p><b>Talisman</b> is a smartphone game where players plant and find geo pointers 
-			 that may include physical treasures in the real world. Users compete against each other 
-			 to check in at many locations and earn points toward badges.
+			<p><b>Talisman</b> is a smartphone game where players hide and seek treasures tagged at geo pointers 
+			 in the real world. Users compete against each other to claim treasures and earn points toward badges.
 			</p>
 		</div>
 		

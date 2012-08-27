@@ -15,7 +15,7 @@
 	
 		<div class="threecol">
 			<div class="box project">
-				<div class="name">Visualplant:</div>
+				<div class="name" style="font-size:1.6em;">Visualplant:</div>
 				<div class="tagline">
 					Video-as-a-service (VAAS)
 				</div>
@@ -42,13 +42,6 @@
 					</div>
 				</div>
 		
-				
-				
-				<div class="byline">
-					How I did it &mdash; 
-					<span class="byline-name">by Jason Schmidt</span>
-				</div>
-				
 				
 
 				<div class="text-head">Background</div>

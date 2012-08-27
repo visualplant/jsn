@@ -78,9 +78,9 @@
 			
 				<div class="text-cols body-text">
 					
-					Sabre Travel Network, well-known as the parent company of Travelocity.com, hired me to help their
-					Mobile Strategy Group repurpose the company's huge travel inventory and 
-					powerful transaction technology by designing a proof-of-concept for
+					Sabre Travel Network, best-known as the parent company of Travelocity.com, hired me to help their
+					Mobile Strategy Group repurpose the company's travel inventory and 
+					transaction API by designing a proof-of-concept for
 					a leisure tablet app. 
 					
 					The assignment was to highlight transitory hotel deals, promote the hotel venues and make reservations a breeze. 
@@ -104,7 +104,7 @@
 				</div>
 				
 				<div class="text-cols body-text">
-					I love to brainstorm with the team, and simple sketches are a great way to guide the discussion.
+					I love to brainstorm with a team, and simple sketches are a great way to guide the discussion.
 					
 					It's a myth that every design deliverable must look visually stunning. To the contrary, prematurely polished designs
 					can stifle good ideas, because they make mediocre ideas look better than they really are, and less visually-competent 
@@ -115,10 +115,11 @@
 					every browse screen
 					&mdash; a friendly, looming reminder. All agreed.
 					<br /><br />
-					Sabre has a lot of hotel partners and tons of inventory, and although users will tell you otherwise if you ask them, 
-					unlimited choice makes for frustrating user experience. Psychology knows that overwhelming 
-					options lead to user fatigue and inaction. So, I proposed that we limit the inventory to just 8 daily deals, enough for variety
-					but not too much to absorb in a single glance. More agreement.
+					Sabre has a lot of hotel partners comprising tons inventory, and the temptation was to offer all of it at once. 
+					When asked, users inevitably say they want more of everything, so why not give it to them? 
+					Because too many options are paralyzing, and Psychology has proven that overwhelming 
+					choice leads to fatigue and inaction. I proposed that we limit each session to just 8 daily deals, 
+					enough for variety but not too much to absorb in a single glance. More agreement.
 					
 					
 				</div>
@@ -140,35 +141,43 @@
 				<div class="text-head">User Interface Design</div>
 				
 				<div class="text-cols body-text">
-					Once the screens were defined, I could focus strictly on the aesthetics of the UI. I kept it organized and familiar 
-					with rounded corners and subtle depth derived from an IOS-style grid, layering price-tag icons on top of hotel photos. I chose bright red
-					for the background hue for two reasons: 1- red reflects urgency and, in finance, loss without action; 2- red is Sabre's corporate color. 
-					The loud color scheme was abated by the simple fact that this app was never intended for long session use. 
-					A user would purchase quickly or exit, and the interface would be instantly imprinted on her visual cortex &mdash; 
-					good for brand recall and impulsion to return.
+					Once the screen flow was defined, I could focus on the layout and aesthetics of the UI. I kept it organized
+					and familiar
+					with an IOS-style grid,  
+					rounded corners and subtle depth, layering price-tag icons on top of hotel photos. 
+					I chose red
+					for the background hue for two reasons: 1- red reflects urgency; 
+					2- red is Sabre's corporate color. 
+					The intensity of the color scheme was abated by the fact that this app was intended for short session use. 
+					We wanted users to purchase quickly and exit. If they didn't purchase, the interface would be branded on their 
+					visual cortex &mdash; good for brand recall and impulsion to return later.
 				</div>
 				
 				<br clear="all">
 			
 				<div class="full-width-box">
+					
+					<div class="flexslider">
+          				<ul class="slides">
+            				<li>
+							<img src="images/traveal/Traveal-Deals.png" />
+							</li>
+							<li>
+							<img src="images/traveal/Traveal-Hotels.png" />
+							</li>
+							<li>
+							<img src="images/traveal/Traveal-Places.png" />
+							</li>
+							<li>
+							<img src="images/traveal/Traveal-Choose-Dates.png" />
+							</li>
+							<li>
+							<img src="images/traveal/Traveal-Splash.png" />
+							</li>
+					  	</ul>
+					</div>
 				
-					<img src="images/traveal/Traveal-Deals.png" alt="">
 					
-					<br clear="all"><br />
-					
-					<img src="images/traveal/Traveal-Hotels.png" alt="">
-					
-					<br clear="all"><br />
-					
-					<img src="images/traveal/Traveal-Places.png" alt="">
-					
-					<br clear="all"><br />
-					
-					<img src="images/traveal/Traveal-Choose-Dates.png" alt="">
-					
-					<br clear="all"><br />
-					
-					<img src="images/traveal/Traveal-Splash.png" alt="">
 					
 				</div>
 				

@@ -44,7 +44,7 @@
 				
 				<br clear="all"><br />
 
-				<div class="text-head">Presentation</div>
+				<div class="text-head">Audio Presentation</div>
 				
 				<div class="full-width-box">
 
@@ -74,7 +74,7 @@
 					
 					I teamed up with two Machine Learning software developers to address 
 					this problem on campus. Since college tends to be a dense microcosm of society,
-					Stanford was a good place to test our concept.
+					Stanford was a good place to run a pilot.
 
 				</div>
 				

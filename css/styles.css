@@ -5,6 +5,12 @@
 body {
 	font-family: helvetica, sans-serif;
 	background-color:#eee;
+	box-sizing: border-box; 
+	-o-box-sizing: border-box; 
+	-icab-box-sizing: border-box; 
+	-khtml-box-sizing: border-box; 
+	-moz-box-sizing: border-box; 
+	-webkit-box-sizing: border-box;
 }
 
 /* LINKS */
@@ -312,17 +318,23 @@ ul.credits {
 	float:left;
 }
 
+.topbar-content { 
+	padding-top:11px;
+	padding-left:20px;
+	height:46px;
+}
+
 .top-logo { 
 	float:left;
+	margin-right:6px;
 	font-size:22px;
 	font-weight:bold;
 	letter-spacing:0.09em;
-	padding-top:11px;
-	padding-left:20px;
 	color:#ffffcc;
 	text-shadow:0 0 30px white;
 	cursor:pointer;
 }
+
 
 /* END TOP BAR */
 

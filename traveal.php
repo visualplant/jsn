@@ -141,23 +141,21 @@
 				<div class="text-head">User Interface Design</div>
 				
 				<div class="text-cols body-text">
-					Once the screen flow was defined, I could focus on the layout and aesthetics of the UI. I kept it organized
-					and familiar
-					with an IOS-style grid,  
-					rounded corners and subtle depth, layering price-tag icons on top of hotel photos. 
-					I chose red
-					for the background hue for two reasons: 1- red reflects urgency; 
+					With the screen flow defined I could shift focus to the layout and aesthetics of the UI. I kept it organized
+					and familiar with an IOS-style grid, rounded corners and subtle depth, layering price-tag icons on top of 
+					hotel photos. I chose red for the background hue for two reasons: 
+					1- it reflects urgency; 
 					2- red is Sabre's corporate color. 
-					The intensity of the color scheme was abated by the fact that this app was intended for short session use. 
-					We wanted users to purchase quickly and exit. If they didn't purchase, the interface would be branded on their 
-					visual cortex &mdash; good for brand recall and impulsion to return later.
+					
+					We wanted users to purchase quickly and exit. If they didn't purchase, the intensity of the interface
+					had a branding effect &mdash; good for brand recall and impulsion to return later.
 				</div>
 				
 				<br clear="all">
 			
 				<div class="full-width-box">
 					
-					<div class="flexslider">
+					<div id="slideshow" class="flexslider loading">
           				<ul class="slides">
             				<li>
 							<img src="images/traveal/Traveal-Deals.png" />
@@ -240,12 +238,15 @@
 
 <? include('includes/footer.php') ?>
 
+<!-- Flexslider -->
 <script type="text/javascript">
     $(window).load(function(){
       $('.flexslider').flexslider({
         animation: "slide",
+        animationLoop: true,
+        slideshow: false, // start automatically?
         start: function(slider){
-          $('body').removeClass('loading');
+          $('#slideshow').removeClass('loading');
         }
       });
     });

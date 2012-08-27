@@ -249,7 +249,7 @@ ul.credits {
 	margin-right:15px;
 	background-color:#eee;
 	padding:10px;
-	min-height:60px;
+	min-height:70px;
 	border-top:1px solid #fff;
 }
 
@@ -369,6 +369,11 @@ ul.credits {
 
 .social {
 	margin-top:1.5em;
+}
+
+.loading { 
+	background-image:url('images/loading.gif');
+	background-position:center;
 }
 	
 

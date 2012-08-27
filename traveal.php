@@ -33,7 +33,7 @@
 				
 				<div class="row opener-row">
 					<div class="sixcol opener">
-						A simple <span style="color:#999;">tablet app</span>
+						A simple <span style="color:#999;">mobile app</span>
 						to discover hotel deals and inspire impulse travel.
 					</div>
 					
@@ -81,7 +81,7 @@
 					Sabre Travel Network, best-known as the parent company of Travelocity.com, hired me to help their
 					Mobile Strategy Group repurpose the company's travel inventory and 
 					transaction API by designing a proof-of-concept for
-					a leisure tablet app. 
+					a leisure mobile app. 
 					
 					The assignment was to highlight transitory hotel deals, promote the hotel venues and make reservations a breeze. 
 					Will Pinnel, Sabre's Director of Mobile Strategy, provided impeccable direction 
@@ -240,7 +240,16 @@
 
 <? include('includes/footer.php') ?>
 
-
+<script type="text/javascript">
+    $(window).load(function(){
+      $('.flexslider').flexslider({
+        animation: "slide",
+        start: function(slider){
+          $('body').removeClass('loading');
+        }
+      });
+    });
+</script>
 
 </body>
 

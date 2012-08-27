@@ -11,7 +11,7 @@
 				<div class="social">
 					<span onclick="location.href='https://twitter.com/visualplant'" style="cursor:pointer;font-size:2.6em;color:#ccc;margin:3px;" aria-hidden="true" data-icon="&#x25;"></span>
 					<span onclick="location.href='http://www.linkedin.com/in/visualplant'" style="cursor:pointer;font-size:2.6em;color:#ccc;margin:3px;" aria-hidden="true" data-icon="&#x28;"></span>
-					<span onclick="location.href='http://blog.visualplant.net'" style="cursor:pointer;font-size:2.6em;color:#ccc;margin:3px;" aria-hidden="true" data-icon="&#x24;"></span>
+					<span onclick="location.href='http://blog.visualplant.net'" style="cursor:pointer;font-size:2.6em;color:#ccc;margin:3px;" aria-hidden="true" data-icon="&#x27;"></span>
 				</div>
 			
 			</div>

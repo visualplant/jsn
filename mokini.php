@@ -37,7 +37,7 @@
 					</div>
 					
 					<div class="fivecol last opener-image">
-						<img src="images/mokini/mokini-logo-card.png" style="width:100%;margin-top:10px;" class="opener-image" alt="Mokini logo">
+						<img src="images/mokini/mokini-logo-card.png" style="width:100%;margin-top:10px;margin-right:10px;" class="opener-image" alt="Mokini logo">
 					</div>
 				</div>
 				

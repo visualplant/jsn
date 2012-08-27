@@ -2,8 +2,7 @@
 
 @font-face {
 	font-family: 'icomoon';
-	src: url('../fonts/icomoon.eot');
-	src: url('../fonts/icomoon.eot?#iefix') format('embedded-opentype'),
+	src: url('../fonts/icomoon.eot?#') format('eot'),
 		url('../fonts/icomoon.svg#icomoon') format('svg'),
 		url('../fonts/icomoon.woff') format('woff'),
 		url('../fonts/icomoon.ttf') format('truetype');
@@ -24,18 +23,6 @@
 	font-style: normal;
 	speak: none;
 }
-.icon-square:before {
-	content: "\22";
-}
-.icon-github:before {
-	content: "\26";
-}
-.icon-html5:before {
-	content: "\21";
-}
-.icon-record:before {
-	content: "\23";
-}
 .icon-twitter:before {
 	content: "\25";
 }
@@ -45,6 +32,9 @@
 .icon-linkedin:before {
 	content: "\28";
 }
-.icon-wordpress:before {
-	content: "\24";
+.icon-file-powerpoint:before {
+	content: "\29";
+}
+.icon-file-pdf:before {
+	content: "\2a";
 }

@@ -87,7 +87,7 @@
 					Will Pinnel, Sabre's Director of Mobile Strategy, provided impeccable direction 
 					to catalyze creativity &mdash; simple, clear slides illustrating the business requirements.
 					
-					<img src="images/traveal/traveal-directive.png" class="text-image" alt="Sketch from Sabre"> 
+					<img src="images/traveal/traveal-directive.jpg" class="text-image" alt="Sketch from Sabre"> 
 
 				</div>
 				
@@ -110,16 +110,19 @@
 					can stifle good ideas, because they make mediocre ideas look better than they really are, and less visually-competent 
 					team members can become intimidated and reticent to contribute. Because good ideas can come from anyone, I restrain visual chops
 					until later. I first presented crudely-drawn sketches to the Sabre team. 
+					
 					<br /><br />
+					
 					I suggested that we stress the limited time offer by placing an animated, signature countdown timer anchored in the header of 
-					every browse screen
-					&mdash; a friendly, looming reminder. All agreed.
+					every browse screen &mdash; a friendly, looming reminder.
+					
 					<br /><br />
+					
 					Sabre has a lot of hotel partners comprising tons inventory, and the temptation was to offer all of it at once. 
 					When asked, users inevitably say they want more of everything, so why not give it to them? 
 					Because too many options are paralyzing, and overwhelming 
-					choice leads to fatigue and inaction. Instead, I proposed that we limit each session to just 8 daily deals, 
-					enough for variety but not too much to absorb in a single glance.
+					choice leads to fatigue and inaction. Instead, I proposed that we limit daily sessions to 8 deals, 
+					enough for variety but not too much to absorb in a glance.
 					
 					
 				</div>
@@ -129,11 +132,15 @@
 				<div class="text-head">Specifications</div>
 			
 				<div class="text-cols body-text">
-					After several iterations of sketches, presentations, note-taking and corrections, we had reduced the features and screens to the bare
+					After several iterations of sketches, presentations, note-taking and corrections, we reduced the features and screens to the bare
 					minimum to support the experience. We had the outline of a minimum viable product encompassing a comfortable 6 screens. Final
 					specs included the sketches with annotations, plus written documentation describing the user and system interactions.
 					
-					<img src="images/traveal/TechSpecsIcon.png" class="text-image" alt="">
+					<br clear="all"><br /><br />
+					
+					<div style="font-size:6.6em;color:#999;" aria-hidden="true" data-icon="&#x2a;"></div>
+					<div style="color:#999;font-size:0.8em;margin-left:14px;margin-top:2px;"><i>Confidential</i></div>
+					
 				</div>
 				
 				<div class="section-divider">&nbsp;</div>
@@ -148,7 +155,7 @@
 					2- red is Sabre's corporate color. 
 					
 					We wanted users to purchase quickly and exit. If they didn't purchase, the intensity of the interface
-					had a branding effect &mdash; good for brand recall and impulsion to return later.
+					was memorable &mdash; good for brand recall and impulsion to return later.
 				</div>
 				
 				<br clear="all">

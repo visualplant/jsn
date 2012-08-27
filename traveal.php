@@ -117,9 +117,9 @@
 					<br /><br />
 					Sabre has a lot of hotel partners comprising tons inventory, and the temptation was to offer all of it at once. 
 					When asked, users inevitably say they want more of everything, so why not give it to them? 
-					Because too many options are paralyzing, and Psychology has proven that overwhelming 
-					choice leads to fatigue and inaction. I proposed that we limit each session to just 8 daily deals, 
-					enough for variety but not too much to absorb in a single glance. More agreement.
+					Because too many options are paralyzing, and overwhelming 
+					choice leads to fatigue and inaction. Instead, I proposed that we limit each session to just 8 daily deals, 
+					enough for variety but not too much to absorb in a single glance.
 					
 					
 				</div>
@@ -141,7 +141,7 @@
 				<div class="text-head">User Interface Design</div>
 				
 				<div class="text-cols body-text">
-					With the screen flow defined I could shift focus to the layout and aesthetics of the UI. I kept it organized
+					With the specs and screenflow defined I could shift focus to the aesthetics of the UI. I kept it organized
 					and familiar with an IOS-style grid, rounded corners and subtle depth, layering price-tag icons on top of 
 					hotel photos. I chose red for the background hue for two reasons: 
 					1- it reflects urgency; 

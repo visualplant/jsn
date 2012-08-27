@@ -100,7 +100,7 @@
 				<div class="full-width-box">
 
 					<div class="opener" style="margin-top:20px;text-align:center;">
-					Our platform captured the ephemeral chatter of exclusive interest groups.
+					Our platform captured the ephemeral chatter of<br />exclusive interest groups.
 					</div>
 					
 				</div>

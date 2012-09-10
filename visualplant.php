@@ -1,48 +1,62 @@
-<?php $page="portfolio" ?>
+<?php $section="portfolio"; $page="visualplant" ?>
 
 <!doctype html>
 <html lang="en">
 
 <? include('includes/head.php') ?>
 
-
-<body>
+<body class="<?echo $section ?>">
 
 <? include('includes/topbar.php') ?>
 
 <div class="container">
 	<div class="row">
 	
-		<div class="threecol">
-			<div class="box project">
-				<div class="name" style="font-size:1.6em;">Visualplant:</div>
-				<div class="tagline">
-					Video-as-a-service (VAAS)
-				</div>
-				
-				<div class="back">
-					<br clear="all"><br />
-					<a href="javascript:history.go(-1)" class="back-button">back</a>
-				</div>
-				
-			</div>
-		</div>
+		<? include('includes/subnav.php') ?>
 		
-		<div class="ninecol last">
+		<div class="tencol last">
 			<div class="box work">
 				
-				<div class="row opener-row">
-					<div class="sixcol opener">
+				<div class="full-width-box">
+					<div class="project-name">Visualplant:</div>
+					<div class="headline opener">
 						A <span style="color:#999;">video platform</span>
 						with customizable players and cloud-based content management.
+						
+						<div style="display:none;padding:15px;color:#666;font-weight:normal;font-size:0.6em;background-color:#ffffcc;border:1px dotted #ffffcc;margin-right:40px;margin-top:20px;line-height:1.4em;">
+							Over the years I progressed from working with big teams in large companies 
+							to working with smaller teams in early-stage ventures. I found a 
+							clarity of purpose and efficiency of implementation in small teams that often gets crushed by
+							beaurocracy in larger entities. Too much money and too many cooks in the kitchen can
+							kill a good idea.
+							
+							<br /><br />
+							
+							I decided that I wanted to start my own venture keeping it small and agile. So,
+							in 2006 I started Visualplant. Here's a synopsis.
+							
+						</div>
+						
+						<div class="background-button-container">
+							<a href="#" onclick="" class="background-button" aria-hidden="true" data-icon="&#xe030;"></a>
+						</div>
+						
 					</div>
-					
-					<div class="fivecol last opener-image">
-						<img src="images/visualplant/vp-logo.png" class="opener-image" alt="VISUALPLANT logo">
+
+					<div class="opener-image" style="margin-top:-90px;">
+						<img src="images/visualplant/vp-logo.png" alt="VISUALPLANT logo">
 					</div>
-				</div>
-		
 				
+				</div>
+				
+				
+				<br clear="all">
+
+
+				
+				
+				<div class="section-divider">&nbsp;</div>
+
 
 				<div class="text-head">Background</div>
 				
@@ -56,7 +70,7 @@
 					in the first year by catering to business users. I became intimately acquainted with the unique challenges of putting video
 					on the Web.
 
-				</div> <!-- /text-cols -->
+				</div> 
 				
 				<div class="section-divider">&nbsp;</div>
 				
@@ -137,11 +151,17 @@
 						Visualplant Web Player combining video, audio, images, captions and targetted advertising.
 					</div>
 					
-					<img src="images/visualplant/player.jpg" width="100%" alt="">
-					
-					<div class="caption">
-						Branched from Jeroen Wijering's open source SDK.
+					<div id="slideshow" class="flexslider loading">
+          				<ul class="slides">
+            				<li>
+							<img src="images/visualplant/player.jpg" />
+							</li>
+							<li>
+							<img src="images/visualplant/player-fullscreen.jpg" />
+							</li>
+					  	</ul>
 					</div>
+				
 					
 				</div>
 				
@@ -161,7 +181,7 @@
 					<div class="quote">
 						<div class="quotation-mark"></div>
 							Design first, then code.
-						<div class="quote-credit">&mdash;JASON SCHMIDT</div>
+						<div class="quote-credit">&mdash;i.e., think before you act</div>
 					</div>
 				
 				</div>
@@ -187,7 +207,7 @@
 				<div class="text-cols body-text">
 					
 					With the income to develop and the traffic to attract more clients, we did both. 
-					Releasing new features almost weekly, within ten months we had developed a multi-tier, dynamically scalable 
+					Releasing new features almost weekly, within three months we had developed a multi-tier, dynamically scalable 
 					platform with two primary interfaces: a web services API
 					for developers and a WYSIWYG templating engine for non-technical publishers.
 					I designed each tool on the micro-level, writing
@@ -196,11 +216,13 @@
 					to see the forest through the trees and for my clients to appreciate what they were
 					paying for.
 					
-					<div class="opener" style="margin-top:20px;">
+					<div class="headline" style="margin-top:20px;">
 						Software design, documentation and marketing interwoven:
 					</div>
 					
 				</div>
+				
+				<br clear="all">
 				
 				<div class="full-width-box">
 					<img src="images/visualplant/vp-diagram.png" width="100%" alt="">
@@ -321,6 +343,20 @@
 </div> <!-- /container -->
 
 <? include('includes/footer.php') ?>
+
+<!-- Flexslider -->
+<script type="text/javascript">
+    $(window).load(function(){
+      $('.flexslider').flexslider({
+        animation: "slide",
+        animationLoop: true,
+        slideshow: false, // start automatically?
+        start: function(slider){
+          $('#slideshow').removeClass('loading');
+        }
+      });
+    });
+</script>
 
 
 </body>

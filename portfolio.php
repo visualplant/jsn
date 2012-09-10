@@ -1,11 +1,11 @@
-<?php $page="portfolio" ?>
+<?php $section="portfolio" ?>
 
 <!doctype html>
 <html lang="en">
 
 <? include('includes/head.php') ?>
 
-<body>
+<body class="<?echo $section ?>">
 
 <? include('includes/topbar.php') ?>
 
@@ -170,7 +170,7 @@
 		
 		<div class="fivecol body-text">
 			<p><b>Traveal</b> is a Sabre-sponsored tablet and smartphone app that highlights daily hotel deals
-			for travel enthusiasts. Every day eight amazing deals from 
+			for travel enthusiasts. Every week eight amazing deals from 
 			different cities are offered for purchase under an auction-style count down timer. Users can
 			book directly within the app.
 			</p>

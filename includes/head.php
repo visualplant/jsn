@@ -1,14 +1,20 @@
 <head>
 	<meta charset="utf-8" />
-	<title>alias made</title>
+	<title>** alias **</title>
 
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	
 	<!-- Grid styles for IE -->
 	<!--[if lte IE 9]><link rel="stylesheet" href="css/ie.css" type="text/css" media="screen" /><![endif]-->
 
-	<!-- The Grid  -->
-	<link rel="stylesheet" href="css/1140.css" type="text/css" media="screen" />
+	<!-- The Grid. Start page is centered.  -->
+	<?php
+		if ($section=="start") 
+			{ echo "<link rel='stylesheet' href='css/1140-centered.css' type='text/css' media='screen' />"; }
+		else 
+			{ echo "<link rel='stylesheet' href='css/1140.css' type='text/css' media='screen' />"; }
+	?>
+	
 	
 	<!-- Custom styles -->
 	<link rel="stylesheet" href="css/styles.css" type="text/css" media="screen" />

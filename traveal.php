@@ -1,65 +1,51 @@
-<?php $page="portfolio" ?>
+<?php $section="portfolio"; $page="traveal" ?>
 
 <!doctype html>
 <html lang="en">
 
 <? include('includes/head.php') ?>
 
-
-<body>
+<body class="<?echo $section ?>">
 
 <? include('includes/topbar.php') ?>
 
 <div class="container">
 	<div class="row">
 	
-		<div class="threecol">
-			<div class="box project">
-				<div class="name">Traveal:</div>
-				<div class="tagline">
-					<b>Sabre Travel Network</b>
-				</div>
-				
-				<div class="back">
-					<br clear="all"><br />
-					<a href="javascript:history.go(-1)" class="back-button">back</a>
-				</div>
-				
-			</div>
-		</div>
+		<? include('includes/subnav.php') ?>
 		
-		<div class="ninecol last">
+		<div class="tencol last">
 			<div class="box work">
-				
-				<div class="row opener-row">
-					<div class="sixcol opener">
+
+				<div class="full-width-box">
+					<div class="project-name">Traveal:</div>
+					<div class="headline opener">
 						A simple <span style="color:#999;">mobile app</span>
 						to discover hotel deals and inspire impulse travel.
-					</div>
-					
-					<div class="fourcol">
-						<div class="quote-small">
-							<div class="quotation-mark"></div>
-							I was blown away by Jason's ability to instinctually translate 
-							business requirements into functional wireframes and elegant designs.
-							<div class="quote-credit">Will Pinnel, DIR MOBILE STRATEGY<br />SABRE TRAVEL NETWORK</div>
+						
+						<div class="background-button-container">
+							<a href="#" onclick="" class="background-button" aria-hidden="true" data-icon="&#xe030;"></a>
 						</div>
 					</div>
 					
-					<div class="twocol last quote-image" style="margin-top:8px;margin-left:-40px;">
-						<img src="images/traveal/willpinnell.jpg" valign="top" width="100%" alt="">
+
+					<div class="opener-image">
+						<div class="quote-small">
+							<div class="quotation-mark"></div>
+							I was blown away by [alias]'s ability to instinctually translate 
+							business requirements into functional wireframes and elegant designs.
+							<div class="quote-credit">Will Pinnel, DIR MOBILE STRATEGY<br />SABRE TRAVEL NETWORK</div>
+						</div>
+						<div class="quote-image">
+							<img src="images/traveal/willpinnell.jpg" valign="top" width="100%" alt="">
+						</div>
+						
 					</div>
-					
+				
 				</div>
-		
 				
 				
-				<!-- 
-				<div class="byline">
-					How I did it &mdash; 
-					<span class="byline-name">by Jason Schmidt</span>
-				</div>
- 				-->
+				<br clear="all"><br />
 				
 				
 				<br clear="all"><br />
@@ -72,48 +58,42 @@
 				
 				
 				
-				<div class="section-divider">&nbsp;</div>
+				<div class="section-divider" style="margin-top:0;">&nbsp;</div>
 				
-				<div class="text-head">Assignment</div>
+				<div class="text-head">Background</div>
 			
 				<div class="text-cols body-text">
 					
 					Sabre Travel Network, best-known as the parent company of Travelocity.com, hired me to help their
-					Mobile Strategy Group repurpose the company's travel inventory and 
-					transaction API by designing a proof-of-concept for
-					a leisure mobile app. 
+					Mobile Strategy Group design a leisure travel mobile app. 
 					
-					The assignment was to highlight transitory hotel deals, promote the hotel venues and make reservations a breeze. 
-					Will Pinnel, Sabre's Director of Mobile Strategy, provided impeccable direction 
+					The goal was to repurpose the company's travel inventory and 
+					transaction API, to highlight transitory hotel deals, promote the hotel venues and make in-app reservations a breeze. 
+					Sabre's Director of Mobile Strategy, provided impeccable direction 
 					to catalyze creativity &mdash; simple, clear slides illustrating the business requirements.
 					
 					<img src="images/traveal/traveal-directive.jpg" class="text-image" alt="Sketch from Sabre"> 
 
 				</div>
 				
-				<div class="section-divider" style="margin-bottom:20px;">&nbsp;</div>
+				<div class="section-divider" style="margin-bottom:40px;">&nbsp;</div>
 				
 				<div class="text-head">Sketches</div>
 				
-				<div class="text-cols-2 body-text">
-					
-					<img src="images/traveal/traveal-sketch.jpg" alt="Sketch"> 
-					
-					<img src="images/traveal/traveal-sketch-map.jpg" alt="Sketch"> 
-					
-				</div>
+				
 				
 				<div class="text-cols body-text">
-					I love to brainstorm with a team, and simple sketches are a great way to guide the discussion.
 					
-					It's a myth that every design deliverable must look visually stunning. To the contrary, prematurely polished designs
-					can stifle good ideas, because they make mediocre ideas look better than they really are, and less visually-competent 
-					team members can become intimidated and reticent to contribute. Because good ideas can come from anyone, I restrain visual chops
-					until later. I first presented crudely-drawn sketches to the Sabre team. 
+
+					The early designs were not visually stunning for good reason.
+				 	Prematurely-polished visuals can stifle good ideas, because they make mediocre ideas look better than they really are, and 
+					team members can become reticent to contribute to something that looks already complete. 
+					Good ideas can come from anyone, so when team collaboration is possible I restrain visual chops
+					until later. Sketching is a great way to inspire constructive discussion. 
 					
 					<br /><br />
 					
-					I suggested that we stress the limited time offer by placing an animated, signature countdown timer anchored in the header of 
+					After some thought, I sketched the concept of a limited time offer by placing an animated, signature countdown timer anchored in the header of 
 					every browse screen &mdash; a friendly, looming reminder.
 					
 					<br /><br />
@@ -121,9 +101,19 @@
 					Sabre has a lot of hotel partners comprising tons inventory, and the temptation was to offer all of it at once. 
 					When asked, users inevitably say they want more of everything, so why not give it to them? 
 					Because too many options are paralyzing, and overwhelming 
-					choice leads to fatigue and inaction. Instead, I proposed that we limit daily sessions to 8 deals, 
+					choice leads to fatigue and inaction. Instead, I proposed that we limit display to 8 current deals, 
 					enough for variety but not too much to absorb in a glance.
 					
+					
+				</div>
+				
+				<br clear="all"><br />
+				
+				<div class="text-cols-2 body-text">
+					
+					<img src="images/traveal/traveal-sketch.jpg" alt="Sketch"> 
+					
+					<img src="images/traveal/traveal-sketch-map.jpg" alt="Sketch"> 
 					
 				</div>
 
@@ -149,12 +139,13 @@
 				
 				<div class="text-cols body-text">
 					With the specs and screenflow defined I could shift focus to the aesthetics of the UI. I kept it organized
-					and familiar with an IOS-style grid, rounded corners and subtle depth, layering price-tag icons on top of 
+					and familiar with an IOS-style grid, rounded corners and subtle depth, layering price-tag icons atop 
 					hotel photos. I chose red for the background hue for two reasons: 
 					1- it reflects urgency; 
 					2- red is Sabre's corporate color. 
 					
-					We wanted users to purchase quickly and exit. If they didn't purchase, the intensity of the interface
+					While the color could become overbearing in app where users spend a lot of time,
+					we wanted Traveal users to purchase quickly and exit. And when they didn't, the intensity of the interface
 					was memorable &mdash; good for brand recall and impulsion to return later.
 				</div>
 				
@@ -191,7 +182,9 @@
 				<div class="text-head">Implementation</div>
 				
 				<div class="text-cols body-text">
-					I was a vocal proponent of implementing Traveal as a multi-platform HTML5 Web app. A single code-base of Javascript, HTML and CSS 
+					I always design for the medium and usually get involved in front-end implementation. I was a proponent of building 
+					Traveal as a multi-platform HTML5 Web app. 
+					A single code-base of Javascript, HTML and CSS 
 					could be repurposed for
 					any mobile platform, served to a Web browser and/or compiled to native apps for IOS, Android and Symbian. The PhoneGap
 					API allows for access to all device functions required in this app, including geolocation.
@@ -206,7 +199,7 @@
 						<div class="roles">
 							Product Designer
 						</div>
-						<div class="credit-name">Jason Schmidt</div>
+						<div class="credit-name">alias</div>
 					</div>
 					
 					<div class="twocol credits">

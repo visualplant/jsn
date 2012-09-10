@@ -1,50 +1,42 @@
-<?php $page="portfolio" ?>
+<?php $section="portfolio"; $page="mokini" ?>
 
 <!doctype html>
 <html lang="en">
 
 <? include('includes/head.php') ?>
 
-<body>
+<body class="<?echo $section ?>">
 
 <? include('includes/topbar.php') ?>
 
 <div class="container">
 	<div class="row">
 	
-		<div class="threecol">
-			<div class="box project">
-				<div class="name">Mokini:</div>
-				<div class="tagline">
-					Lightspeed Venture<br />Partners
-				</div>
-				
-				<div class="back">
-					<br clear="all"><br />
-					<a href="javascript:history.go(-1)" class="back-button">back</a>
-				</div>
-				
-			</div>
-		</div>
+		<? include('includes/subnav.php') ?>
 		
-		<div class="ninecol last">
+		<div class="tencol last">
 			<div class="box work">
 				
-				<div class="row opener-row">
-					<div class="sixcol opener">
+				<div class="full-width-box">
+					<div class="project-name">Mokini:</div>
+					<div class="headline opener">
 						A <span style="color:#999;">Web 3.0 platform</span>
-						to organize <i>your</i> world's information.
+						to organize <i>your</i> world's information.<a href="">***</a>
+						<div style="display:none;margin-top:6px;font-size:0.6em;font-weight:normal;line-height:1.3em;color:#999;">[*Google's mission, 1999: <i>to organize the world's information</i>.]</div>
+						
+						
 					</div>
-					
-					<div class="fivecol last opener-image">
-						<img src="images/mokini/mokini-logo-card.png" style="width:100%;margin-top:10px;margin-right:10px;" class="opener-image" alt="Mokini logo">
+
+					<div class="opener-image" style="">
+						<img src="images/mokini/mokini-logo-card.png" alt="Mokini logo">
 					</div>
+				
 				</div>
 				
 				
 				<br clear="all"><br />
 
-				<div class="text-head">Audio Presentation</div>
+				<div class="text-head">Promo (audio)</div>
 				
 				<div class="full-width-box">
 
@@ -58,39 +50,71 @@
 				
 				<br clear="all"><br />
 				
+				<div class="text-head">Background</div>
 				
-				<div class="text-head">Launch pad &mdash; Stanford</div>
+				<div class="text-cols body-text">
+
+					After founding <a href="visualplant.php">Visualplant</a>, I wanted to join forces with co-founders for my next 
+					venture.
+					
+					<br /><br />
+					
+					At a networking event I met two students finishing up Master's degrees 
+					in the MBA and Machine Learning programs at Stanford University. Together we debated ideas to pursue and presented to
+					angel investors. We got accepted to a venture fellowship program sponsored by Lightspeed Venture Partners who
+					provided us with funding and work space adjacent to their Sandhill headquarters. Here are the highlights.
+					
+
+				</div> 
+				
+				
+				<div class="section-divider">&nbsp;</div>
+				
+				
+				<div class="text-head">Launch pad</div>
 			
 				<div class="text-cols body-text">
 					
-					College campuses are a hotbed of diverse interest groups with academic and social agendas. 
-					Communication between people and groups is loose and de-centralized. 
-					<br /><br />
-					My co-founders and I conducted our own research at Stanford University and found that students and faculty use a myriad of modalities 
-					to broadcast one-to-many messages:
-					Web forums, Facebook, Twitter and even old-school mailing lists. 
-					Such real-time communication is spontaneous and intimate, but sadly the information is massively redundant,
-					missed by many intended recipients, unsearchable by the community and largely ephemeral. 
+					College campuses are a dense microcosm of society. Diverse interest groups
+					vie for attention and struggle to get their messages heard.
 					
-					I teamed up with two Machine Learning software developers to address 
-					this problem on campus. Since college tends to be a dense microcosm of society,
-					Stanford was a good place to run a pilot.
+					In general, it's a great place to study how information flows and
+					find opportunities to improve it.
+					
+					<br /><br />
+					
+					My co-founders and I conducted research at Stanford University and found that students and faculty use a myriad of modalities 
+					to broadcast one-to-many messages:
+					Web forums, Facebook, Twitter and to a great degree, old-school mailing lists. 
+					Such real-time communication is spontaneous and intimate, but sadly the messages are either massively redundant or
+					missed by many intended recipients and unsearchable. 
+					
+					I teamed up with a Machine Learning software developer to address 
+					this problem. Stanford was a perfect place to conduct a pilot.
 
 				</div>
 				
 				<div class="section-divider">&nbsp;</div>
-
-				<div class="text-head">Habits die hard</div>
-
 				
+
+				<div class="text-head">Cold start</div>
+
 				<div class="text-cols body-text">
+				
+					How do you convince people to change the way they communicate? Offer better communication tools. 
+					But if no one uses the tools, then they have no reach and <i>the tools are useless...</i>
+					Therein lies the problem of the cold start. So, we began from a premise: don't expect users to change their
+					habits.
 					
-					We began by creating a simple Web tool for users to add trusted sources from their interest groups. We 
-					used the tool internally to kickstart the sources.
+					<br /><br />
+					
+					We first created a simple Web-based input to kickstart our data store with RSS feeds, Twitter accounts
+					and email lists. We would promote the tool to students, but initially we used it 
+					ourselves to curate a collection of trusted sources, carefully seeking permission from the publishers when necessary.
 					Users did not need to change their communication habits; they could continue to use their usual 
 					modalities to broadcast and 
-					receive. But now, with a growing number of sources in-tow and proxied to our platform,
-					for the first time ever <i>we captured the ephemeral chatter of exclusive interest groups</i>.
+					receive. But now, with the sources and content proxied to our platform,
+					we began to capture the ephemeral chatter of exclusive interest groups.
 		
 					
 				</div>
@@ -99,7 +123,7 @@
 				
 				<div class="full-width-box">
 
-					<div class="opener" style="margin-top:20px;text-align:center;">
+					<div class="headline" style="margin-top:20px;text-align:center;">
 					Our platform captured the ephemeral chatter of<br />exclusive interest groups.
 					</div>
 					
@@ -110,7 +134,8 @@
 				<div class="full-width-box">
 					
 					<div class="caption">
-						Users could add a myriad of source types, including RSS, Twitter and mailing lists.
+						Users could add a myriad of source types, including RSS, Twitter and mailing lists. Others could trust or distrust
+						sources to affect their trust index.
 					</div>
 				
 					<img src="images/mokini/mokini-sources-new.png" alt="">
@@ -122,10 +147,10 @@
 				<div class="text-head">Evaluate sources</div>
 				
 				<div class="text-cols body-text">
-					Our application evaluated the sources in depth. It used a secret sauce of reputation factors 
+					Once captured, our application evaluated the sources in depth. It tracked multiple reputation factors 
 					and assigned a variable trust index to each.
-					It then processed content from the sources and performed topic modeling and ranking.
-					Finally, it de-duped, prioritized and presented the news as hot topics and announcements &mdash; 
+					It then processed content from the sources and performed categorization, topic-modeling and ranking.
+					Finally, it de-duped, prioritized and presented the content as trending topics and announcements &mdash; 
 					all in near real-time. The results were stunningly helpful.
 
 				</div>
@@ -136,7 +161,7 @@
 				
 					<img src="images/mokini/philosophy.png" alt="">
 				
-					<br clear="all">
+					<br clear="all"><br /><br />
 					
 					<img src="images/mokini/news.png" alt="">
 	
@@ -146,7 +171,7 @@
 				
 				<div class="full-width-box">
 
-					<div class="opener" style="margin-top:20px;text-align:center;">
+					<div class="headline" style="margin-top:20px;text-align:center;">
 					As the platform gained traction,<br /> the community
 					increasingly trusted it as their group hub.
 					</div>

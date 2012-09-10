@@ -1,4 +1,4 @@
-<?php $page="about" ?>
+<?php $section="about" ?>
 
 <!doctype html>
 <html lang="en">

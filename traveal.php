@@ -18,13 +18,13 @@
 			<div class="box work">
 
 				<div class="full-width-box">
-					<div class="project-name">Traveal:</div>
+					<div class="project-name">Traveal</div>
 					<div class="headline opener">
-						A simple <span style="color:#999;">mobile app</span>
+						A simple <span style="color:#ff0099;">mobile app</span>
 						to discover hotel deals and inspire impulse travel.
 						
 						<div class="background-button-container">
-							<a href="#" onclick="" class="background-button" aria-hidden="true" data-icon="&#xe030;"></a>
+							<a href="#section1" class="background-button" aria-hidden="true" data-icon="&#xe030;"></a>
 						</div>
 					</div>
 					
@@ -32,7 +32,7 @@
 					<div class="opener-image">
 						<div class="quote-small">
 							<div class="quotation-mark"></div>
-							I was blown away by [alias]'s ability to instinctually translate 
+							I was blown away by Jason's ability to instinctually translate 
 							business requirements into functional wireframes and elegant designs.
 							<div class="quote-credit">Will Pinnel, DIR MOBILE STRATEGY<br />SABRE TRAVEL NETWORK</div>
 						</div>
@@ -56,7 +56,7 @@
 				</div>
 				
 				
-				
+				<a name="section1" id="section1">
 				
 				<div class="section-divider" style="margin-top:0;">&nbsp;</div>
 				
@@ -70,7 +70,8 @@
 					The goal was to repurpose the company's travel inventory and 
 					transaction API, to highlight transitory hotel deals, promote the hotel venues and make in-app reservations a breeze. 
 					Sabre's Director of Mobile Strategy, provided impeccable direction 
-					to catalyze creativity &mdash; simple, clear slides illustrating the business requirements.
+					to catalyze creativity &mdash; simple, clear slides illustrating the product concept and top-level user
+					experience.
 					
 					<img src="images/traveal/traveal-directive.jpg" class="text-image" alt="Sketch from Sabre"> 
 
@@ -85,11 +86,11 @@
 				<div class="text-cols body-text">
 					
 
-					The early designs were not visually stunning for good reason.
+					Early design concepts should <i>not</i> be visually stunning.
 				 	Prematurely-polished visuals can stifle good ideas, because they make mediocre ideas look better than they really are, and 
 					team members can become reticent to contribute to something that looks already complete. 
-					Good ideas can come from anyone, so when team collaboration is possible I restrain visual chops
-					until later. Sketching is a great way to inspire constructive discussion. 
+					Good ideas can come from anyone, so when team collaboration is important, I restrain visual chops
+					until later. Sketching is a good way to inspire constructive discussion. 
 					
 					<br /><br />
 					
@@ -101,8 +102,10 @@
 					Sabre has a lot of hotel partners comprising tons inventory, and the temptation was to offer all of it at once. 
 					When asked, users inevitably say they want more of everything, so why not give it to them? 
 					Because too many options are paralyzing, and overwhelming 
-					choice leads to fatigue and inaction. Instead, I proposed that we limit display to 8 current deals, 
-					enough for variety but not too much to absorb in a glance.
+					choice leads to fatigue and inaction. Instead, I proposed that we limit display to 8 current deals 
+					from different cities, 
+					enough for variety but not too much to absorb in a glance. A map view would provide for 
+					browsing by location.
 					
 					
 				</div>
@@ -199,7 +202,7 @@
 						<div class="roles">
 							Product Designer
 						</div>
-						<div class="credit-name">alias</div>
+						<div class="credit-name">Jason Schmidt</div>
 					</div>
 					
 					<div class="twocol credits">

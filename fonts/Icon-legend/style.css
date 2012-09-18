@@ -347,9 +347,6 @@
 .icon-html5-2:before {
 	content: "\e00d";
 }
-.icon-safari:before {
-	content: "\e00e";
-}
 .icon-libreoffice:before {
 	content: "\e00f";
 }
@@ -499,4 +496,10 @@
 }
 .icon-compass-4:before {
 	content: "\e040";
+}
+.icon-soundcloud:before {
+	content: "\e041";
+}
+.icon-soundcloud-2:before {
+	content: "\e042";
 }

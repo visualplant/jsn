@@ -1,3 +1,18 @@
+<div class="header clearfix">
+	
+	<div class="top-logo"><a href="javascript:window.location = 'index.php'">alias</a></div>
+	
+	<div class="nav">
+		<ul class="menu" style="clear: both;">
+			<li><a href="#" class="active-globalsection">made</a></li>		
+			<li><a href="http://blog.visualplant.net" class="globalsection">said</a></li>	
+		</ul>
+	</div>
+	
+</div>
+
+
+<!--
 <div class="container topbar">
 	<div class="row topbar-content">
 
@@ -7,26 +22,25 @@
 				
 			</div>
 			
-			<div class="fivecol last globalnav-container">
-				<a href="about.php" <? if ($section=="about") { echo "class='globalnav active-section'"; } else { echo "class='globalnav'"; } ?> >about</a> 
-				<a href="portfolio.php" <? if ($section=="portfolio") { echo "class='globalnav active-section'"; } else { echo "class='globalnav'"; } ?> >portfolio</a> 
-				<a href="http://blog.visualplant.net" class="globalnav" target="_blank">blog</a>
-				<a href="mailto:jsn@visualplant.net" class="globalnav">contact</a>
+
+			<div class="fivecol last">
+
+				<ul class="globalnav-items">
+					
+					<li><a href="about.php" <? if ($section=="about") { echo "class='globalnav active-section'"; } else { echo "class='globalnav'"; } ?> >about</a></li>
+				
+					<li class="globalnav-item-active"><a href="portfolio.php" <? if ($section=="portfolio") { echo "class='globalnav active-section'"; } else { echo "class='globalnav'"; } ?> >portfolio</a></li>
+				
+					<li><a href="http://blog.visualplant.net" class="globalnav" target="_blank">blog</a></li>
+				
+					<li><a href="mailto:jsn@visualplant.net" class="globalnav">contact</a></li>
+				
+				</ul>
+				
 			</div>
 
 		
 	</div>
 </div>
-		<!-- 
-		<div class="topbar">
-			<div class="top-logo ninecol">
-				alias <span style="color:#eee;">made</span>
-			</div>
-			<div class="threecol" style="margin-top:15px;z-index:3;">
-				portfolio blog cv contact
-			</div>
-		</div>
- 		-->
-
-<br style="clear:both;height:40px;" />
+-->
 

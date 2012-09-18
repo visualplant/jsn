@@ -16,6 +16,9 @@
 		<? if ($page=="mokini") { echo "class='selected-subnav'"; } else { echo "class='portal-subnav'"; } ?> >
 			<div class="portal-subnav-text">Mokini</div>
 		</div>
+	
+		
+		<div onclick="location.href='portfolio.php';" class="more">more</div>
 		
 	</div>
 	

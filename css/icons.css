@@ -502,4 +502,10 @@
 .icon-compass-4:before {
 	content: "\e040";
 }
+.icon-soundcloud:before {
+	content: "\e041";
+}
+.icon-soundcloud-2:before {
+	content: "\e042";
+}
 

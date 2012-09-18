@@ -18,12 +18,13 @@
 			<div class="box work">
 				
 				<div class="full-width-box">
-					<div class="project-name">Visualplant:</div>
+					<div class="project-name">Visualplant</div>
 					<div class="headline opener">
-						A <span style="color:#999;">video platform</span>
+						A <span style="color:#ff0099;">video platform</span>
 						with customizable players and cloud-based content management.
 						
 						<div style="display:none;padding:15px;color:#666;font-weight:normal;font-size:0.6em;background-color:#ffffcc;border:1px dotted #ffffcc;margin-right:40px;margin-top:20px;line-height:1.4em;">
+						
 							Over the years I progressed from working with big teams in large companies 
 							to working with smaller teams in early-stage ventures. I found a 
 							clarity of purpose and efficiency of implementation in small teams that often gets crushed by
@@ -148,7 +149,7 @@
 				<div class="full-width-box">
 					
 					<div class="caption">
-						Visualplant Web Player combining video, audio, images, captions and targetted advertising.
+						Fig 1: Visualplant Web Player combining video, audio, images, captions and targetted advertising.
 					</div>
 					
 					<div id="slideshow" class="flexslider loading">
@@ -190,12 +191,12 @@
 				
 				<div class="full-width-box">
 				
-					<div class="caption">Title Manager</div>
+					<div class="caption">Fig 2: Title Manager</div>
 					<img src="images/visualplant/library.png" width="100%" alt="">
 					
 					<br clear="all"><br />
 				
-					<div class="caption">Custom reporting tool</div>
+					<div class="caption">Fig 3: Custom reporting tool</div>
 					<img src="images/visualplant/impressionreporting.png" width="100%" alt="">
 				
 				</div>

@@ -18,9 +18,9 @@
 			<div class="box work">
 				
 				<div class="full-width-box">
-					<div class="project-name">Mokini:</div>
+					<div class="project-name">Mokini</div>
 					<div class="headline opener">
-						A <span style="color:#999;">Web 3.0 platform</span>
+						A <span style="color:#ff0099;">Web 3.0 platform</span>
 						to organize <i>your</i> world's information.<a href="">***</a>
 						<div style="display:none;margin-top:6px;font-size:0.6em;font-weight:normal;line-height:1.3em;color:#999;">[*Google's mission, 1999: <i>to organize the world's information</i>.]</div>
 						
@@ -32,12 +32,15 @@
 					</div>
 				
 				</div>
-				
-				
+					
 				<br clear="all"><br />
 
-				<div class="text-head">Promo (audio)</div>
+				<span style="float: left;font-size:2.3em;color:#bbb;align:bottom;" aria-hidden="true" data-icon="&#xe041;"></span>
 				
+				<div class="caption" style="float:left;margin-left: 10px;margin-top: 14px;">
+					Produced and narrated by Jason Schmidt.
+				</div>
+			
 				<div class="full-width-box">
 
 					<!-- 
@@ -47,12 +50,11 @@
 					<iframe width="100%" height="166" scrolling="no" frameborder="no" src="http://w.soundcloud.com/player/?url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F33327638&amp;auto_play=false&amp;show_artwork=false&amp;color=00c9ff"></iframe>
 
 				</div>
-				
+
 				<br clear="all"><br />
-				
-				<div class="text-head">Background</div>
-				
-				<div class="text-cols body-text">
+
+
+				<div class="text-cols body-text" style="padding: 20px;background-color: #fafae9;margin-right: 20px;margin-bottom: 40px;color: #999;">
 
 					After founding <a href="visualplant.php">Visualplant</a>, I wanted to join forces with co-founders for my next 
 					venture.
@@ -65,11 +67,8 @@
 					provided us with funding and work space adjacent to their Sandhill headquarters. Here are the highlights.
 					
 
-				</div> 
-				
-				
-				<div class="section-divider">&nbsp;</div>
-				
+				</div>
+
 				
 				<div class="text-head">Launch pad</div>
 			
@@ -134,8 +133,7 @@
 				<div class="full-width-box">
 					
 					<div class="caption">
-						Users could add a myriad of source types, including RSS, Twitter and mailing lists. Others could trust or distrust
-						sources to affect their trust index.
+						Fig 1: Users could add a myriad of source types &mdash; including RSS, Twitter and mailing lists &mdash; and vote to affect the trust index of each source. Users themselves were, in fact, sources with evolving influence.
 					</div>
 				
 					<img src="images/mokini/mokini-sources-new.png" alt="">
@@ -187,7 +185,7 @@
 					<br clear="all"><br /><br />
 					
 					<div class="caption">
-						Users could create and follow public interest groups or apply to exclusive ones,
+						Fig 2: Users could create and follow public interest groups or apply to exclusive ones,
 						while the platform suggested related groups.
 					</div>
 					

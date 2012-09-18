@@ -45,7 +45,7 @@
 			<p>
 				<div class="portal-container"><a class="portal" style="background:transparent url(images/traveal/Traveal-Deals.png) no-repeat -320px -96px;" href="traveal.php"></a></div>
 				<div class="projectname-startpage"><a href="#">Traveal</a></div>
-				<div class="credit-startpage">Mobile App</div>
+				<div class="credit-startpage">Travel Mobile App</div>
 			</p>
 		</div>
 
@@ -75,11 +75,11 @@
 
 		<div class="threecol startpage-divider">
 			<p>
-				<a class="portal2" style="background:transparent url(images/traveal/Traveal-Deals.png) no-repeat -320px -96px;" href="traveal.php"></a>
-				<br clear="all">
+				<div class="portal-container"><a class="portal2" style="background:transparent url(images/sony/pulse1.png) no-repeat -320px -96px;" href="sony"></a></div>
 				<div class="projectname-startpage"><a href="#">Sony Pulse</a></div>
 				<div class="credit-startpage">Data Visualization</div>
 			</p>
+			
 		</div>
 
 		<div class="threecol startpage-divider">

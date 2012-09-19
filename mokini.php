@@ -23,8 +23,6 @@
 						A <span style="color:#ff0099;">Web 3.0 platform</span>
 						to organize <i>your</i> world's information.<a href="">***</a>
 						<div style="display:none;margin-top:6px;font-size:0.6em;font-weight:normal;line-height:1.3em;color:#999;">[*Google's mission, 1999: <i>to organize the world's information</i>.]</div>
-						
-						
 					</div>
 
 					<div class="opener-image" style="">

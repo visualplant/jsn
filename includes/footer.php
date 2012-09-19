@@ -21,6 +21,9 @@
 
 </div>
 
+<!-- jQuery -->
+<script src="js/jquery.min.js"></script>
+
 <!-- scrollto -->
 <script type='text/javascript' src='js/jquery.scrollTo-min.js'></script>
 <script type='text/javascript' src='js/jquery.localscroll-min.js'></script>
@@ -28,9 +31,6 @@
 
 <!-- FlexSlider -->
 <script defer src="js/jquery.flexslider-min.js"></script>
-
-<!-- jQuery -->
-<script src="js/jquery.min.js"></script>
 
 <!-- FancyBox -->
 <script type="text/javascript" src="js/jquery.fancybox.js?v=2.1.0"></script>

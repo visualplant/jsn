@@ -17,8 +17,9 @@
 			<div class="portal-subnav-text">Mokini</div>
 		</div>
 	
+		<br clear="all" />
 		
-		<div onclick="location.href='portfolio.php';" class="more">more</div>
+		<div onclick="location.href='portfolio.php#projects';" class="more">more&hellip;</div>
 		
 	</div>
 	

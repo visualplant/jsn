@@ -35,7 +35,7 @@ a:link, a:visited {
 }
 
 a:hover {
-	background-color:#ffffe5;
+	/*background-color:#ffffe5;*/
 }
 
 
@@ -277,6 +277,29 @@ a:hover.active-globalsection {
 	text-shadow: 0px 2px 3px #fff;
 }
 
+.project-name-modal {
+	margin-top:0px;
+	font-size:2.0em;
+	line-height:1.0em;
+	font-weight:bold;
+	color:#39434c;
+	text-shadow: 0px 2px 3px #fff;
+	width:32%;
+	margin-right: 20px;
+	float: left;
+	box-sizing: border-box;
+	background-color: #eee;
+	padding: 10px;
+	-moz-border-radius: 6px; /* FF1+ */
+	-webkit-border-radius: 6px; /* Saf3-4 */
+	border-radius: 6px; /* Opera 10.5, IE 9, Saf5, Chrome */
+}
+
+.body-text-modal {
+	float: left;
+	width: 60%;
+}
+
 .opener { 
 	float:left;
 	margin-top:27px;
@@ -288,6 +311,10 @@ a:hover.active-globalsection {
 	float:left;
 	margin-top:-35px;
 	width:45%;
+}
+
+.visualplant {
+	margin-top:-90px;
 }
 
 .headline { 
@@ -383,10 +410,27 @@ ul.credits {
 	font-family: georgia, serif;
 }
 
+/*credits pane on case study*/
 .roles { 
 	text-transform:uppercase;
 	font-size:0.7em;
 	margin-bottom:5px;
+}
+
+/*quick view modal*/
+.role { 
+	float:left;
+	text-transform:uppercase;
+	font-size:0.7em;
+	margin-right: 3px;
+	padding-right: 10px;
+	padding-left: 10px;
+	background-color: #eee;
+	-moz-border-radius: 20px; /* FF1+ */
+	-webkit-border-radius: 20px; /* Saf3-4 */
+	border-radius: 20px; /* Opera 10.5, IE 9, Saf5, Chrome */
+	text-shadow: 0px 2px 3px #fff;
+	margin-bottom: 3px;
 }
 
 .credits-box { 
@@ -637,12 +681,17 @@ ul.credits {
 .more {
 	text-align:center;
 	position:relative;
-	left:18px;
-	margin-top:30px;
+	left:25px;
+	margin-top:-10px;
 	color:#cecece;
 	font-weight:normal;
 	cursor:pointer;
 	letter-spacing:0.07em;
+}
+
+.modal {
+	width:650px;
+	display: none;	 
 }
 
 /* ============================= */
@@ -717,6 +766,10 @@ ul.credits {
 		float:none;
 	}
 	
+	.visualplant {
+		margin-top:0px;
+	}
+	
 	.opener-row { 
 		padding-top:20px;
 	}
@@ -772,8 +825,8 @@ ul.credits {
 	}
 	
 	.subnav {
-		padding-top: 30px;
-		margin-bottom: -25px;
+		padding-top: 20px;
+		margin-bottom: 15px;
 		margin-left: auto;
 		margin-right: auto;
 		height: 110px;
@@ -782,7 +835,22 @@ ul.credits {
 	}
 	
 	.more {
-		display: none;	}
+		margin-left: -33px;	
+		margin-top: 0px;
+	}
+	
+	.modal {
+		width:320px;	 
+	}
+	
+	.project-name-modal {
+		font-size:1.6em;
+		width:28%;
+	}
+	
+	.body-text-modal {
+		width: 58%; 
+	}
 	
 
 }

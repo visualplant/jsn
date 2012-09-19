@@ -38,13 +38,11 @@
 							
 						</div>
 						
-						<div class="background-button-container">
-							<a href="#" onclick="" class="background-button" aria-hidden="true" data-icon="&#xe030;"></a>
-						</div>
+						
 						
 					</div>
 
-					<div class="opener-image" style="margin-top:-90px;">
+					<div class="opener-image visualplant">
 						<img src="images/visualplant/vp-logo.png" alt="VISUALPLANT logo">
 					</div>
 				

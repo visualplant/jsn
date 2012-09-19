@@ -54,13 +54,11 @@
 				<div class="full-width-box">
 					<img src="images/traveal/traveal-combo.png" valign="top" width="100%" alt="">
 				</div>
-				
-				
-				<a name="section1" id="section1">
+			
 				
 				<div class="section-divider" style="margin-top:0;">&nbsp;</div>
 				
-				<div class="text-head">Background</div>
+				<div class="text-head" id="section1">Background</div>
 			
 				<div class="text-cols body-text">
 					
@@ -80,15 +78,13 @@
 				<div class="section-divider" style="margin-bottom:40px;">&nbsp;</div>
 				
 				<div class="text-head">Sketches</div>
-				
-				
-				
+
 				<div class="text-cols body-text">
 					
 
-					Early design concepts should <i>not</i> be visually stunning.
-				 	Prematurely-polished visuals can stifle good ideas, because they make mediocre ideas look better than they really are, and 
-					team members can become reticent to contribute to something that looks already complete. 
+					Early design concepts usually should <i>not</i> be
+				 	prematurely-polished which can stifle good ideas, make mediocre ideas look better than they really are and silence 
+					team members understandably reticent to contribute to something that looks already complete. 
 					Good ideas can come from anyone, so when team collaboration is important, I restrain visual chops
 					until later. Sketching is a good way to inspire constructive discussion. 
 					
@@ -112,12 +108,13 @@
 				
 				<br clear="all"><br />
 				
+				<div class="caption">Fig 1: Sketches: Very rough, very fast</div>
 				<div class="text-cols-2 body-text">
-					
+
 					<img src="images/traveal/traveal-sketch.jpg" alt="Sketch"> 
-					
-					<img src="images/traveal/traveal-sketch-map.jpg" alt="Sketch"> 
-					
+
+					<img src="images/traveal/traveal-sketch-map.jpg" alt="Sketch">
+
 				</div>
 
 				<div class="section-divider" style="margin-top:20px;">&nbsp;</div>
@@ -155,7 +152,7 @@
 				<br clear="all">
 			
 				<div class="full-width-box">
-					
+					<div class="caption">Fig 2: The primary screens, formatted for iPad</div>
 					<div id="slideshow" class="flexslider loading">
           				<ul class="slides">
             				<li>

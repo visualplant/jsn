@@ -28,7 +28,7 @@
 		<div class="twelvecol last">
 			<div class="tagline-startpage">
 			
-		 	Internet product direction, user experience and user interface design
+		 	Product direction, user experience and user interface design for software
 
 			</div>
 		</div>

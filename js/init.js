@@ -13,7 +13,8 @@ jQuery(function( $ ){
 	$.localScroll.hash({
 		target: 'body', // Could be a selector or a jQuery object too.
 		queue:true,
-		duration:1500
+		duration:1500,
+		offset:-75
 	});
 	
 	/**
@@ -25,6 +26,7 @@ jQuery(function( $ ){
 		queue:true,
 		duration:1000,
 		hash:true,
+		offset:-75,
 		onBefore:function( e, anchor, $target ){
 			// The 'this' is the settings object, can be modified
 		},

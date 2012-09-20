@@ -27,6 +27,13 @@ background-attachment:fixed;
 
 }
 
+body.blog {
+
+background: url("../images/network-bg.png");
+background-attachment:fixed;
+
+}
+
 /* LINKS */
 
 a:link, a:visited {

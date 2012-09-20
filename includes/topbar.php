@@ -4,8 +4,8 @@
 	
 	<div class="nav">
 		<ul class="menu" style="clear: both;">
-			<li><a href="#" class="active-globalsection">made</a></li>		
-			<li><a href="http://blog.visualplant.net" class="globalsection">said</a></li>	
+			<li><a href="portfolio.php" <? if ($section=="portfolio") { echo "class='active-globalsection'"; } else { echo "class='globalsection'"; } ?> >made</a></li>		
+			<li><a href="blog.php" <? if ($section=="blog") { echo "class='active-globalsection'"; } else { echo "class='globalsection'"; } ?> >said</a></li>	
 		</ul>
 	</div>
 	
@@ -18,8 +18,6 @@
 
 			<div class="top-logo" onclick="javascript:window.location = 'index.php'">
 				alias<span style="font-size:24px;font-family:kefa;margin-right:6px;font-weight:bold;letter-spacing:0.03em;color:#eee;margin-left:2px;">made</span>
-				
-				
 			</div>
 			
 

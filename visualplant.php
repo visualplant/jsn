@@ -21,7 +21,7 @@
 					<div class="project-name">Visualplant</div>
 					<div class="headline opener">
 						A <span style="color:#ff0099;">video platform</span>
-						with customizable players and cloud-based content management.
+						with customizable players and cloud-based content management that helped pioneer a new market.
 						
 						<div style="display:none;padding:15px;color:#666;font-weight:normal;font-size:0.6em;background-color:#ffffcc;border:1px dotted #ffffcc;margin-right:40px;margin-top:20px;line-height:1.4em;">
 						

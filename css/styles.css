@@ -192,6 +192,7 @@ a:hover.active-globalsection {
 	font-size:0.8em;
 	letter-spacing:0.05em;
 	text-shadow: 0px 2px 3px #fff;
+	letter-spacing:0.07em;
 }
 
 
@@ -298,6 +299,18 @@ a:hover.active-globalsection {
 .body-text-modal {
 	float: left;
 	width: 60%;
+}
+
+.nestedscroll {
+	box-sizing: border-box;
+	width: 650px;
+	height: 300px;
+	overflow:scroll;
+	cursor: move;
+	-moz-border-radius: 6px; /* FF1+ */
+	-webkit-border-radius: 6px; /* Saf3-4 */
+	border-radius: 6px; /* Opera 10.5, IE 9, Saf5, Chrome */
+	border: 1px solid #6f8090;
 }
 
 .opener { 
@@ -587,6 +600,13 @@ ul.credits {
 	width:180px;	
 }
 
+.portal:active {
+	-moz-box-shadow:inset 0px 0px 15px #333; /* FF3.5+ */
+	-webkit-box-shadow:inset 0px 0px 15px #333; /* Saf3.0+*/
+	box-shadow:inset 0px 0px 15px #333; /* Opera 10.5, IE 9 */
+	border-color: #aaa;
+}
+
 .portal2 {
 	display: block;
 	margin-left: auto;
@@ -600,6 +620,13 @@ ul.credits {
 	border:8px solid #ccc;
 	height:85px;
 	width:85px;
+}
+
+.portal2:active {
+	-moz-box-shadow:inset 0px 0px 15px #333; /* FF3.5+ */
+	-webkit-box-shadow:inset 0px 0px 15px #333; /* Saf3.0+*/
+	box-shadow:inset 0px 0px 15px #333; /* Opera 10.5, IE 9 */
+	border-color: #aaa;
 }
 
 .portal-container {

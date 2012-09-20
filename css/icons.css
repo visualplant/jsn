@@ -1,5 +1,3 @@
-/* http://keyamoon.com/icomoon/app/  http://icomoon.io/ */
-
 @font-face {
 	font-family: 'icomoon';
 	src:url('../fonts/icomoon.eot');
@@ -349,9 +347,6 @@
 .icon-html5-2:before {
 	content: "\e00d";
 }
-.icon-safari:before {
-	content: "\e00e";
-}
 .icon-libreoffice:before {
 	content: "\e00f";
 }
@@ -508,4 +503,9 @@
 .icon-soundcloud-2:before {
 	content: "\e042";
 }
-
+.icon-move-alt2:before {
+	content: "\e00e";
+}
+.icon-move-alt1:before {
+	content: "\e043";
+}

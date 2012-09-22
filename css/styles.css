@@ -15,21 +15,21 @@ body {
 
 body.start {
 
-background: url("../images/network-bg.png");
+background: url("../images/network-bg2.png");
 background-attachment:fixed;
 
 }
 
 body.portfolio {
 
-background: url("../images/network-bg.png");
+background: url("../images/network-bg2.png");
 background-attachment:fixed;
 
 }
 
 body.blog {
 
-background: url("../images/network-bg.png");
+background: url("../images/network-bg2.png");
 background-attachment:fixed;
 
 }
@@ -193,13 +193,17 @@ a:hover.active-globalsection {
 }
 
 .tagline-startpage { 
+	box-sizing: border-box;
 	text-align:center;
 	text-transform:uppercase;
 	color:#999;
-	font-size:0.8em;
+	font-size:1.0em;
 	letter-spacing:0.05em;
-	text-shadow: 0px 2px 3px #fff;
+	text-shadow: 2px 2px 3px #fff;
 	letter-spacing:0.07em;
+	height: 30px;
+	padding: 10px;
+	margin-top: -5px;
 }
 
 
@@ -604,7 +608,11 @@ ul.credits {
 	border-radius: 110px; /* Opera 10.5, IE 9, Saf5, Chrome */
 	border:15px solid #ccc;
 	height:180px;
-	width:180px;	
+	width:180px;
+	-webkit-transition: box-shadow 0.25s linear;
+	-moz-transition: box-shadow 0.25s linear;
+	-o-transition: box-shadow 0.25s linear;
+	transition: box-shadow 0.25s linear;	
 }
 
 .portal:active {
@@ -612,6 +620,10 @@ ul.credits {
 	-webkit-box-shadow:inset 0px 0px 15px #333; /* Saf3.0+*/
 	box-shadow:inset 0px 0px 15px #333; /* Opera 10.5, IE 9 */
 	border-color: #aaa;
+}
+
+.portal:hover {
+	
 }
 
 .portal2 {
@@ -665,10 +677,10 @@ ul.credits {
 	font-weight:normal;
 	color:#eee;
 	cursor: pointer;
-	-webkit-transition: all 0.25s linear;
-	-moz-transition: all 0.25s linear;
-	-o-transition: all 0.25s linear;
-	transition: all 0.25s linear;
+	-webkit-transition: color 0.25s linear;
+	-moz-transition: color 0.25s linear;
+	-o-transition: color 0.25s linear;
+	transition: color 0.25s linear;
 }
 
 .portal-subnav:hover {
@@ -678,8 +690,8 @@ ul.credits {
 
 .portal-subnav:active {
 	color: #fff;
-	background-color:#ececec;
-	border: 8px solid #ececec;
+	background-color:#ccc;
+	border: 8px solid #ccc;
 }
 
 .portal-subnav-text {
@@ -884,6 +896,11 @@ ul.credits {
 	
 	.body-text-modal {
 		width: 58%; 
+	}
+	
+	.nestedscroll {
+		width: 310px;
+		height: 300px;
 	}
 	
 

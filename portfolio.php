@@ -20,8 +20,6 @@
 			
 		
 				<div class="full-width-box">
-				
-			
 					
 					<div class="headline" style="margin-top:60px;margin-bottom: 20px;">
 						alias is the design studio of Jason Schmidt&mdash;
@@ -50,7 +48,7 @@
 						
 						<br /><br />
 						
-						<a href="http://blog.visualplant.net/post/31768308332/ux-gestalt" style="font-size: 16px;" aria-hidden="true" data-icon="&#xe014;"></a> <a href="http://blog.visualplant.net/post/31768308332/ux-gestalt">User Experience Design?</a>				
+						<!--<a href="http://blog.visualplant.net/post/31768308332/ux-gestalt" style="font-size: 16px;" aria-hidden="true" data-icon="&#xe014;"></a> <a href="http://blog.visualplant.net/post/31768308332/ux-gestalt">User Experience Design?</a>	-->			
 					</div>
 					
 					<div class="section-divider">&nbsp;</div>
@@ -273,7 +271,7 @@
 							</div>
 							
 							<div class="body-text body-text-modal">
-								<b>Redstar</b> is an incubator/accelerator founded by Jeet Singh and Joe Chung who built ATG and sold it to Oracle for $1 billion. I helped them design a marketplace for the iPad allowing music artists to create and sell album apps to their fans. The goal was to recreate an immersive "album experience" using the form factor of the tablet.
+								<b>Redstar</b> is an incubator/accelerator founded by Jeet Singh and Joe Chung who built ATG and sold it to Oracle for $1 billion. I helped them design a marketplace for the iPad allowing music artists to create and sell album apps to their fans. The goal was to recreate an immersive "album experience" blurring the line between art and memoir using the ideal form factor of the tablet.
 								<div style="margin-top: 15px;">
 									<div class="role">User Experience</div>
 									<div class="role">Wireframes</div>
@@ -321,7 +319,7 @@
 							</div>
 							
 							<div class="body-text body-text-modal">
-								<b>GetMusic.com</b> was a music ecommerce Web site co-funded by Universal Music Group and Bertelsmann Music Group. Originally built by another agency, the site was underperforming, so I was hired to redesign it helping increase sales by 200&#37;.
+								<b>GetMusic.com</b> was a music ecommerce Web site funded by a cooperation between Universal Music Group and Bertelsmann Music Group. Originally developed by a large agency, the site was underperforming, and I was hired to redesign it helping increase sales by 200&#37;.
 							
 								<div style="margin-top: 15px;">
 									<div class="role">User Experience</div>
@@ -372,7 +370,7 @@
 							</div>
 							
 							<div class="body-text body-text-modal">
-								<b>BMG Music Service</b> was a top-ten music membership site with unique offers and designs customized for each  listening preference. Extended from a direct marketing lineage, it made liberal use of data-driven, multivariate testing to iterate new features. I was hired as the first UI Lead working closely with Marketing Managers to acquire and retain millions of paid subscribers.
+								<b>BMG Music Service</b> was one of the most trafficked music ecommerce sites of its day with unique offers and designs customized for each  listening preference. Extended from a direct marketing lineage, it made liberal use of data-driven, multivariate testing to iterate new features. I was hired as the first UI Lead working closely with Marketing Managers to acquire and retain millions of paid subscribers.
 								<div style="margin-top: 15px;">
 									<div class="role">User Experience</div>
 									<div class="role">Wireframes</div>
@@ -529,7 +527,7 @@
 							</div>
 							
 							<div class="body-text body-text-modal">
-								<b>Vcross</b> was a bond trading platform enabling institutional traders to transact instruments in excess of $100 million. I worked with the founders to design the product, including pioneering the first real-time, Web-based bidding engine (BidLadder<sup>tm</sup>). I was also the Creative Director for their branding and marketing collateral, including Web and print media.
+								<b>Vcross</b> was a bond trading platform enabling institutional traders to transact instruments in excess of $100 million. I worked with the founders to pioneering the first real-time, Web-based bidding engine (BidLadder<sup>tm</sup>). I also directed a team of designers and writers to produce their branding and marketing collateral, including Web and print media.
 								<div style="margin-top: 15px;">
 									<div class="role">User Experience</div>
 									<div class="role">Wireframes</div>

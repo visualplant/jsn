@@ -8,8 +8,8 @@ html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,addre
 /* ==================================================================================================================== */
 
 .container {
-margin-left: 20px;
-margin-right: 20px;
+margin-left: 0px;
+margin-right: 0px;
 }
 
 .row {

@@ -15,21 +15,21 @@ body {
 
 body.start {
 
-background: url("../images/network-bg2.png");
+background: url("../images/network-bg.png");
 background-attachment:fixed;
 
 }
 
 body.portfolio {
 
-background: url("../images/network-bg2.png");
+background: url("../images/network-bg.png");
 background-attachment:fixed;
 
 }
 
 body.blog {
 
-background: url("../images/network-bg2.png");
+background: url("../images/network-bg.png");
 background-attachment:fixed;
 
 }

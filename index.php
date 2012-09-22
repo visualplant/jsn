@@ -32,8 +32,7 @@
 		<div class="twelvecol last">
 			<div class="tagline-startpage">
 			
-		  		<strong style="padding: 4px;background-color: #fbfbe3;">interaction design</strong> for <strong style="padding: 2px;background-color: #fbfbe3;">humans</strong>	  		  
-			</div>
+		  		<strong style="padding: 4px;background-color: #fbfbe3;">interaction design</strong> for <strong style="padding: 2px;background-color: #fbfbe3;">humans</strong>
 		</div>
 
 	</div>

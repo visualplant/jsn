@@ -98,7 +98,7 @@
 				
 					<div class="fourcol">
 						
-						<p>
+						<p id="thepulse">
 							<div class="portal-container"><a class="portal2 fancybox" style="background:transparent url(images/sony/pulse1.png) no-repeat -100px -115px;" href="#thepulse"></a></div>
 							<div class="projectname-startpage"><a href="#thepulse" class="fancybox">Sony Music</a></div>
 							<div class="credit-startpage">Data Visualization</div>
@@ -152,7 +152,7 @@
 				 
 					<div class="fourcol">
 				 		
-				 		<p>
+				 		<p id="napster">
 				 			<div class="portal-container"><a class="portal2 fancybox" style="background:transparent url(images/napster/napster.png) no-repeat 2px 8px;" href="#napster"></a></div>
 				 			<div class="projectname-startpage"><a href="#napster" class="fancybox">Napster</a></div>
 				 			<div class="credit-startpage">Peer-to-peer DRM</div>

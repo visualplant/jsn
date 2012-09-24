@@ -9,7 +9,7 @@
 
 <? include('includes/topbar.php') ?>
 
-<div class="container">
+<div class="container animate-in">
 	<div class="row">
 	
 		<? include('includes/subnav.php') ?>
@@ -18,7 +18,7 @@
 			<div class="box work">
 				
 				<div class="full-width-box">
-					<div class="project-name">Visualplant</div>
+					<div class="project-name">Visualplant <sup style="font-size: 12px;font-weight: normal;">tm</sup></div>
 					<div class="headline opener">
 						A <span style="color:#ff0099;">video platform</span>
 						with customizable players and cloud-based content management that helped pioneer a new market.

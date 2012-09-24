@@ -9,7 +9,7 @@
 
 <? include('includes/topbar.php') ?>
 
-<div class="container">
+<div class="container animate-in">
 	<div class="row">
 	
 		<div class="onecol last">&nbsp;</div>

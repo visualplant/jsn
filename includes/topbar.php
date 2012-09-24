@@ -4,10 +4,9 @@
 	
 	<div class="nav">
 		<ul class="menu" style="clear: both;">
-			<li><a href="blog.php" <? if ($section=="about") { echo "class='active-globalsection'"; } else { echo "class='globalsection'"; } ?> >about</a></li>	
-			<li><a href="portfolio.php" <? if ($section=="portfolio") { echo "class='active-globalsection'"; } else { echo "class='globalsection'"; } ?> >portfolio</a></li>		
+			<li><a href="about.php" <? if ($section=="about") { echo "class='active-globalsection'"; } else { echo "class='globalsection'"; } ?> >about</a></li>	
+			<li><a href="portfolio.php#case-studies" <? if ($section=="portfolio") { echo "class='active-globalsection'"; } else { echo "class='globalsection'"; } ?> >portfolio</a></li>		
 			<li><a href="blog.php" <? if ($section=="blog") { echo "class='active-globalsection'"; } else { echo "class='globalsection'"; } ?> >blog</a></li>
-			<li><a href="blog.php" <? if ($section=="contact") { echo "class='active-globalsection'"; } else { echo "class='globalsection'"; } ?> >contact</a></li>	
 			
 		</ul>
 	</div>

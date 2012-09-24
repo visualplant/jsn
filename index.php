@@ -5,17 +5,19 @@
 
 <? include('includes/head.php') ?>
 
+
+
 <body class="<?echo $section ?>">
 
-<div style="height: 5px;width: 100%;background-color: #666;position: fixed;margin-top: -30px;"></div>
+<div style="height: 5px;width: 100%;background-color: #666;position: fixed;margin-top: -30px;z-index: 3;"></div>
 
-<div class="container" style="margin-top:30px;">
+<div class="container animated fadeInDown" style="margin-top:30px;">
 	<div class="row">
 
 		<div class="twelvecol last">
 			<p>
 			
-			<!--<span style="color: #ddd;position: relative;top: -10px;">a a </span></span>--><span onclick="location.href='portfolio.php'" style="cursor: pointer;font-size:72px;font-weight:bold;letter-spacing:0.09em;color:#ff0099;letter-spacing:0.03em;text-shadow: 0px 2px 5px #fff;">alias</span>
+			<!--<span style="color: #ddd;position: relative;top: -10px;">a a </span></span>--><span onclick="location.href='about.php'" style="cursor: pointer;font-size:72px;font-weight:bold;letter-spacing:0.09em;color:#ff0099;letter-spacing:0.03em;text-shadow: 0px 2px 5px #fff;">alias</span>
 		
 			<!--<span style="font-size:67px;margin-right:6px;font-weight:bold;letter-spacing:0.09em;color:#aaa;font-family:kefa;letter-spacing:0.01em;">made</span>
 			<span style="font-size:67px;margin-right:6px;font-weight:bold;letter-spacing:0.09em;color:#aaa;font-family:kefa;letter-spacing:0.01em;">said</span>-->
@@ -30,9 +32,10 @@
 	<div class="row">
 
 		<div class="twelvecol last">
-			<div class="tagline-startpage">
+			<div class="tagline-startpage animated fadeIn delay-5s">
 			
-		  		<strong style="padding: 4px;background-color: #fbfbe3;">interaction design</strong> for <strong style="padding: 2px;background-color: #fbfbe3;">humans</strong>
+		  		<strong style="padding: 4px;background-color: #;">works for the internet</strong>
+		  		
 		</div>
 
 	</div>
@@ -44,26 +47,28 @@
 	<div class="row">
 
 		<div class="fourcol startpage-divider">
+			
 			<p>
-				<div class="portal-container"><a class="portal" style="background:transparent url(images/traveal/Traveal-Deals.png) no-repeat -320px -96px;" href="traveal.php"></a></div>
-				<div class="projectname-startpage"><a href="#">Traveal</a></div>
-				<div class="credit-startpage">Travel Mobile App</div>
+				<div class="portal-container animated flipInY delay2s"><a class="portal" style="background:transparent url(images/visualplant/player.jpg) no-repeat -30px -210px;" href="visualplant.php"></a></div>
+				<div class="projectname-startpage animated fadeIn delay2s"><a href="visualplant.php">Visualplant</a></div>
+				<div class="credit-startpage animated fadeIn delay2s">Video Platform</div>
 			</p>
 		</div>
 
 		<div class="fourcol startpage-divider">
+			
 			<p>
-				<div class="portal-container"><a class="portal" style="background:transparent url(images/visualplant/player.jpg) no-repeat -10px -210px;" href="visualplant.php"></a></div>
-				<div class="projectname-startpage"><a href="#">Visualplant</a></div>
-				<div class="credit-startpage">Video Platform</div>
+				<div class="portal-container animated flipInX delay2-5s"><a class="portal" style="background:transparent url(images/mokini/mokini-start.png) no-repeat -65px -260px;" href="mokini.php"></a></div>
+				<div class="projectname-startpage animated fadeIn delay2-5s"><a href="mokini.php">Mokini</a></div>
+				<div class="credit-startpage animated fadeIn delay2-5s">Web 3.0 Platform</div>
 			</p>
 		</div>
 		
 		<div class="fourcol last startpage-divider">
 			<p>
-				<div class="portal-container"><a class="portal" style="background:transparent url(images/mokini/news.png) no-repeat 0 0;" href="mokini.php"></a></div>
-				<div class="projectname-startpage"><a href="#">Mokini</a></div>
-				<div class="credit-startpage">Web 3.0 Platform</div>
+				<div class="portal-container animated flipInY delay3s"><a class="portal" style="background:transparent url(images/traveal/Traveal-Deals.png) no-repeat -320px -96px;" href="traveal.php"></a></div>
+				<div class="projectname-startpage animated fadeIn delay3s"><a href="traveal.php">Traveal</a></div>
+				<div class="credit-startpage animated fadeIn delay3s">Travel Mobile App</div>
 			</p>
 		</div>
 		
@@ -72,12 +77,12 @@
 
 <br clear="all"><br /><br />
 
-<div class="container">
+<div class="container animated fadeIn delay4s">
 	<div class="row">
 
 		<div class="twelvecol last">
 			
-				<div onclick="location.href='portfolio.php'" style="text-align: center;padding: 6px;background-color: #aaa;color: #fff;border-radius: 20px;width: 80px;margin: 0 auto;cursor: pointer;">about</div>
+				<div onclick="location.href='about.php'" class="about-button">about</div>
 			
 		</div>
 
@@ -210,8 +215,9 @@
 
 <br style="clear:both;" /><br/><br />	
 
-
+<div class="animated fadeIn delay4-5s">
 <? include('includes/footer.php') ?>
+</div>
 
 
 </body>

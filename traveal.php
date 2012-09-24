@@ -9,7 +9,7 @@
 
 <? include('includes/topbar.php') ?>
 
-<div class="container">
+<div class="container animate-in">
 	<div class="row">
 	
 		<? include('includes/subnav.php') ?>

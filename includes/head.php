@@ -25,10 +25,18 @@
 	<!-- Flex Slider -->
 	<link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" />
 	
+	<!-- Animate.css -->
+	<link rel="stylesheet" href="css/animate.min.css" type="text/css" media="screen" />
+	<link rel="stylesheet" href="css/animate-delays.css" type="text/css" media="screen" />
+	
 	<!--css3-mediaqueries-js - http://code.google.com/p/css3-mediaqueries-js/ - Enables media queries in some unsupported browsers-->
 	<script type="text/javascript" src="js/css3-mediaqueries.js"></script>
 	
 	<!-- Modernizr - to detect HTML5 and CSS3 features -->
   	<script src="js/modernizr.js"></script>
+  	
+  	
+  	
+  	
 
 </head>

@@ -9,7 +9,7 @@
 
 <? include('includes/topbar.php') ?>
 
-<div class="container">
+<div class="container animate-in">
 	<div class="row">
 	
 		<? include('includes/subnav.php') ?>
@@ -36,7 +36,7 @@
 						<br /><br />
 						
 						A couple years later Jason tried Napster, and shortly afterward, he worked on it, helping Shawn Fanning's crew keep user experience top-of-mind while integrating digital rights
-						 into peer-to-peer music file sharing. He went on to contribute to several popular music services, including Ruckus and apps for BMG Entertainment and Sony Music.
+						 into peer-to-peer music file sharing. He went on to design other seminal music apps, including for Ruckus, BMG Entertainment and Sony Music.
 						
 						<br /><br />
 						
@@ -57,7 +57,7 @@
 				
 				<div class="full-width-box">
 					
-					<div class="text-head">Case Studies</div>
+					<div class="text-head" id="case-studies">Case Studies</div>
 				
 					<div class="fourcol">
 						

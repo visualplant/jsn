@@ -12,8 +12,9 @@
 				<div class="social">
 					<span onclick="location.href='https://twitter.com/visualplant'" style="cursor:pointer;font-size:2.6em;color:#ccc;margin:3px;" aria-hidden="true" data-icon="&#x79;"></span>
 					<span onclick="location.href='http://www.linkedin.com/in/visualplant'" style="cursor:pointer;font-size:2.6em;color:#ccc;margin:3px;" aria-hidden="true" data-icon="&#xe00b;"></span>
-					<span onclick="location.href='http://blog.visualplant.net'" style="cursor:pointer;font-size:2.6em;color:#ccc;margin:3px;" aria-hidden="true" data-icon="&#xe00a;"></span>
+					<span onclick="location.href='blog.php'" style="cursor:pointer;font-size:2.6em;color:#ccc;margin:3px;" aria-hidden="true" data-icon="&#xe00a;"></span>
 					
+					<div onclick="location.href='mailto:jsn@visualplant.net'" style="cursor:pointer;font-size:2.6em;color:#ccc;margin-top: 15px;" aria-hidden="true" data-icon="&#x31;"></div>
 				</div>
 			
 			</div>
@@ -49,11 +50,10 @@ $(document).ready(function() {
 	                padding : 20,
 	                openEffect  : 'elastic'
 	            });
-	            
 	
-
 });
 </script>
+
 
 
 

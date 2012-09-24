@@ -49,27 +49,28 @@
 		<div class="fourcol startpage-divider">
 			
 			<p>
-				<div class="portal-container animated flipInY delay2s"><a class="portal" style="background:transparent url(images/visualplant/player.jpg) no-repeat -30px -210px;" href="visualplant.php"></a></div>
+				<div class="portal-container animated flipInY delay2s"><a class="portal" style="background:transparent url(images/visualplant/player.jpg) no-repeat -500px -227px;" href="visualplant.php"></a></div>
 				<div class="projectname-startpage animated fadeIn delay2s"><a href="visualplant.php">Visualplant</a></div>
 				<div class="credit-startpage animated fadeIn delay2s">Video Platform</div>
 			</p>
 		</div>
 
 		<div class="fourcol startpage-divider">
-			
 			<p>
-				<div class="portal-container animated flipInX delay2-5s"><a class="portal" style="background:transparent url(images/mokini/mokini-start.png) no-repeat -65px -260px;" href="mokini.php"></a></div>
-				<div class="projectname-startpage animated fadeIn delay2-5s"><a href="mokini.php">Mokini</a></div>
-				<div class="credit-startpage animated fadeIn delay2-5s">Web 3.0 Platform</div>
+				<div class="portal-container animated flipInY delay2-5s"><a class="portal" style="background:transparent url(images/traveal/Traveal-Deals.png) no-repeat -320px -96px;" href="traveal.php"></a></div>
+				<div class="projectname-startpage animated fadeIn delay2-5s"><a href="traveal.php">Traveal</a></div>
+				<div class="credit-startpage animated fadeIn delay2-5s">Travel Mobile App</div>
 			</p>
+			
 		</div>
 		
 		<div class="fourcol last startpage-divider">
 			<p>
-				<div class="portal-container animated flipInY delay3s"><a class="portal" style="background:transparent url(images/traveal/Traveal-Deals.png) no-repeat -320px -96px;" href="traveal.php"></a></div>
-				<div class="projectname-startpage animated fadeIn delay3s"><a href="traveal.php">Traveal</a></div>
-				<div class="credit-startpage animated fadeIn delay3s">Travel Mobile App</div>
+				<div class="portal-container animated flipInX delay3s"><a class="portal" style="background:transparent url(images/mokini/mokini-start.png) no-repeat -65px -260px;" href="mokini.php"></a></div>
+				<div class="projectname-startpage animated fadeIn delay3s"><a href="mokini.php">Mokini</a></div>
+				<div class="credit-startpage animated fadeIn delay3s">Web 3.0 Platform</div>
 			</p>
+			
 		</div>
 		
 	</div>

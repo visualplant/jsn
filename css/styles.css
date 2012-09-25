@@ -801,6 +801,11 @@ ul.credits {
 		position: static;
 	}
 	
+	.nav {
+		font-size: 13px;
+	}
+	
+	
 
 	.portfolio-head {
 		text-align:center;
@@ -942,11 +947,11 @@ ul.credits {
 	}
 	
 	.body-text-modal {
-		width: 58%; 
+		width: 52%; 
 	}
 	
 	.nestedscroll {
-		width: 110px;
+		width: 300px;
 		height: 300px;
 	}
 	

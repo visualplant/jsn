@@ -333,7 +333,16 @@
 				<div class="full-width-box" style="text-align:center;margin-top:50px;margin-bottom:40px;">
 					<a href="traveal.php" class="case-study-button">next case study &raquo;</a>
 				</div>
-		
+				
+				<div class="section-divider">&nbsp;</div>
+				
+				<div class="full-width-box">
+					
+					<? include('includes/more-projects.php') ?>
+					
+					<br clear="all" /><br />
+					
+				</div>
 				
 			</div> <!-- /ninecol -->
 		</div> <!-- /box work -->

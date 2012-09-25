@@ -229,6 +229,16 @@
 					<a href="mokini.php" class="case-study-button">next case study &raquo;</a>
 				</div>
 				
+				<div class="section-divider">&nbsp;</div>
+				
+				<div class="full-width-box">
+					
+					<? include('includes/more-projects.php') ?>
+					
+					<br clear="all" /><br />
+					
+				</div>
+				
 			</div> <!-- /ninecol -->
 		</div> <!-- /box work -->
 		

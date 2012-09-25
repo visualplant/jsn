@@ -22,7 +22,7 @@ jQuery(function( $ ){
 	 * also affect the >> and << links. I want every link in the page to scroll.
 	 */
 	$.localScroll({
-		target: 'body', // could be a selector or a jQuery object too.
+		target: '.subnav', // could be a selector or a jQuery object too.
 		queue:true,
 		duration:1000,
 		hash:true,

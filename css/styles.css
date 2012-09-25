@@ -352,6 +352,7 @@ a:hover.active-globalsection {
 	-webkit-border-radius: 6px; /* Saf3-4 */
 	border-radius: 6px; /* Opera 10.5, IE 9, Saf5, Chrome */
 	border: 1px solid #6f8090;
+	background-color: #000;
 }
 
 .opener { 

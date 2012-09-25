@@ -271,7 +271,7 @@
 							</div>
 							
 							<div class="body-text body-text-modal">
-								<b>Redstar</b> is an incubator/accelerator founded by Jeet Singh and Joe Chung who built ATG and sold it to Oracle for $1 billion. I helped them design a marketplace for the iPad allowing music artists to create and sell album apps to their fans. The goal was to recreate an immersive "album experience" blurring the line between art and memoir using the ideal form factor of the tablet.
+								<b>Redstar</b> is an incubator/accelerator founded by Jeet Singh and Joe Chung who built ATG and sold it to Oracle for $1 billion. I helped them design a marketplace for the iPad allowing music artists to create and sell album apps to their fans. The goal was to recreate an immersive "album experience" blurring the line between art and memoir using the form factor of the tablet.
 								<div style="margin-top: 15px;">
 									<div class="role">User Experience</div>
 									<div class="role">Wireframes</div>
@@ -420,7 +420,7 @@
 							<div class="project-name-modal">
 								
 								<div style="margin-top: 2px;">DWS</div>
-								<div style="font-size: 60%;line-height: 1.2em;">Digital World Services</div>
+								<div style="font-size: 60%;line-height: 1.2em;margin-top: 2px;">Digital World Services</div>
 							</div>
 							
 							<div class="body-text body-text-modal">
@@ -441,8 +441,8 @@
 							
 							<div id='nestedScroll7' class="nestedscroll">
 								
-								<div style="width: 1353px;height: 334px;"> <!-- image dimensions must be in div -->
-									<img src="images/dws/show.png" />
+								<div style="width: 462px;height: 381px;"> <!-- image dimensions must be in div -->
+									<img src="images/dws/dws-bn.png" />
 								</div>
 
 							</div>
@@ -547,8 +547,8 @@
 							
 							<div id='nestedScroll9' class="nestedscroll">
 								
-								<div style="width: 1024px;height: 779px;"> <!-- image dimensions must be in div -->
-									<img src="images/vcross/vcross.png" />
+								<div style="width: 500px;height: 600px;"> <!-- image dimensions must be in div -->
+									<img src="images/vcross/bizcard-vcross.png" />
 								</div>
 
 							</div>

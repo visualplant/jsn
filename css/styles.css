@@ -801,6 +801,11 @@ ul.credits {
 		position: static;
 	}
 	
+	.top-logo {
+		font-size:22px;
+		padding-top: 10px;
+	}
+	
 	.nav {
 		font-size: 13px;
 	}

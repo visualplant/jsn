@@ -245,6 +245,24 @@
 	</div> <!-- /row -->
 </div> <!-- /container -->
 
+<!-- drag div scroll -->
+<script type='text/javascript' src="js/dragdivscroll.js"></script>
+<script type='text/javascript'>
+new DragDivScroll('nestedScroll1');
+new DragDivScroll('nestedScroll2');
+new DragDivScroll('nestedScroll3');
+new DragDivScroll('nestedScroll4');
+new DragDivScroll('nestedScroll5');
+new DragDivScroll('nestedScroll6');
+new DragDivScroll('nestedScroll7');
+new DragDivScroll('nestedScroll8');
+new DragDivScroll('nestedScroll9');
+new DragDivScroll('nestedScroll10');
+new DragDivScroll('nestedScroll11');
+new DragDivScroll('nestedScroll12');
+</script>
+<!-- /drag div scroll -->
+
 
 <? include('includes/footer.php') ?>
 

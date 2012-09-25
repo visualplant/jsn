@@ -787,6 +787,8 @@ ul.credits {
 	display: none;	 
 }
 
+
+
 /* ============================= */
 /* ! Layout for mobile version   */
 /* ============================= */
@@ -952,11 +954,11 @@ ul.credits {
 	}
 	
 	.body-text-modal {
-		width: 52%; 
+		width: 58%; 
 	}
 	
 	.nestedscroll {
-		width: 300px;
+		width: 310px;
 		height: 300px;
 	}
 	

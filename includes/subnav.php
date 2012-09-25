@@ -1,4 +1,4 @@
-<div class="twocol subnav">
+<div class="twocol subnav scrolllink">
 	
 	<div style="max-width:331px;margin: 0 auto;">
 	

@@ -23,8 +23,8 @@
 						A simple <span style="color:#ff0099;">mobile app</span>
 						to discover hotel deals and inspire impulse travel.
 						
-						<div class="background-button-container">
-							<a href="#section1" class="background-button" aria-hidden="true" data-icon="&#xe030;"></a>
+						<div class="background-button-container scrolllink">
+							<span class="background-button" style="color: #ff0099;" aria-hidden="true" data-icon="&#xe030;"></span>
 						</div>
 					</div>
 					

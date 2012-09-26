@@ -72,7 +72,7 @@
 				<div class="text-cols body-text">
 					
 					Most businesses had high-speed 
-					Internet at the time, 
+					Internet in 2002, 
 					but Cable and DSL penetration for consumers was sparse.
 					This combined with a lack of file standards and
 					competing browser plugins made the consumer experience for video lousy.

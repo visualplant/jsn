@@ -20,7 +20,7 @@
 				<div class="full-width-box">
 					<div class="project-name">Mokini</div>
 					<div class="headline opener">
-						A <span style="color:#ff0099;">Web 3.0 platform</span>
+						A <span  class="project-type">Web 3.0 platform</span>
 						to organize <i>your</i> world's information.<a href=""></a>
 						<div style="display:none;margin-top:6px;font-size:0.6em;font-weight:normal;line-height:1.3em;color:#999;">[*Google's mission, 1999: <i>to organize the world's information</i>.]</div>
 					</div>
@@ -52,7 +52,7 @@
 				<br clear="all"><br />
 
 
-				<div class="text-cols body-text" style="padding: 20px;background-color: #fafae9;margin-right: 20px;margin-bottom: 40px;color: #999;">
+				<div class="text-cols body-text background-text">
 
 					After founding <a href="visualplant.php">Visualplant</a>, I wanted to join forces with co-founders for my next 
 					venture.

@@ -293,9 +293,6 @@
 .icon-twitter:before {
 	content: "\79";
 }
-.icon-mail-2:before {
-	content: "\7a";
-}
 .icon-twitter-2:before {
 	content: "\7b";
 }
@@ -337,9 +334,6 @@
 }
 .icon-tumblr-2:before {
 	content: "\e00a";
-}
-.icon-linkedin:before {
-	content: "\e00b";
 }
 .icon-html5:before {
 	content: "\e00c";
@@ -508,4 +502,25 @@
 }
 .icon-move-alt1:before {
 	content: "\e043";
+}
+.icon-arrow-up-right-2:before {
+	content: "\e044";
+}
+.icon-mail-2:before {
+	content: "\7a";
+}
+.icon-safari:before {
+	content: "\e045";
+}
+.icon-lines:before {
+	content: "\e046";
+}
+.icon-linkedin:before {
+	content: "\e00b";
+}
+.icon-linkedin-2:before {
+	content: "\e048";
+}
+.icon-tumblr-3:before {
+	content: "\e047";
 }

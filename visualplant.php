@@ -20,8 +20,12 @@
 				<div class="full-width-box">
 					<div class="project-name">Visualplant <sup style="font-size: 12px;font-weight: normal;">tm</sup></div>
 					<div class="headline opener">
-						A <span style="color:#ff0099;">video platform</span>
+						A <span  class="project-type">video platform</span>
 						with customizable players and cloud-based content management that helped pioneer a new market.
+						
+						<div class="background-button-container scrolllink">
+							<a href="http://visualplant.net" target="_blank" class="background-button" style="color: #ff0099;font-size: 1.0em;" title="visit: visualplant.net" aria-hidden="true" data-icon="&#x33;"></a>
+						</div>
 						
 						<div style="display:none;padding:15px;color:#666;font-weight:normal;font-size:0.6em;background-color:#ffffcc;border:1px dotted #ffffcc;margin-right:40px;margin-top:20px;line-height:1.4em;">
 						
@@ -49,17 +53,9 @@
 				</div>
 				
 				
-				<br clear="all">
-
-
+				<br clear="all"><br />
 				
-				
-				<div class="section-divider">&nbsp;</div>
-
-
-				<div class="text-head">Background</div>
-				
-				<div class="text-cols body-text">
+				<div class="text-cols body-text background-text">
 
 					In 2002 I was recruited by a magazine publisher to become the Design Director for their Internet division.
 					They had just acquired the most popular video site on the Web and wanted to "integrate it."
@@ -70,8 +66,6 @@
 					on the Web.
 
 				</div> 
-				
-				<div class="section-divider">&nbsp;</div>
 				
 				<div class="text-head">Problem</div>
 			

@@ -95,7 +95,6 @@ window.onload = function() {
 			'icon-share' : '&#x77;',
 			'icon-facebook' : '&#x78;',
 			'icon-twitter' : '&#x79;',
-			'icon-mail-2' : '&#x7a;',
 			'icon-twitter-2' : '&#x7b;',
 			'icon-feed' : '&#x7c;',
 			'icon-gplus' : '&#x7d;',
@@ -110,7 +109,6 @@ window.onload = function() {
 			'icon-wordpress-2' : '&#xe008;',
 			'icon-tumblr' : '&#xe009;',
 			'icon-tumblr-2' : '&#xe00a;',
-			'icon-linkedin' : '&#xe00b;',
 			'icon-html5' : '&#xe00c;',
 			'icon-html5-2' : '&#xe00d;',
 			'icon-libreoffice' : '&#xe00f;',
@@ -166,7 +164,14 @@ window.onload = function() {
 			'icon-soundcloud' : '&#xe041;',
 			'icon-soundcloud-2' : '&#xe042;',
 			'icon-move-alt2' : '&#xe00e;',
-			'icon-move-alt1' : '&#xe043;'
+			'icon-move-alt1' : '&#xe043;',
+			'icon-arrow-up-right-2' : '&#xe044;',
+			'icon-mail-2' : '&#x7a;',
+			'icon-safari' : '&#xe045;',
+			'icon-lines' : '&#xe046;',
+			'icon-linkedin' : '&#xe00b;',
+			'icon-linkedin-2' : '&#xe048;',
+			'icon-tumblr-3' : '&#xe047;'
 		},
 		els = document.getElementsByTagName('*'),
 		i, attr, html, c, el;

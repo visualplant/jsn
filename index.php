@@ -17,11 +17,10 @@
 		<div class="twelvecol last">
 			<p>
 			
-			<!--<span style="color: #ddd;position: relative;top: -10px;">a a </span></span>--><span onclick="location.href='about.php'" style="cursor: pointer;font-size:72px;font-weight:bold;letter-spacing:0.09em;color:#ff0099;letter-spacing:0.03em;text-shadow: 0px 2px 5px #fff;">alias</span>
+			<span onclick="location.href='about.php'" style="cursor: pointer;font-size:72px;font-weight:bold;letter-spacing:0.09em;color:#ff0099;letter-spacing:0.03em;text-shadow: 0px 2px 5px #fff;">alias</span>
 		
-			<!--<span style="font-size:67px;margin-right:6px;font-weight:bold;letter-spacing:0.09em;color:#aaa;font-family:kefa;letter-spacing:0.01em;">made</span>
-			<span style="font-size:67px;margin-right:6px;font-weight:bold;letter-spacing:0.09em;color:#aaa;font-family:kefa;letter-spacing:0.01em;">said</span>-->
-
+			<!--<span style="font-size:76px;margin-right:6px;font-weight:bold;letter-spacing:0.09em;color:#aaa;font-family:kefa;letter-spacing:0.01em;">made</span>-->
+			
 			</p>
 		</div>
 
@@ -34,7 +33,7 @@
 		<div class="twelvecol last">
 			<div class="tagline-startpage animated fadeIn delay-5s">
 			
-		  		<strong style="padding: 4px;background-color: #;">works for the internet</strong>
+		  		<strong style="padding: 4px;">works for the internet</strong>
 		  		
 		</div>
 

@@ -20,12 +20,13 @@
 				<div class="full-width-box">
 					<div class="project-name">Traveal</div>
 					<div class="headline opener">
-						A simple <span style="color:#ff0099;">mobile app</span>
+						A simple <span class="project-type">mobile app</span>
 						to discover hotel deals and inspire impulse travel.
 						
-						<div class="background-button-container scrolllink">
+						<!--<div class="background-button-container scrolllink">
 							<span class="background-button" style="color: #ff0099;" aria-hidden="true" data-icon="&#xe030;"></span>
-						</div>
+						</div>-->
+						
 					</div>
 					
 
@@ -43,24 +44,19 @@
 					</div>
 				
 				</div>
-				
-				
-				<br clear="all"><br />
-				
-				
+
 				<br clear="all"><br />
 
-				
+				<br clear="all"><br />
+
 				<div class="full-width-box">
 					<img src="images/traveal/traveal-combo.png" valign="top" width="100%" alt="">
 				</div>
 			
 				
 				<div class="section-divider" style="margin-top:0;">&nbsp;</div>
-				
-				<div class="text-head" id="section1">Background</div>
 			
-				<div class="text-cols body-text">
+				<div class="text-cols body-text background-text">
 					
 					Sabre Travel Network, best-known as the parent company of Travelocity.com, hired me to help their
 					Mobile Strategy Group design a leisure travel mobile app. 
@@ -71,12 +67,10 @@
 					to catalyze creativity &mdash; simple, clear slides illustrating the product concept and top-level user
 					experience.
 					
-					<img src="images/traveal/traveal-directive.jpg" class="text-image" alt="Sketch from Sabre"> 
+					<img src="images/traveal/traveal-directive.png" class="text-image" alt="Sketch from Sabre"> 
 
 				</div>
-				
-				<div class="section-divider" style="margin-bottom:40px;">&nbsp;</div>
-				
+
 				<div class="text-head">Sketches</div>
 
 				<div class="text-cols body-text">

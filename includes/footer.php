@@ -47,11 +47,26 @@
 
 <script type="text/javascript">
 $(document).ready(function() {
-
+	
+	//fancybox
 	$('.fancybox').fancybox({
-	                padding : 20,
-	                openEffect  : 'elastic'
-	            });
+        padding : 20,
+        openEffect  : 'elastic'
+    });
+    
+    //mobile menu
+    $('#mobile-menu-link').click(function() {
+    	$('#mobile-menu').slideToggle('fast');
+    	return false;
+    });
+
+    $(window).resize(function() {
+    	if ( $(window).width() > 767) {
+    	   $('#mobile-menu').hide('fast');
+    	}
+    });
+    
+   
 	
 });
 </script>

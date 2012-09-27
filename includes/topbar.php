@@ -4,12 +4,15 @@
 	
 	<div class="nav">
 		<ul class="menu" style="clear: both;">
-			<li><a href="about.php" <? if ($section=="about") { echo "class='active-globalsection'"; } else { echo "class='globalsection'"; } ?> >about</a></li>	
-			<li><a href="portfolio.php#case-studies" <? if ($section=="portfolio") { echo "class='active-globalsection'"; } else { echo "class='globalsection'"; } ?> >portfolio</a></li>		
-			<li><a href="blog.php" <? if ($section=="blog") { echo "class='active-globalsection'"; } else { echo "class='globalsection'"; } ?> >blog</a></li>
+			<li><a href="about.php" <? if ($section=="about") { echo "class='active-globalsection'"; } else { echo "class='globalsection'"; } ?> id="desktop-menu-link">about</a></li>	
+			<li><a href="portfolio.php#case-studies" <? if ($section=="portfolio") { echo "class='active-globalsection'"; } else { echo "class='globalsection'"; } ?> id="desktop-menu-link">portfolio</a></li>		
+			<li><a href="blog.php" <? if ($section=="blog") { echo "class='active-globalsection'"; } else { echo "class='globalsection'"; } ?> id="desktop-menu-link">blog</a></li>
+			
+			<li><a href="#" class="globalsection" id="mobile-menu-link">menu</a></li>
 			
 		</ul>
 	</div>
+
 	
 </div>
 

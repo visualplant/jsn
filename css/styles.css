@@ -97,6 +97,46 @@ a:link.background-button, a:visited.background-button {
 a:hover.background-button {
 	background:;
 }
+
+#mobile-menu-link {
+	display: none;
+}
+
+.mobile-menu-item {
+	padding-top: 18px;
+	height: 40px;
+	background-color: #eee;
+	border-bottom: 1px solid #ccc;
+	font-size: 1.2em;
+	color: #555;
+	letter-spacing: 0.2em;
+	cursor: pointer;
+	-webkit-transition: all 0.25s linear;
+	-moz-transition: all 0.25s linear;
+	-o-transition: all 0.25s linear;
+	transition: all 0.25s linear;
+}
+
+.mobile-menu-item:hover {
+	background-color: #cecece;
+	color: #fff;
+}
+
+.mobile-menu-item:active {
+	background-color: #bbb;
+	color: #fff;
+}
+
+.mobile-menu-item-active {
+	padding-top: 18px;
+	height: 40px;
+	background-color: #bbb;
+	border-bottom: 1px solid #ccc;
+	font-size: 1.2em;
+	color: #fff;
+	letter-spacing: 0.2em;
+	cursor: pointer;
+}
 		
 ::selection {
 	background: #ff0099; /* Safari */
@@ -835,17 +875,14 @@ ul.credits {
 		position: static;
 	}
 	
-	.top-logo {
-		font-size:22px;
-		padding-top: 10px;
+	#desktop-menu-link {
+		display: none;
 	}
 	
-	.nav {
-		font-size: 13px;
+	#mobile-menu-link {
+		display: inline;
 	}
 	
-	
-
 	.portfolio-head {
 		text-align:center;
 	}

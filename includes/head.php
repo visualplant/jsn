@@ -35,8 +35,6 @@
 	<!-- Modernizr - to detect HTML5 and CSS3 features -->
   	<script src="js/modernizr.js"></script>
   	
-  	
-  	
-  	
+
 
 </head>

@@ -7,6 +7,8 @@
 
 <body class="<?echo $section ?>">
 
+<? include('includes/mobile-menu.php') ?>
+
 <? include('includes/topbar.php') ?>
 
 <div class="container animate-in">

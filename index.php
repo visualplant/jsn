@@ -17,7 +17,7 @@
 		<div class="twelvecol last">
 			<p>
 			
-			<span onclick="location.href='about.php'" style="cursor: pointer;font-size:72px;font-weight:bold;letter-spacing:0.09em;color:#ff0099;letter-spacing:0.03em;text-shadow: 0px 2px 5px #fff;">alias</span>
+			<a href="/about/"><span style="cursor: pointer;font-size:72px;font-weight:bold;letter-spacing:0.09em;color:#ff0099;letter-spacing:0.03em;text-shadow: 0px 2px 5px #fff;">alias</span></a>
 		
 			<!--<span style="font-size:76px;margin-right:6px;font-weight:bold;letter-spacing:0.09em;color:#aaa;font-family:kefa;letter-spacing:0.01em;">made</span>-->
 			
@@ -48,16 +48,16 @@
 		<div class="fourcol startpage-divider">
 			
 			<p>
-				<div class="portal-container animated flipInY delay2s"><a class="portal" style="background:transparent url(/alias/images/visualplant/player.jpg) no-repeat -500px -227px;" href="visualplant/"></a></div>
-				<div class="projectname-startpage animated fadeIn delay2s"><a href="visualplant/">Visualplant</a></div>
+				<div class="portal-container animated flipInY delay2s"><a class="portal" style="background:transparent url(/images/visualplant/player.jpg) no-repeat -500px -227px;" href="/visualplant/"></a></div>
+				<div class="projectname-startpage animated fadeIn delay2s"><a href="/visualplant/">Visualplant</a></div>
 				<div class="credit-startpage animated fadeIn delay2s">Video Platform</div>
 			</p>
 		</div>
 
 		<div class="fourcol startpage-divider">
 			<p>
-				<div class="portal-container animated flipInY delay2-5s"><a class="portal" style="background:transparent url(/alias/images/traveal/Traveal-Deals.png) no-repeat -320px -96px;" href="traveal/"></a></div>
-				<div class="projectname-startpage animated fadeIn delay2-5s"><a href="traveal/">Traveal</a></div>
+				<div class="portal-container animated flipInY delay2-5s"><a class="portal" style="background:transparent url(/images/traveal/Traveal-Deals.png) no-repeat -320px -96px;" href="/traveal/"></a></div>
+				<div class="projectname-startpage animated fadeIn delay2-5s"><a href="/traveal/">Traveal</a></div>
 				<div class="credit-startpage animated fadeIn delay2-5s">Travel Mobile App</div>
 			</p>
 			
@@ -65,8 +65,8 @@
 		
 		<div class="fourcol last startpage-divider">
 			<p>
-				<div class="portal-container animated flipInX delay3s"><a class="portal" style="background:transparent url(/alias/images/mokini/mokini-start.png) no-repeat -65px -260px;" href="mokini/"></a></div>
-				<div class="projectname-startpage animated fadeIn delay3s"><a href="mokini/">Mokini</a></div>
+				<div class="portal-container animated flipInX delay3s"><a class="portal" style="background:transparent url(images/mokini/mokini-start.png) no-repeat -65px -260px;" href="/mokini/"></a></div>
+				<div class="projectname-startpage animated fadeIn delay3s"><a href="/mokini/">Mokini</a></div>
 				<div class="credit-startpage animated fadeIn delay3s">Web 3.0 Platform</div>
 			</p>
 			
@@ -82,7 +82,7 @@
 
 		<div class="twelvecol last">
 			
-				<div onclick="location.href='about.php'" class="about-button">about</div>
+				<a href="/about/"><div class="about-button">about</div></a>
 			
 		</div>
 

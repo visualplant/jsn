@@ -3,7 +3,7 @@
 					<div class="fourcol">
 						
 						<p>
-							<div class="portal-container"><a class="portal2 fancybox" style="background:transparent url(/alias/images/sony/pulse1.png) no-repeat -100px -115px;" href="#thepulse"></a></div>
+							<div class="portal-container"><a class="portal2 fancybox" style="background:transparent url(/images/sony/pulse1.png) no-repeat -100px -115px;" href="#thepulse"></a></div>
 							<div class="projectname-startpage"><a href="#thepulse" class="fancybox">Sony Music</a></div>
 							<div class="credit-startpage">Data Visualization</div>
 						</p>
@@ -13,7 +13,7 @@
 							<p>
 							
 							<div class="project-name-modal">
-								<img src="/alias/images/sony/sony_music_logo.png" style="width: 100%;max-width: 100px;" alt="" />
+								<img src="/images/sony/sony_music_logo.png" style="width: 100%;max-width: 100px;" alt="" />
 								<div style="margin-top: 2px;">The Pulse</div>
 							</div>
 							
@@ -42,7 +42,7 @@
 							<div id='nestedScroll1' class="nestedscroll">
 								
 								<div style="width: 1183px;height: 759px;"> <!-- image dimensions must be in div -->
-									<img src="/alias/images/sony/pulse1.png" />
+									<img src="/images/sony/pulse1.png" />
 								</div>
 
 							</div>
@@ -57,7 +57,7 @@
 					<div class="fourcol">
 				 		
 				 		<p>
-				 			<div class="portal-container"><a class="portal2 fancybox" style="background:transparent url(/alias/images/napster/napster.png) no-repeat 2px 8px;" href="#napster"></a></div>
+				 			<div class="portal-container"><a class="portal2 fancybox" style="background:transparent url(/images/napster/napster.png) no-repeat 2px 8px;" href="#napster"></a></div>
 				 			<div class="projectname-startpage"><a href="#napster" class="fancybox">Napster</a></div>
 				 			<div class="credit-startpage">Peer-to-peer DRM</div>
 				 		</p>
@@ -67,7 +67,7 @@
 							<p>
 							
 							<div class="project-name-modal">
-								<img src="/alias/images/napster/napster-logo.png" style="width: 100%;" alt="" />
+								<img src="/images/napster/napster-logo.png" style="width: 100%;" alt="" />
 								<div style="margin-top: 2px;"></div>
 							</div>
 							
@@ -94,7 +94,7 @@
 							<div id='nestedScroll2' class="nestedscroll">
 								
 								<div style="width: 1009px;height: 737px;"> <!-- image dimensions must be in div -->
-									<img src="/alias/images/napster/napster.png" />
+									<img src="/images/napster/napster.png" />
 								</div>
 
 							</div>
@@ -109,7 +109,7 @@
 					<div class="fourcol last">
 							
 						<p>
-							<div class="portal-container"><a class="portal2 fancybox" style="background:transparent url(/alias/images/ruckus/ruckus.png) no-repeat -80px -20px;" href="#ruckus"></a></div>
+							<div class="portal-container"><a class="portal2 fancybox" style="background:transparent url(/images/ruckus/ruckus.png) no-repeat -80px -20px;" href="#ruckus"></a></div>
 							<div class="projectname-startpage"><a href="#ruckus" class="fancybox">Ruckus</a></div>
 							<div class="credit-startpage">College Music App</div>
 						</p>
@@ -119,7 +119,7 @@
 							<p>
 							
 							<div class="project-name-modal">
-								<img src="/alias/images/ruckus/ruckus-logo.png" style="width: 100%;" alt="" />
+								<img src="/images/ruckus/ruckus-logo.png" style="width: 100%;" alt="" />
 								<div style="margin-top: 2px;"></div>
 							</div>
 							
@@ -143,7 +143,7 @@
 							<div id='nestedScroll3' class="nestedscroll">
 								
 								<div style="width: 843px;height: 720px;"> <!-- image dimensions must be in div -->
-									<img src="/alias/images/ruckus/ruckus.png" />
+									<img src="/images/ruckus/ruckus.png" />
 								</div>
 
 							</div>
@@ -160,7 +160,7 @@
 					<div class="fourcol">
 							
 						<p>
-							<div class="portal-container"><a class="portal2 fancybox" style="background:transparent url(/alias/images/capsule/capsule-ipad-browse.png) no-repeat -195px 0px;" href="#redstar"></a></div>
+							<div class="portal-container"><a class="portal2 fancybox" style="background:transparent url(/images/capsule/capsule-ipad-browse.png) no-repeat -195px 0px;" href="#redstar"></a></div>
 							<div class="projectname-startpage"><a href="#redstar" class="fancybox">Redstar</a></div>
 							<div class="credit-startpage">Music Album App</div>
 						</p>
@@ -170,7 +170,7 @@
 							<p>
 							
 							<div class="project-name-modal">
-								<img src="/alias/images/redstar/redstar-logo.png" style="width: 100%;" alt="" />
+								<img src="/images/redstar/redstar-logo.png" style="width: 100%;" alt="" />
 								<div style="margin-top: 2px;"></div>
 							</div>
 							
@@ -193,7 +193,7 @@
 							<div id='nestedScroll4' class="nestedscroll">
 								
 								<div style="width: 1024px;height: 768px;"> <!-- image dimensions must be in div -->
-									<img src="/alias/images/capsule/capsule-ipad-browse.png" />
+									<img src="/images/capsule/capsule-ipad-browse.png" />
 								</div>
 
 							</div>
@@ -208,7 +208,7 @@
 					<div class="fourcol">
 						
 						<p>
-							<div class="portal-container"><a class="portal2 fancybox" style="background:transparent url(/alias/images/getmusic/getmusic.png) no-repeat -90px -105px;" href="#getmusic"></a></div>
+							<div class="portal-container"><a class="portal2 fancybox" style="background:transparent url(/images/getmusic/getmusic.png) no-repeat -90px -105px;" href="#getmusic"></a></div>
 							<div class="projectname-startpage"><a href="#getmusic" class="fancybox">GetMusic</a></div>
 							<div class="credit-startpage">Music Ecommerce Site</div>
 						</p>
@@ -218,7 +218,7 @@
 							<p>
 							
 							<div class="project-name-modal">
-								<img src="/alias/images/getmusic/getmusic-logo.png" style="width: 100%;" alt="" />
+								<img src="/images/getmusic/getmusic-logo.png" style="width: 100%;" alt="" />
 								<div style="margin-top: 2px;"></div>
 							</div>
 							
@@ -244,7 +244,7 @@
 							<div id='nestedScroll5' class="nestedscroll">
 								
 								<div style="width: 797px;height: 597px;"> <!-- image dimensions must be in div -->
-									<img src="/alias/images/getmusic/getmusic-ia.png" />
+									<img src="/images/getmusic/getmusic-ia.png" />
 								</div>
 
 							</div>
@@ -259,7 +259,7 @@
 					<div class="fourcol last">
 							
 						<p>
-							<div class="portal-container"><a class="portal2 fancybox" style="background:transparent url(/alias/images/bmgmusicservice/bmg-home.png) no-repeat -230px -5px;" href="#bmgmusicservice"></a></div>
+							<div class="portal-container"><a class="portal2 fancybox" style="background:transparent url(/images/bmgmusicservice/bmg-home.png) no-repeat -230px -5px;" href="#bmgmusicservice"></a></div>
 							<div class="projectname-startpage"><a href="#bmgmusicservice" class="fancybox">BMG Music</a></div>
 							<div class="credit-startpage">Music Subscription Service</div>
 						</p>
@@ -269,7 +269,7 @@
 							<p>
 							
 							<div class="project-name-modal">
-								<img src="/alias/images/bmgmusicservice/bmgmusicservice-logo.png" style="width: 100%;" alt="" />
+								<img src="/images/bmgmusicservice/bmgmusicservice-logo.png" style="width: 100%;" alt="" />
 								<div style="margin-top: 2px;"></div>
 							</div>
 							
@@ -294,7 +294,7 @@
 							<div id='nestedScroll6' class="nestedscroll">
 								
 								<div style="width: 683px;height: 467px;"> <!-- image dimensions must be in div -->
-									<img src="/alias/images/bmgmusicservice/bmg-home.png" />
+									<img src="/images/bmgmusicservice/bmg-home.png" />
 								</div>
 
 							</div>
@@ -312,7 +312,7 @@
 					<div class="fourcol">
 							
 						<p>
-							<div class="portal-container"><a class="portal2 fancybox" style="background:transparent url(/alias/images/dws/dws-bn.gif) no-repeat -10px -15px;" href="#dws"></a></div>
+							<div class="portal-container"><a class="portal2 fancybox" style="background:transparent url(/images/dws/dws-bn.gif) no-repeat -10px -15px;" href="#dws"></a></div>
 							<div class="projectname-startpage"><a href="#dws">DWS</a></div>
 							<div class="credit-startpage">Music Ecommerce API</div>
 						</p>
@@ -346,7 +346,7 @@
 							<div id='nestedScroll7' class="nestedscroll">
 								
 								<div style="width: 462px;height: 381px;"> <!-- image dimensions must be in div -->
-									<img src="/alias/images/dws/dws-bn.png" />
+									<img src="/images/dws/dws-bn.png" />
 								</div>
 
 							</div>
@@ -361,7 +361,7 @@
 					<div class="fourcol">
 						
 						<p>
-							<div class="portal-container"><a class="portal2 fancybox" style="background:transparent url(/alias/images/adage/creativity-home.jpg) no-repeat -528px -10px;" href="#adage"></a></div>
+							<div class="portal-container"><a class="portal2 fancybox" style="background:transparent url(/images/adage/creativity-home.jpg) no-repeat -528px -10px;" href="#adage"></a></div>
 							<div class="projectname-startpage"><a href="#adage" class="fancybox">Ad Age</a></div>
 							<div class="credit-startpage">Bible of Advertising</div>
 						</p>
@@ -371,7 +371,7 @@
 							<p>
 							
 							<div class="project-name-modal">
-								<img src="/alias/images/adage/adage-logo.png" style="width: 100%;" alt="" />
+								<img src="/images/adage/adage-logo.png" style="width: 100%;" alt="" />
 								<div style="margin-top: 2px;"></div>
 								
 							</div>
@@ -401,7 +401,7 @@
 							<div id='nestedScroll8' class="nestedscroll">
 								
 								<div style="width: 950px;height: 768px;"> <!-- image dimensions must be in div -->
-									<img src="/alias/images/adage/adage-home.png" />
+									<img src="/images/adage/adage-home.png" />
 								</div>
 
 							</div>
@@ -415,7 +415,7 @@
 					<div class="fourcol last">
 							
 						<p>
-							<div class="portal-container"><a class="portal2 fancybox" style="background:transparent url(/alias/images/vcross/bizcard-vcross.png) no-repeat -235px -75px;" href="#vcross"></a></div>
+							<div class="portal-container"><a class="portal2 fancybox" style="background:transparent url(/images/vcross/bizcard-vcross.png) no-repeat -235px -75px;" href="#vcross"></a></div>
 							<div class="projectname-startpage"><a href="#vcross" class="fancybox">Vcross</a></div>
 							<div class="credit-startpage">Bond Trading Platform</div>
 						</p>
@@ -425,7 +425,7 @@
 							<p>
 							
 							<div class="project-name-modal">
-								<img src="/alias/images/vcross/vcross-logo.png" style="width: 100%;" alt="" />
+								<img src="/images/vcross/vcross-logo.png" style="width: 100%;" alt="" />
 								<div style="margin-top: 2px;"></div>
 								
 							</div>
@@ -452,7 +452,7 @@
 							<div id='nestedScroll9' class="nestedscroll">
 								
 								<div style="width: 500px;height: 600px;"> <!-- image dimensions must be in div -->
-									<img src="/alias/images/vcross/bizcard-vcross.png" />
+									<img src="/images/vcross/bizcard-vcross.png" />
 								</div>
 
 							</div>
@@ -468,7 +468,7 @@
 					<div class="fourcol">
 							
 						<p>
-							<div class="portal-container"><a class="portal2 fancybox" style="background:transparent url(/alias/images/jemstep/jemstep-home-2.jpg) no-repeat -500px -165px;" href="#jemstep"></a></div>
+							<div class="portal-container"><a class="portal2 fancybox" style="background:transparent url(/images/jemstep/jemstep-home-2.jpg) no-repeat -500px -165px;" href="#jemstep"></a></div>
 							<div class="projectname-startpage"><a href="#jemstep" class="fancybox">Jemstep</a></div>
 							<div class="credit-startpage">Financial Investment Service</div>
 						</p>
@@ -478,7 +478,7 @@
 						<p>
 						
 						<div class="project-name-modal">
-							<img src="/alias/images/jemstep/jemstep-logo.png" style="width: 100%;" alt="" />
+							<img src="/images/jemstep/jemstep-logo.png" style="width: 100%;" alt="" />
 							<div style="margin-top: 2px;"></div>
 							
 						</div>
@@ -504,7 +504,7 @@
 						<div id='nestedScroll10' class="nestedscroll">
 							
 							<div style="width: 1090px;height: 931px;"> <!-- image dimensions must be in div -->
-								<img src="/alias/images/jemstep/jemstep-home-2.jpg" />
+								<img src="/images/jemstep/jemstep-home-2.jpg" />
 							</div>
 
 						</div>
@@ -518,7 +518,7 @@
 					<div class="fourcol">
 						
 						<p>
-							<div class="portal-container"><a class="portal2 fancybox" style="background:transparent url(/alias/images/sabre/Bucketlists-1.png) no-repeat -50px -135px;" href="#sabre"></a></div>
+							<div class="portal-container"><a class="portal2 fancybox" style="background:transparent url(/images/sabre/Bucketlists-1.png) no-repeat -50px -135px;" href="#sabre"></a></div>
 							<div class="projectname-startpage"><a href="#sabre" class="fancybox">Sabre</a></div>
 							<div class="credit-startpage">Travel Mobile Apps</div>
 						</p>
@@ -528,7 +528,7 @@
 						<p>
 						
 						<div class="project-name-modal">
-							<img src="/alias/images/sabre/sabre-logo.png" style="width: 100%;" alt="" />
+							<img src="/images/sabre/sabre-logo.png" style="width: 100%;" alt="" />
 							<div style="margin-top: 2px;"></div>
 							
 						</div>
@@ -554,7 +554,7 @@
 						<div id='nestedScroll11' class="nestedscroll">
 							
 							<div style="width: 1024px;height: 768px;"> <!-- image dimensions must be in div -->
-								<img src="/alias/images/sabre/Bucketlists-2.png" />
+								<img src="/images/sabre/Bucketlists-2.png" />
 							</div>
 
 						</div>
@@ -568,7 +568,7 @@
 					<div class="fourcol last">
 							
 						<p>
-							<div class="portal-container"><a class="portal2 fancybox" style="background:transparent url(/alias/images/objectlab/objectlab-splash.png) no-repeat -80px -35px;" href="#objectlab"></a></div>
+							<div class="portal-container"><a class="portal2 fancybox" style="background:transparent url(/images/objectlab/objectlab-splash.png) no-repeat -80px -35px;" href="#objectlab"></a></div>
 							<div class="projectname-startpage"><a href="#objectlab" class="fancybox">Objectlab</a></div>
 							<div class="credit-startpage">Software Consultancy</div>
 						</p>
@@ -578,7 +578,7 @@
 							<p>
 							
 							<div class="project-name-modal">
-								<img src="/alias/images/objectlab/objectlab-logo.png" style="width: 100%;" alt="" />
+								<img src="/images/objectlab/objectlab-logo.png" style="width: 100%;" alt="" />
 								<div style="margin-top: 2px;"></div>
 								
 							</div>
@@ -606,7 +606,7 @@
 							<div id='nestedScroll12' class="nestedscroll">
 								
 								<div style="width: 662px;height: 346px;"> <!-- image dimensions must be in div -->
-									<img src="/alias/images/objectlab/objectlab-splash.png" />
+									<img src="/images/objectlab/objectlab-splash.png" />
 								</div>
 	
 							</div>
@@ -619,7 +619,7 @@
 					</div> <!-- /fourcol -->
 					
 					<!-- drag div scroll -->
-					<script type='text/javascript' src="/alias/js/dragdivscroll.js"></script>
+					<script type='text/javascript' src="/js/dragdivscroll.js"></script>
 					<script type='text/javascript'>
 					new DragDivScroll('nestedScroll1');
 					new DragDivScroll('nestedScroll2');

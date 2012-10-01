@@ -28,7 +28,7 @@
 					</div>
 
 					<div class="opener-image" style="">
-						<img src="/alias/images/mokini/mokini-logo-card.png" alt="Mokini logo">
+						<img src="/images/mokini/mokini-logo-card.png" alt="Mokini logo">
 					</div>
 				
 				</div>
@@ -56,7 +56,7 @@
 
 				<div class="text-cols body-text background-text">
 
-					After founding <a href="/alias/visualplant/">Visualplant</a>, I wanted to join forces with co-founders for my next 
+					After founding <a href="/visualplant/">Visualplant</a>, I wanted to join forces with co-founders for my next 
 					venture.
 					
 					<br /><br />
@@ -136,7 +136,7 @@
 						Fig 1: Users could add a myriad of source types &mdash; including RSS, Twitter and mailing lists &mdash; and vote to affect the trust index of each source. Users themselves were, in fact, sources with evolving influence.
 					</div>
 				
-					<img src="/alias/images/mokini/mokini-sources-new.png" alt="">
+					<img src="/images/mokini/mokini-sources-new.png" alt="">
 					
 				</div>
 				
@@ -157,11 +157,11 @@
 				
 				<div class="full-width-box">
 				
-					<img src="/alias/images/mokini/philosophy.png" alt="">
+					<img src="/images/mokini/philosophy.png" alt="">
 				
 					<br clear="all"><br /><br />
 					
-					<img src="/alias/images/mokini/news.png" alt="">
+					<img src="/images/mokini/news.png" alt="">
 	
 				</div>
 				
@@ -180,7 +180,7 @@
 				
 				<div class="full-width-box">
 					
-					<img src="/alias/images/mokini/mokini-events-new.png" alt="">
+					<img src="/images/mokini/mokini-events-new.png" alt="">
 					
 					<br clear="all"><br /><br />
 					
@@ -189,7 +189,7 @@
 						while the platform suggested related groups.
 					</div>
 					
-					<img src="/alias/images/mokini/mokini-start.png" alt="">
+					<img src="/images/mokini/mokini-start.png" alt="">
 					
 
 				</div>
@@ -247,7 +247,7 @@
 				
 				
 				<div class="full-width-box" style="text-align:center;margin-top:50px;margin-bottom:40px;">
-					<a href="/alias/visualplant/" class="case-study-button">next case study &raquo;</a>
+					<a href="/visualplant/" class="case-study-button">next case study &raquo;</a>
 				</div>
 				
 				<div class="section-divider">&nbsp;</div>

@@ -2,24 +2,21 @@
 	
 	<div style="max-width:331px;margin: 0 auto;">
 	
-		<div onclick="location.href='/alias/traveal/';" 
-		<? if ($page=="traveal") { echo "class='selected-subnav'"; } else { echo "class='portal-subnav'"; } ?> >
+		<a href="/traveal/"><div <? if ($page=="traveal") { echo "class='selected-subnav'"; } else { echo "class='portal-subnav'"; } ?> >
 			<div class="portal-subnav-text">Traveal</div>
-		</div>
+		</div></a>
 		
-		<div onclick="location.href='/alias/visualplant/';" 
-		<? if ($page=="visualplant") { echo "class='selected-subnav'"; } else { echo "class='portal-subnav'"; } ?> >
+		<a href="/visualplant/"><div <? if ($page=="visualplant") { echo "class='selected-subnav'"; } else { echo "class='portal-subnav'"; } ?> >
 			<div class="portal-subnav-text">Visualplant</div>
-		</div>
+		</div></a>
 		
-		<div onclick="location.href='/alias/mokini/';" 
-		<? if ($page=="mokini") { echo "class='selected-subnav'"; } else { echo "class='portal-subnav'"; } ?> >
+		<a href="/mokini/"><div <? if ($page=="mokini") { echo "class='selected-subnav'"; } else { echo "class='portal-subnav'"; } ?> >
 			<div class="portal-subnav-text">Mokini</div>
-		</div>
+		</div></a>
 	
 		<br clear="all" />
 		
-		<div onclick="location.href='/alias/portfolio/#projects';" class="more">more&hellip;</div>
+		<a href="/portfolio/#projects"><div class="more">more&hellip;</div></a>
 		
 	</div>
 	

@@ -1,13 +1,13 @@
 <div class="header clearfix">
 	
-	<div class="top-logo"><a href="javascript:window.location = '/alias/'">alias</a></div>
+	<div class="top-logo"><a href="javascript:window.location = '/'">alias</a></div>
 	
 	<div class="nav">
 		<ul class="menu" style="clear: both;">
 			
 			<!-- shows for desktop -->
-			<li><a href="/alias/about/" <? if ($section=="about") { echo "class='active-globalsection'"; } else { echo "class='globalsection'"; } ?> id="desktop-menu-link">about</a></li>	
-			<li><a href="/alias/portfolio/#case-studies" <? if ($section=="portfolio") { echo "class='active-globalsection'"; } else { echo "class='globalsection'"; } ?> id="desktop-menu-link">portfolio</a></li>		
+			<li><a href="/about/" <? if ($section=="about") { echo "class='active-globalsection'"; } else { echo "class='globalsection'"; } ?> id="desktop-menu-link">about</a></li>	
+			<li><a href="/portfolio/#case-studies" <? if ($section=="portfolio") { echo "class='active-globalsection'"; } else { echo "class='globalsection'"; } ?> id="desktop-menu-link">portfolio</a></li>		
 			<li><a href="http://blog.visualplant.net" <? if ($section=="blog") { echo "class='active-globalsection'"; } else { echo "class='globalsection'"; } ?> id="desktop-menu-link">blog</a></li>
 			
 			<!-- shows for mobile -->

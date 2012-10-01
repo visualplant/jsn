@@ -40,7 +40,7 @@
 							<div class="quote-credit">Will Pinnel, DIR MOBILE STRATEGY<br />SABRE TRAVEL NETWORK</div>
 						</div>
 						<div class="quote-image">
-							<img src="/alias/images/traveal/willpinnell.jpg" valign="top" width="100%" alt="">
+							<img src="/images/traveal/willpinnell.jpg" valign="top" width="100%" alt="">
 						</div>
 						
 					</div>
@@ -52,7 +52,7 @@
 				<br clear="all"><br />
 
 				<div class="full-width-box">
-					<img src="/alias/images/traveal/traveal-combo.png" valign="top" width="100%" alt="">
+					<img src="/images/traveal/traveal-combo.png" valign="top" width="100%" alt="">
 				</div>
 			
 				
@@ -69,7 +69,7 @@
 					to catalyze creativity &mdash; simple, clear slides illustrating the product concept and top-level user
 					experience.
 					
-					<img src="/alias/images/traveal/traveal-directive.png" class="text-image" alt="Sketch from Sabre"> 
+					<img src="/images/traveal/traveal-directive.png" class="text-image" alt="Sketch from Sabre"> 
 
 				</div>
 
@@ -107,9 +107,9 @@
 				<div class="caption">Fig 1: Sketches: Very rough, very fast</div>
 				<div class="text-cols-2 body-text">
 
-					<img src="/alias/images/traveal/traveal-sketch.jpg" alt="Sketch"> 
+					<img src="/images/traveal/traveal-sketch.jpg" alt="Sketch"> 
 
-					<img src="/alias/images/traveal/traveal-sketch-map.jpg" alt="Sketch">
+					<img src="/images/traveal/traveal-sketch-map.jpg" alt="Sketch">
 
 				</div>
 
@@ -152,19 +152,19 @@
 					<div id="slideshow" class="flexslider loading">
           				<ul class="slides">
             				<li>
-							<img src="/alias/images/traveal/Traveal-Deals.png" />
+							<img src="/images/traveal/Traveal-Deals.png" />
 							</li>
 							<li>
-							<img src="/alias/images/traveal/Traveal-Hotels.png" />
+							<img src="/images/traveal/Traveal-Hotels.png" />
 							</li>
 							<li>
-							<img src="/alias/images/traveal/Traveal-Places.png" />
+							<img src="/images/traveal/Traveal-Places.png" />
 							</li>
 							<li>
-							<img src="/alias/images/traveal/Traveal-Choose-Dates.png" />
+							<img src="/images/traveal/Traveal-Choose-Dates.png" />
 							</li>
 							<li>
-							<img src="/alias/images/traveal/Traveal-Splash.png" />
+							<img src="/images/traveal/Traveal-Splash.png" />
 							</li>
 					  	</ul>
 					</div>
@@ -222,7 +222,7 @@
 				</div>
 				
 				<div class="full-width-box" style="text-align:center;margin-top:50px;margin-bottom:40px;">
-					<a href="/alias/mokini/" class="case-study-button">next case study &raquo;</a>
+					<a href="/mokini/" class="case-study-button">next case study &raquo;</a>
 				</div>
 				
 				<div class="section-divider">&nbsp;</div>

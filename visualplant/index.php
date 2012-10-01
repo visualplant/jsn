@@ -49,7 +49,7 @@
 					</div>
 
 					<div class="opener-image visualplant">
-						<img src="/alias/images/visualplant/vp-logo.png" alt="VISUALPLANT logo">
+						<img src="/images/visualplant/vp-logo.png" alt="VISUALPLANT logo">
 					</div>
 				
 				</div>
@@ -86,7 +86,7 @@
 					the initiative to innovate the publishing tools, 
 					to create a "Wordpress for video" at the opportune moment when the market was ready for it.
 					
-					<img src="/alias/images/visualplant/codec-soup.png" class="text-image" alt="Video codec craziness!"> 
+					<img src="/images/visualplant/codec-soup.png" class="text-image" alt="Video codec craziness!"> 
 		
 				</div>
 				
@@ -149,10 +149,10 @@
 					<div id="slideshow" class="flexslider loading">
           				<ul class="slides">
             				<li>
-							<img src="/alias/images/visualplant/player.jpg" />
+							<img src="/images/visualplant/player.jpg" />
 							</li>
 							<li>
-							<img src="/alias/images/visualplant/player-fullscreen.jpg" />
+							<img src="/images/visualplant/player-fullscreen.jpg" />
 							</li>
 					  	</ul>
 					</div>
@@ -186,12 +186,12 @@
 				<div class="full-width-box">
 				
 					<div class="caption">Fig 2: Title Manager</div>
-					<img src="/alias/images/visualplant/library.png" width="100%" alt="">
+					<img src="/images/visualplant/library.png" width="100%" alt="">
 					
 					<br clear="all"><br />
 				
 					<div class="caption">Fig 3: Custom reporting tool</div>
-					<img src="/alias/images/visualplant/impressionreporting.png" width="100%" alt="">
+					<img src="/images/visualplant/impressionreporting.png" width="100%" alt="">
 				
 				</div>
 				
@@ -220,7 +220,7 @@
 				<br clear="all">
 				
 				<div class="full-width-box">
-					<img src="/alias/images/visualplant/vp-diagram.png" width="100%" alt="">
+					<img src="/images/visualplant/vp-diagram.png" width="100%" alt="">
 				</div>
 				
 				<div class="section-divider">&nbsp;</div>
@@ -327,7 +327,7 @@
 				</div>
 				
 				<div class="full-width-box" style="text-align:center;margin-top:50px;margin-bottom:40px;">
-					<a href="/alias/traveal/" class="case-study-button">next case study &raquo;</a>
+					<a href="/traveal/" class="case-study-button">next case study &raquo;</a>
 				</div>
 				
 				<div class="section-divider">&nbsp;</div>

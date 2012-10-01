@@ -1,13 +1,16 @@
 <div class="header clearfix">
 	
-	<div class="top-logo"><a href="javascript:window.location = 'index.php'">alias</a></div>
+	<div class="top-logo"><a href="javascript:window.location = '/alias/'">alias</a></div>
 	
 	<div class="nav">
 		<ul class="menu" style="clear: both;">
-			<li><a href="about.php" <? if ($section=="about") { echo "class='active-globalsection'"; } else { echo "class='globalsection'"; } ?> id="desktop-menu-link">about</a></li>	
-			<li><a href="portfolio.php#case-studies" <? if ($section=="portfolio") { echo "class='active-globalsection'"; } else { echo "class='globalsection'"; } ?> id="desktop-menu-link">portfolio</a></li>		
+			
+			<!-- shows for desktop -->
+			<li><a href="/alias/about/" <? if ($section=="about") { echo "class='active-globalsection'"; } else { echo "class='globalsection'"; } ?> id="desktop-menu-link">about</a></li>	
+			<li><a href="/alias/portfolio/#case-studies" <? if ($section=="portfolio") { echo "class='active-globalsection'"; } else { echo "class='globalsection'"; } ?> id="desktop-menu-link">portfolio</a></li>		
 			<li><a href="http://blog.visualplant.net" <? if ($section=="blog") { echo "class='active-globalsection'"; } else { echo "class='globalsection'"; } ?> id="desktop-menu-link">blog</a></li>
 			
+			<!-- shows for mobile -->
 			<li><a href="#" class="globalsection" id="mobile-menu-link">menu</a></li>
 			
 		</ul>

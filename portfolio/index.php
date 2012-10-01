@@ -1,20 +1,20 @@
-<a name="moreprojects" id="moreprojects"><?php $section="about"; $page="about" ?>
+<a name="moreprojects" id="moreprojects"><?php $section="portfolio"; $page="portfolio" ?>
 
 <!doctype html>
 <html lang="en">
 
-<? include('includes/head.php') ?>
+<? include('../includes/head.php') ?>
 
 <body class="<?echo $section ?>">
 
-<? include('includes/mobile-menu.php') ?>
+<? include('../includes/mobile-menu.php') ?>
 
-<? include('includes/topbar.php') ?>
+<? include('../includes/topbar.php') ?>
 
 <div class="container animate-in">
 	<div class="row">
 	
-		<? include('includes/subnav.php') ?>
+		<? include('../includes/subnav.php') ?>
 		
 		<div class="tencol last">
 			
@@ -59,10 +59,9 @@
 				
 				<div class="full-width-box">
 					
-					<? include('includes/case-studies.php') ?>
+					<? include('../includes/case-studies.php') ?>
 					
 					<br clear="all" /><br />
-				
 
 					<div class="section-divider">&nbsp;</div>
 
@@ -71,8 +70,8 @@
 				
 				<div class="full-width-box">
 					
-					<? include('includes/more-projects.php') ?>
-
+					<? include('../includes/more-projects.php') ?>
+											
 					<br clear="all" />
 					<br /><br />
 						
@@ -90,25 +89,7 @@
 	</div> <!-- /row -->
 </div> <!-- /container -->
 
-<!-- drag div scroll -->
-<script type='text/javascript' src="js/dragdivscroll.js"></script>
-<script type='text/javascript'>
-new DragDivScroll('nestedScroll1');
-new DragDivScroll('nestedScroll2');
-new DragDivScroll('nestedScroll3');
-new DragDivScroll('nestedScroll4');
-new DragDivScroll('nestedScroll5');
-new DragDivScroll('nestedScroll6');
-new DragDivScroll('nestedScroll7');
-new DragDivScroll('nestedScroll8');
-new DragDivScroll('nestedScroll9');
-new DragDivScroll('nestedScroll10');
-new DragDivScroll('nestedScroll11');
-new DragDivScroll('nestedScroll12');
-</script>
-<!-- /drag div scroll -->
-
-<? include('includes/footer.php') ?>
+<? include('../includes/footer.php') ?>
 
 </body>
 

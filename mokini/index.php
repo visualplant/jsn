@@ -3,18 +3,18 @@
 <!doctype html>
 <html lang="en">
 
-<? include('includes/head.php') ?>
+<? include('../includes/head.php') ?>
 
 <body class="<?echo $section ?>">
 
-<? include('includes/mobile-menu.php') ?>
+<? include('../includes/mobile-menu.php') ?>
 
-<? include('includes/topbar.php') ?>
+<? include('../includes/topbar.php') ?>
 
 <div class="container animate-in">
 	<div class="row">
 	
-		<? include('includes/subnav.php') ?>
+		<? include('../includes/subnav.php') ?>
 		
 		<div class="tencol last">
 			<div class="box work">
@@ -28,7 +28,7 @@
 					</div>
 
 					<div class="opener-image" style="">
-						<img src="images/mokini/mokini-logo-card.png" alt="Mokini logo">
+						<img src="/alias/images/mokini/mokini-logo-card.png" alt="Mokini logo">
 					</div>
 				
 				</div>
@@ -56,7 +56,7 @@
 
 				<div class="text-cols body-text background-text">
 
-					After founding <a href="visualplant.php">Visualplant</a>, I wanted to join forces with co-founders for my next 
+					After founding <a href="/alias/visualplant/">Visualplant</a>, I wanted to join forces with co-founders for my next 
 					venture.
 					
 					<br /><br />
@@ -136,7 +136,7 @@
 						Fig 1: Users could add a myriad of source types &mdash; including RSS, Twitter and mailing lists &mdash; and vote to affect the trust index of each source. Users themselves were, in fact, sources with evolving influence.
 					</div>
 				
-					<img src="images/mokini/mokini-sources-new.png" alt="">
+					<img src="/alias/images/mokini/mokini-sources-new.png" alt="">
 					
 				</div>
 				
@@ -157,11 +157,11 @@
 				
 				<div class="full-width-box">
 				
-					<img src="images/mokini/philosophy.png" alt="">
+					<img src="/alias/images/mokini/philosophy.png" alt="">
 				
 					<br clear="all"><br /><br />
 					
-					<img src="images/mokini/news.png" alt="">
+					<img src="/alias/images/mokini/news.png" alt="">
 	
 				</div>
 				
@@ -180,7 +180,7 @@
 				
 				<div class="full-width-box">
 					
-					<img src="images/mokini/mokini-events-new.png" alt="">
+					<img src="/alias/images/mokini/mokini-events-new.png" alt="">
 					
 					<br clear="all"><br /><br />
 					
@@ -189,7 +189,7 @@
 						while the platform suggested related groups.
 					</div>
 					
-					<img src="images/mokini/mokini-start.png" alt="">
+					<img src="/alias/images/mokini/mokini-start.png" alt="">
 					
 
 				</div>
@@ -247,14 +247,14 @@
 				
 				
 				<div class="full-width-box" style="text-align:center;margin-top:50px;margin-bottom:40px;">
-					<a href="visualplant.php" class="case-study-button">next case study &raquo;</a>
+					<a href="/alias/visualplant/" class="case-study-button">next case study &raquo;</a>
 				</div>
 				
 				<div class="section-divider">&nbsp;</div>
 				
 				<div class="full-width-box">
 					
-					<? include('includes/more-projects.php') ?>
+					<? include('../includes/more-projects.php') ?>
 					
 					<br clear="all" /><br />
 					
@@ -267,25 +267,7 @@
 	</div> <!-- /row -->
 </div> <!-- /container -->
 
-<!-- drag div scroll -->
-<script type='text/javascript' src="js/dragdivscroll.js"></script>
-<script type='text/javascript'>
-new DragDivScroll('nestedScroll1');
-new DragDivScroll('nestedScroll2');
-new DragDivScroll('nestedScroll3');
-new DragDivScroll('nestedScroll4');
-new DragDivScroll('nestedScroll5');
-new DragDivScroll('nestedScroll6');
-new DragDivScroll('nestedScroll7');
-new DragDivScroll('nestedScroll8');
-new DragDivScroll('nestedScroll9');
-new DragDivScroll('nestedScroll10');
-new DragDivScroll('nestedScroll11');
-new DragDivScroll('nestedScroll12');
-</script>
-<!-- /drag div scroll -->
-
-<? include('includes/footer.php') ?>
+<? include('../includes/footer.php') ?>
 
 </body>
 

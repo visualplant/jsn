@@ -1,0 +1,49 @@
+<div class="header clearfix">
+	
+	<div class="top-logo"><a href="javascript:window.location = '/'">alias</a></div>
+	
+	<div class="nav">
+		<ul class="menu" style="clear: both;">
+			
+			<!-- shows for desktop -->
+			<li><a href="/about/" 
+			
+				{% if page.section == 'about' %}
+					class="active-globalsection" 
+				{% else %}
+					class="globalsection"
+				{% endif %}
+			
+				id="desktop-menu-link">about</a>
+			</li>
+			
+			<li><a href="/portfolio/#case-studies" 
+
+				{% if page.section == 'portfolio' %}
+					class="active-globalsection" 
+				{% else %}
+					class="globalsection"
+				{% endif %}
+
+				id="desktop-menu-link">portfolio</a>
+			</li>
+					
+			<li><a href="http://blog.visualplant.net" 
+			
+				 {% if page.section == 'blog' %}
+				 	class="active-globalsection" 
+				 {% else %}
+				 	class="globalsection"
+				 {% endif %}
+				
+				id="desktop-menu-link">blog</a>
+			</li>
+			
+			<!-- shows for mobile -->
+			<li><a href="#" class="globalsection" id="mobile-menu-link">menu</a></li>
+			
+		</ul>
+	</div>
+
+</div>
+

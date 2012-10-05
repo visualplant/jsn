@@ -1,0 +1,37 @@
+<div id="mobile-menu" style="display:none;">
+
+	<ul style="text-align: center;">
+		<a href="/about/"><li 
+		
+			{% if page.section == 'about' %}
+				class="mobile-menu-item-active"
+			{% else %}
+				class="mobile-menu-item"
+			{% endif %}
+
+		>about</li></a>
+		
+		<a href="/portfolio/"><li 
+		
+			{% if page.section == 'portfolio' %}
+				class="mobile-menu-item-active"
+			{% else %}
+				class="mobile-menu-item"
+			{% endif %}
+		
+		>portfolio</li></a>
+				
+		<a href="http://blog.visualplant.net"><li 
+		
+			{% if page.section == 'blog' %}
+				class="mobile-menu-item-active"
+			{% else %}
+				class="mobile-menu-item"
+			{% endif %}
+		
+		>blog</li></a>
+
+		<a href="mailto:jsn@visualplant.net"><li class="mobile-menu-item">contact</li></a>
+	</ul>
+
+</div>

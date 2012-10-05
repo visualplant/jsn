@@ -1,0 +1,36 @@
+---
+layout: base
+---
+{% include mobile-menu.html %}
+{% include header.html %}
+
+<div class="container animate-in">
+	<div class="row">
+	
+		{% include nav.html %}
+
+		{{ content }}
+		
+	</div> <!-- /row -->
+</div> <!-- /container -->
+
+{% include footer.html %}
+
+<!-- Flexslider -->
+<script type="text/javascript">
+    $(window).load(function(){
+      $('.flexslider').flexslider({
+        animation: "slide",
+        animationLoop: true,
+        slideshow: false, // start automatically?
+        start: function(slider){
+          $('#slideshow').removeClass('loading');
+        }
+      });
+    });
+</script>
+
+<!--  
+{{ page.title }}
+{{ page.date }}
+-->

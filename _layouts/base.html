@@ -20,8 +20,18 @@
 <!-- Icon fonts -->
 <link rel="stylesheet" href="/assets/css/icons.css" />
 
+<!-- Articles styles -->
+{% if page.section == 'articles' %}
+<link rel="stylesheet" href="/assets/css/articles.css" type="text/css" media="screen" />
+{% else %}
+
+{% endif %}
+
 <!-- Flex Slider -->
 <link rel="stylesheet" href="/assets/css/flexslider.css" type="text/css" media="screen" />
+
+<!-- Filter Portfolio -->
+<link rel="stylesheet" href="/assets/css/filter-portfolio.css" type="text/css" media="screen" />
 
 <!-- Animate.css -->
 <link rel="stylesheet" href="/assets/css/animate.min.css" type="text/css" media="screen" />
@@ -35,7 +45,7 @@
 
 </head>
 
-<body class="{{ page.section }}">
+<body class="{{ page.section }}" data-spy="scroll" data-target=".sidebar">
   {{ content }}
 </body>
 

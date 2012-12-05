@@ -1,0 +1,101 @@
+---
+layout: articles
+title: articles
+---
+
+<div class="container animate-in">
+	<div class="row">
+	
+		<div class="onecol"></div>
+	
+		<div class="elevencol last">			
+			<div class="box">
+				
+				<div style="margin-left: 15px;margin-top: 70px;">
+				
+				
+				<div class="opener-portfolio project-name">
+					Recently
+				</div>
+
+
+					<div class="wrapper cf">
+					
+						<div id="articles">
+						
+							{% for post in site.posts limit:15 offset:0 %}
+				
+							<article>
+								<a href="{{ post.url }}">
+									<h1>{{ post.title }}</h1>
+									<time datetime="{{ post.date | date_to_xmlschema }}" pubdate>{{ post.date | date_to_string }}</time> 
+									<p>{{ post.description }} ({{ post.content | number_of_words }} words)</p>
+								</a>
+							</article>
+							
+							{% endfor %}
+	
+						</div>
+						
+					</div>
+	
+	
+
+				<!--					
+					{% for post in site.posts limit:15 offset:0 %}
+						
+					<article>
+					
+						<a href="{{ post.url }}">
+						
+							<h1>{{ post.title }}</h1>
+							<time datetime="{{ post.date | date_to_xmlschema }}" pubdate>{{ post.date | date_to_string }}</time>
+							<p>{{ post.description }} ({{ post.content | number_of_words }} words)</p>
+
+						</a>
+						
+					</article>
+				
+	
+					{% endfor %}
+				-->
+
+				
+				<!--<div class="headline opener-portfolio">
+					Classics
+				</div>
+
+				<ul style="list-style-type: none;">
+					{% for post in site.posts offset:4 limit:2 %}
+						<li>
+						
+						<a href="{{ post.url }}" class="articles-link">
+						<div style="margin-left: 20px;margin-right: 50px;margin-bottom: 30px;">
+							<span style="font-size:2.4em;color:#aaa;margin-right:40px;" aria-hidden="true" data-icon="{{ post.thumbnail }}"></span>
+							<span style="position: relative;top: -10px;font-size: 18px;font-weight: bold;">{{ post.title }}</span>
+							<span class="credit-startpage" style="position: relative;top: -11px;margin-left: 30px;">{{ post.date | date: "%B %d, %Y" }}</span>
+							 
+						</div>
+						</a>
+						
+						</li>
+					{% endfor %}
+				</ul>-->
+				
+				
+				
+				
+				<br /><br />
+				</div>
+
+				
+			</div>
+		</div>
+						
+	</div> <!-- /row -->
+</div> <!-- /container -->
+
+
+
+
+

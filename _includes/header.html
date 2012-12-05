@@ -1,6 +1,6 @@
 <div class="header clearfix">
 	
-	<div class="top-logo"><a href="javascript:window.location = '/'">alias</a></div>
+	<div class="top-logo"><a href="/">alias</a></div>
 	
 	<div class="nav">
 		<ul class="menu" style="clear: both;">
@@ -17,7 +17,7 @@
 				id="desktop-menu-link">about</a>
 			</li>
 			
-			<li><a href="/portfolio/#case-studies" 
+			<li><a href="/portfolio/" 
 
 				{% if page.section == 'portfolio' %}
 					class="active-globalsection" 
@@ -25,18 +25,18 @@
 					class="globalsection"
 				{% endif %}
 
-				id="desktop-menu-link">portfolio</a>
+				id="desktop-menu-link"><span class="work-with-project-name ">work</span><span class="project-name-in-header">: {{ page.title }}</span></a>
 			</li>
 					
-			<li><a href="http://blog.visualplant.net" 
+			<li><a href="/articles/" 
 			
-				 {% if page.section == 'blog' %}
+				 {% if page.section == 'articles' %}
 				 	class="active-globalsection" 
 				 {% else %}
 				 	class="globalsection"
 				 {% endif %}
 				
-				id="desktop-menu-link">blog</a>
+				id="desktop-menu-link">articles</a>
 			</li>
 			
 			<!-- shows for mobile -->
@@ -46,4 +46,3 @@
 	</div>
 
 </div>
-

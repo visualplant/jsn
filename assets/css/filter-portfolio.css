@@ -1,0 +1,253 @@
+/*_*/
+
+/* Fix for +/~ selectors in webkit */
+@-webkit-keyframes bugfix { from { padding: 0; } to { padding: 0; } }
+.b-filter {
+	-webkit-animation: bugfix infinite 1s;
+}
+
+
+.b-list {
+	position: relative;
+	z-index: 9;
+	padding-top: 30px;
+}
+
+.b-list-item {
+	-webkit-transition: all .3s ease;
+	   -moz-transition: all .3s ease;
+	     -o-transition: all .3s ease;
+	        transition: all .3s ease;
+}
+
+
+/* Meta
+---------------------*/
+.b-filter-meta {
+	position: fixed;
+	top: 0;
+	left: -99px;
+	}
+
+/* Hide elements */
+input.b-filter-meta#ShapeRound:checked ~ .b-list > .b-list-item_square,
+input.b-filter-meta#ShapeRound:checked ~ .b-list > .b-list-item_triangle,
+input.b-filter-meta#ShapeSquare:checked ~ .b-list > .b-list-item_round,
+input.b-filter-meta#ShapeSquare:checked ~ .b-list > .b-list-item_triangle,
+input.b-filter-meta#ShapeTriangle:checked ~ .b-list > .b-list-item_square,
+input.b-filter-meta#ShapeTriangle:checked ~ .b-list > .b-list-item_round,
+.b-filter-meta[id^=Color]:checked ~ .b-list > .b-list-item {
+
+	opacity: 0.2;
+	-webkit-transform: scale(0.8);
+	-moz-transform: scale(0.8);
+	-ms-transform: scale(0.8);
+	transform: scale(0.8);
+	}
+
+/* Show elements */
+.b-filter-meta#ColorRed:checked ~ .b-list > .b-list-item_red,
+.b-filter-meta#ColorBlue:checked ~ .b-list > .b-list-item_blue,
+.b-filter-meta#ColorYellow:checked ~ .b-list > .b-list-item_yellow,
+.b-filter-meta#ColorBlack:checked ~ .b-list > .b-list-item_black,
+.b-filter-meta#ColorGreen:checked ~ .b-list > .b-list-item_green,
+.b-filter-meta#ColorWhite:checked ~ .b-list > .b-list-item_white {
+
+	opacity: 1;
+	-webkit-transform: scale(1.2);
+	-moz-transform: scale(1.2);
+	-ms-transform: scale(1.2);
+	transform: scale(1.2);
+
+	}
+
+
+.b-filter-checks .b-filter-label {
+	float:left;
+	color: #333;
+	display: inline-block;
+	text-transform:uppercase;
+	font-size:0.7em;
+	letter-spacing: 0.05em;
+	margin-right: 4px;
+	margin-bottom: 4px;
+	padding-top: 4px;
+	padding-bottom: 3px;
+	padding-right: 10px;
+	padding-left: 10px;
+	background-color: #eee;
+	-moz-border-radius: 20px; /* FF1+ */
+	-webkit-border-radius: 20px; /* Saf3-4 */
+	border-radius: 20px; /* Opera 10.5, IE 9, Saf5, Chrome */
+	text-shadow: 0px 2px 3px #fff;
+	cursor: pointer;
+	}
+
+		
+.b-filter-controls {
+	
+}
+
+
+/* Active state for multi-selects */
+.b-filter-meta#ColorRed:checked ~ .b-filter-controls .b-filter-label[for=ColorRed],
+.b-filter-meta#ColorBlue:checked ~ .b-filter-controls .b-filter-label[for=ColorBlue],
+.b-filter-meta#ColorYellow:checked ~ .b-filter-controls .b-filter-label[for=ColorYellow],
+.b-filter-meta#ColorBlack:checked ~ .b-filter-controls .b-filter-label[for=ColorBlack],
+.b-filter-meta#ColorGreen:checked ~ .b-filter-controls .b-filter-label[for=ColorGreen],
+.b-filter-meta#ColorWhite:checked ~ .b-filter-controls .b-filter-label[for=ColorWhite] {
+
+	color: #fff;
+	text-shadow: none;
+	background-color: #aaa;	
+
+}
+	
+/* Active state for mutually-excusive selections */
+.b-filter-meta#ColorRed:checked ~ .b-filter-controls .b-filter-label[for=ColorRed]:before,
+.b-filter-meta#ColorBlue:checked ~ .b-filter-controls .b-filter-label[for=ColorBlue]:before,
+.b-filter-meta#ColorYellow:checked ~ .b-filter-controls .b-filter-label[for=ColorYellow]:before,
+.b-filter-meta#ColorBlack:checked ~ .b-filter-controls .b-filter-label[for=ColorBlack]:before,
+.b-filter-meta#ColorGreen:checked ~ .b-filter-controls .b-filter-label[for=ColorGreen]:before,
+.b-filter-meta#ColorWhite:checked ~ .b-filter-controls .b-filter-label[for=ColorWhite]:before {
+	text-shadow: none;
+	}
+
+
+/* Radiobuttons */
+.b-filter-radios {
+	position: relative;
+	display: inline-block;
+	min-width: 253px;
+	margin-bottom: 10px;
+	-webkit-user-select: none;
+	   -moz-user-select: none;
+	     -o-user-select: none;
+	        user-select: none;
+	}
+	
+.b-filter-radios .b-filter-label {
+	position: relative;
+	z-index: 9;
+	display: inline-block;
+	cursor: pointer;
+	color: #000;
+	padding-top: 4px;
+	padding-bottom: 3px;
+	padding-right: 10px;
+	padding-left: 10px;
+	background-color: #eee;
+	color: #333;
+	text-transform:uppercase;
+	font-size:0.7em;
+	letter-spacing: 0.05em;
+	text-shadow: 0px 2px 3px #fff;
+	}
+
+.b-filter-radios .b-filter-label:first-child {
+	padding-left: 1em;
+	-webkit-border-radius: 1em 0 0 1em;
+	   -moz-border-radius: 1em 0 0 1em;
+	        border-radius: 1em 0 0 1em;
+	        margin-right: -3px;
+	}
+	
+.b-filter-radios .b-filter-label:nth-last-child(2) {
+	padding-right: 1em;
+	-webkit-border-radius: 0 1em 1em 0;
+	   -moz-border-radius: 0 1em 1em 0;
+	        border-radius: 0 1em 1em 0;
+	        margin-left: -3px;
+	}
+	
+.b-filter-radios .b-filter-label_none {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 8;
+	width: 100%;
+	height: 100%;
+	cursor: pointer;
+	}
+
+
+.b-filter-meta#ShapeRound:checked ~ .b-filter-controls .b-filter-label[for=ShapeRound],
+.b-filter-meta#ShapeSquare:checked ~ .b-filter-controls .b-filter-label[for=ShapeSquare],
+.b-filter-meta#ShapeTriangle:checked ~ .b-filter-controls .b-filter-label[for=ShapeTriangle] {
+	z-index: 7;
+	color: #FFF;
+	background-color: #aaa;
+	text-shadow: none;
+	}
+
+.b-filter-reset {
+	position: relative;
+	top: 0;
+	display: inline-block;
+	-webkit-box-sizing: content-box;
+	   -moz-box-sizing: content-box;
+			box-sizing: content-box;
+	padding: 0;
+	background-color: transparent;
+	border: solid transparent;
+	cursor: pointer;
+	text-decoration: none;
+	color: #333;
+
+	-webkit-user-select: none;
+	   -moz-user-select: none;
+	     -o-user-select: none;
+	        user-select: none;
+	-webkit-transition: all .3s ease;
+	   -moz-transition: all .3s ease;
+	     -o-transition: all .3s ease;
+	        transition: all .3s ease;
+
+	-moz-appearance: none;
+	}
+	
+	.b-filter-reset::-moz-focus-inner {
+		border: none;
+		}
+		
+	.b-filter-reset:before {
+		content: "";
+		width: 1em;
+		height: 1em;
+		
+
+		}
+	.b-filter-reset:after {
+		content: "";
+		}
+.b-filter-meta:not(#ShapeNone):checked ~ .b-filter-reset {
+	top: -1px;
+	}
+
+/* ============================= */
+/* ! Layout for tablet version   */
+/* ============================= */
+
+@media handheld, only screen and (min-width: 481px) and (max-width: 766px) {
+
+	.b-filter-reset {
+		top: 8px;
+	}
+
+}
+
+	
+/* ============================= */
+/* ! Layout for mobile version   */
+/* ============================= */
+
+@media handheld, only screen and (max-width: 480px) {
+
+	.b-filter-controls {
+		margin-top: 0;
+		text-align: center;
+	}
+	
+	.b-filter-reset {
+		top: 13px;
+	}

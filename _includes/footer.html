@@ -35,11 +35,6 @@
 <!-- jQuery -->
 <script src="/assets/js/jquery.min.js"></script>
 
-<!-- scrollto -->
-<script type='text/javascript' src='/assets/js/jquery.scrollTo-min.js'></script>
-<script type='text/javascript' src='/assets/js/jquery.localscroll-min.js'></script>
-<script type='text/javascript' src='/assets/js/init.js'></script>
-
 <!-- FlexSlider -->
 <script defer src="/assets/js/jquery.flexslider-min.js"></script>
 
@@ -58,6 +53,10 @@ $(document).ready(function() {
 	$('.fancybox').fancybox({
         padding : 20,
         openEffect  : 'elastic'
+       // maxWidth : 300,
+       // maxHeight : 300,
+       // padding : 40,
+       // closeBtn : false
     });
     
     //mobile menu
@@ -73,6 +72,17 @@ $(document).ready(function() {
     });
 	
 });
+</script>
+
+<!-- Animate scroll to page ids -->
+<script src="/assets/js/jquery-ui-1.9.0.custom.min.js"></script>
+<script src="/assets/js/jquery.malihu.PageScroll2id.js"></script>
+<script>
+    (function($){
+        $(window).load(function(){
+            $("a[rel='m_PageScroll2id']").mPageScroll2id();
+        });
+    })(jQuery);
 </script>
 
 {% include google-analytics.html %}

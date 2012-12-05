@@ -4,15 +4,7 @@ layout: base
 {% include mobile-menu.html %}
 {% include header.html %}
 
-<div class="container animate-in">
-	<div class="row">
-	
-		{% include nav.html %}
-
-		{{ content }}
-		
-	</div> <!-- /row -->
-</div> <!-- /container -->
+{{ content }}
 
 {% include footer.html %}
 
@@ -28,5 +20,24 @@ layout: base
         }
       });
     });
+</script>
+
+<script src="/assets/js/bootstrap-scrollspy.js"></script>
+
+<script type="text/javascript" src="/assets/js/waypoints.min.js"></script>
+<script type="text/javascript">
+	$('.project-name').waypoint(function(event, direction) {
+	   	$('.project-name-in-header').toggleClass('show-it', 300);
+	   	$('.work-with-project-name').toggleClass('dim-it', 100);
+	}, {
+		offset: 0
+	});
+</script>
+
+<script type="text/javascript">
+$('#filter-btn').click(function() {
+  $('.b-filter-controls').slideToggle('fast', function() {
+  });
+});
 </script>
 

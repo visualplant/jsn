@@ -1,0 +1,132 @@
+select {
+	font-size: 12px;
+	height: 20px; 
+	width: 100%;
+}
+
+.heatmap-legend {
+	background-image: -moz-linear-gradient(left, #8C0000, #FFFF11);
+	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#8C0000), to(#FFFF11));
+	background-image: -webkit-linear-gradient(left, #8C0000, #FFFF11);
+	background-image: -o-linear-gradient(left, #8C0000, #FFFF11);
+	background-image: linear-gradient(to right, #8C0000, #FFFF11);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#8C0000', endColorstr='#FFFF11', GradientType=0);
+	filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+	background-repeat: repeat-x;
+	-webkit-border-radius: 4px;
+	   -moz-border-radius: 4px;
+	        border-radius: 4px;
+	height: 8px;
+	width: 100%;
+	margin-bottom: 6px;
+}
+
+.hm-r00to04 {
+	background-color:#FFFF11;
+}
+.hm-r05to09 {
+	background-color:#FBF500;			
+}
+.hm-r10to14 {
+	background-color:#F5E700;			
+}
+.hm-r15to19 {
+	background-color:#F1DA00;			
+}
+.hm-r20to24 {
+	background-color:#EBCC00;			
+}
+.hm-r25to29 {
+	background-color:#E5BE00;		
+}
+.hm-r30to34 {
+	background-color:#E0B101;				
+}
+.hm-r35to39 {
+	background-color:#DFA100;
+	color: #fff;			
+}
+.hm-r40to44 {
+	background-color:#D69600;
+	color: #fff;	
+}
+.hm-r45to49 {
+	background-color:#D08800;
+	color: #fff;				
+}
+.hm-r50to54 {
+	background-color:#CB7B00;
+	color: #fff;				
+}
+.hm-r55to59 {
+	background-color:#C56D01;
+	color: #fff;			
+}
+.hm-r60to64 {
+	background-color:#C05F00;
+	color: #fff;				
+}
+.hm-r65to69 {
+	background-color:#BB5200;
+	color: #fff;			
+}
+.hm-r70to74 {
+	background-color:#B54400;
+	color: #fff;			
+}
+.hm-r75to79 {
+	background-color:#AF3601;
+	color: #fff;			
+}
+.hm-r80to84 {
+	background-color:#A92800;
+	color: #fff;			
+}
+.hm-r85to89 {
+	background-color:#A31A07;
+	color: #fff;			
+}
+.hm-r90to94 {
+	background-color:#A00E01;
+	color: #fff;			
+}
+.hm-r95to100 {
+	background-color:#8C0000;
+	color: #fff;			
+}
+
+.top-offenders:hover {
+	background-color: #eee;
+	color: #990000;
+}
+
+.top-offenders {
+	color: #fff;
+}
+
+.top-offenders-rank {
+	width: 3%;
+	float: left;
+} 
+
+.top-offenders-entity {
+	width: 82%;
+	float: left;
+}
+
+.top-offenders-sanctions {
+	width: 15%;
+	float: right;
+	text-align: right;
+}
+
+.top-offenders-inner {
+	background-color: #eee;
+	color: #000;
+}
+
+.matter-crit {
+	max-width: 25px;
+	overflow: hidden;
+}
+

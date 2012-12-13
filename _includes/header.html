@@ -25,7 +25,7 @@
 					class="globalsection"
 				{% endif %}
 
-				id="desktop-menu-link"><span class="work-with-project-name ">work</span><span class="project-name-in-header">: {{ page.title }}</span></a>
+				id="desktop-menu-link"><span class="work-with-project-name ">work</span>{% if page.title == 'work' %}{% else %}<span class="project-name-in-header">: {{ page.title }}</span>{% endif %}</a>
 			</li>
 					
 			<li><a href="/articles/" 

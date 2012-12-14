@@ -135,6 +135,11 @@ img::-moz-selection {
 body {
   -webkit-tap-highlight-color: #e8d174;
 }
+
+#articles h1, #articles p {
+  color: #333;
+}
+
 #content header h1, #content header p {
   text-shadow: 0 0 0.0625em #0c090f;
 }
@@ -413,7 +418,7 @@ figcaption {
 #articles time, .readingTime {
   position: absolute;
   right: 0;
-  top: 0.75em;
+  top: 0.85em;
 }
 #articles p, .readingTime {
   display: none;
@@ -682,7 +687,7 @@ figcaption {
   }
   
   #articles h1:hover {
-    color: #ff0000;
+    color: #ff0099;
   }
   
   

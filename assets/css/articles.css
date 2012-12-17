@@ -78,9 +78,7 @@ small {
 #articles h1 {
   font-size: 1.375em;
 }
-#articles time {
-  margin-top: 3px;
-}
+
 #logo h1, #articles h1, h3 {
   font-weight: bold;
 }
@@ -429,9 +427,6 @@ figcaption {
   top: 0.75em;
 }
 
-#articles time {
-  padding-top: 3px;
-}
 
 #articles p, .readingTime {
   display: none;
@@ -460,6 +455,17 @@ figcaption {
   list-style: none;
   padding: 0.75em 0 0;
 }
+
+#articles time {
+  font-size: 0.95em;
+  top: 1.0em;
+}
+
+#articles h1 {
+  font-size: 1.2em;
+  line-height: 1.1em;
+}
+
 
 /* "Micro clearfix" */
        
@@ -532,6 +538,19 @@ figcaption {
     display: block;
   }
  
+ #articles h1 {
+   font-size: 1.375em;
+ }
+ 
+ #articles time {
+   font-size: 0.95em;
+   top: 1.0em;
+ }
+ 
+ #articles p {
+   font-size: 0.9em;
+   color: #666;
+ }
   
   .readingTime {
     top: 2.769230769230769em;
@@ -569,7 +588,6 @@ figcaption {
     padding-right: 10.5em;
   }
   #articles time {
-  	padding-top: 10px;
     width: 9em;
   }
   .readingTime {
@@ -593,8 +611,11 @@ figcaption {
   #articles h1 {
     font-size: 1.375em;
   }
+  #articles time {
+    font-size: 0.95em;
+  }
   #articles p {
-    font-size: 1.0em;
+    font-size: 0.9em;
     color: #666;
   }
   
@@ -731,7 +752,7 @@ figcaption {
   
   #articles time {
     font-size: 1.0em;
-    padding-top: 0;
+    margin-top: -1px;
   }
   
   #articles time, .readingTime {

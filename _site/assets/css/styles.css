@@ -147,7 +147,13 @@ a:hover.articles-link {
 
 
 
+h2 {
+    color:#39434c;
+}
 
+strong {
+	color:#39434c;
+}
 
 #mobile-menu-link {
 	display: none;
@@ -845,7 +851,7 @@ a:active.portal2 {
 .about-button {
 	text-align: center;
 	padding: 6px;
-	background-color: #aaa;
+	background-color: #333;
 	color: #fff;
 	border-radius: 20px;
 	width: 100px;
@@ -854,7 +860,7 @@ a:active.portal2 {
 }	
 
 .about-button:active {
-	background-color: #999;
+	background-color: #000;
 	color: #fff; 
 }
 

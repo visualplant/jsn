@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Serial Entrepreneur
+title: Serial entrepreneur
 description: Be a little insulted.
 readingtime: 1 minute
 thumbnail: &#x4b;

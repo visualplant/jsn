@@ -37,18 +37,20 @@ pre {
 strong {
   font-weight: bold;
 }
+
 /*	
 
 	Type presets
 
 */
 #content header h1 {
+ margin-top: 30px;
   font-size: 2.625em;
   line-height: 1.1428571428571428em;
 }
 #content header p, h2 {
   font-size: 1.625em;
-  line-height: 1.3846153846153846em;
+  line-height: 1.1em;
 }
 
 h1,
@@ -64,14 +66,12 @@ small {
   font-size: 0.8125em;
   line-height: 1.3846153846153846em;
 }
-/*	
+/*
 
 	Typography
 
 */
-#content header h1 {
-  font-family: etica, sans-serif;
-}
+
 #articles h1:hover {
   color: #ff0099;
 }
@@ -146,16 +146,13 @@ body {
   color: #333;
 }
 
-#content header h1, #content header p {
-  text-shadow: 0 0 0.0625em #0c090f;
-}
 #content h1,
 h2,
 h3,
 code,
 #content header p,
 strong {
-  color: #d9d2b8;
+  color: #333;
 }
 time,
 .byline,
@@ -258,24 +255,7 @@ figcaption {
   -ms-transform: scale(1.15);
   transform: scale(1.15);
 }
-#articles a:hover, .links a:hover {
-  -webkit-transform: scale(1.09);
-  -moz-transform: scale(1.09);
-  -ms-transform: scale(1.09);
-  transform: scale(1.09);
-}
-#masthead a:active, #articles a:active, .links a:active {
-  -webkit-transform: scale(1);
-  -moz-transform: scale(1);
-  -ms-transform: scale(1);
-  transform: scale(1);
-}
-.links a, #articles a {
-  -webkit-transform-origin: left center;
-  -moz-transform-origin: left center;
-  -ms-transform-origin: left center;
-  transform-origin: left center;
-}
+
 
 /*	
 
@@ -530,10 +510,7 @@ figcaption {
   }
   
   /* adjustment to compensate for container p in main styles  */
-    #articles p {
-      margin-left: -10px;
-    }
-    
+
   #articles p, .readingTime {
     display: block;
   }
@@ -619,6 +596,25 @@ figcaption {
     color: #666;
   }
   
+  #articles a:hover, .links a:hover {
+    -webkit-transform: scale(1.09);
+    -moz-transform: scale(1.09);
+    -ms-transform: scale(1.09);
+    transform: scale(1.09);
+  }
+  #masthead a:active, #articles a:active, .links a:active {
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+  }
+  .links a, #articles a {
+    -webkit-transform-origin: left center;
+    -moz-transform-origin: left center;
+    -ms-transform-origin: left center;
+    transform-origin: left center;
+  }
+  
 }
 /*	
 
@@ -647,6 +643,43 @@ figcaption {
     font-size: 0.9em;
   }
   
+  #articles a:hover, .links a:hover {
+    -webkit-transform: scale(1.09);
+    -moz-transform: scale(1.09);
+    -ms-transform: scale(1.09);
+    transform: scale(1.09);
+  }
+  #masthead a:active, #articles a:active, .links a:active {
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+  }
+  .links a, #articles a {
+    -webkit-transform-origin: left center;
+    -moz-transform-origin: left center;
+    -ms-transform-origin: left center;
+    transform-origin: left center;
+  }
+  
+  #articles a:hover, .links a:hover {
+    -webkit-transform: scale(1.09);
+    -moz-transform: scale(1.09);
+    -ms-transform: scale(1.09);
+    transform: scale(1.09);
+  }
+  #masthead a:active, #articles a:active, .links a:active {
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+  }
+  .links a, #articles a {
+    -webkit-transform-origin: left center;
+    -moz-transform-origin: left center;
+    -ms-transform-origin: left center;
+    transform-origin: left center;
+  }
   
 }
 /*	
@@ -662,6 +695,8 @@ figcaption {
     width: 56em;
     max-width: none;
   }
+ 
+  
   #content p,
   #content ul,
   #content ol,
@@ -757,11 +792,35 @@ figcaption {
   
   #articles time, .readingTime {
     right: auto;
-    left: 0;
+    left: 2px;
     top: 1.84em;
   }
   .readingTime {
     top: 3.230769230769231em;
+  }
+  
+  #articles a:hover, .links a:hover {
+    -webkit-transform: scale(1.09);
+    -moz-transform: scale(1.09);
+    -ms-transform: scale(1.09);
+    transform: scale(1.09);
+  }
+  #masthead a:active, #articles a:active, .links a:active {
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+  }
+  .links a, #articles a {
+    -webkit-transform-origin: left center;
+    -moz-transform-origin: left center;
+    -ms-transform-origin: left center;
+    transform-origin: left center;
+  }
+
+  .hentry {
+  	position: relative;
+  	left: -50px;
   }
 
 }

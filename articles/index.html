@@ -9,37 +9,34 @@ title: articles
 		<div class="onecol"></div>
 	
 		<div class="elevencol last">			
-			<div class="box">
+			<div class="box work">
 				
 				
 				<div class="opener-portfolio project-name">
-					Recently
+					On product design
 				</div>
 				
 				<br />
 
-
-					<div class="wrapper cf">
-					
-						<div id="articles">
-						
-							{% for post in site.posts limit:15 offset:0 %}
+				<div class="wrapper cf">
 				
-							<article>
-								<a href="{{ post.url }}">
-									<h1>{{ post.title }}</h1>
-									<time datetime="{{ post.date | date_to_xmlschema }}" pubdate>{{ post.date | date_to_string }}</time> 
-									<p>{{ post.description }} ({{ post.content | number_of_words }} words)</p>
-								</a>
-							</article>
-							
-							{% endfor %}
-	
-						</div>
+					<div id="articles">
+					
+						{% for post in site.posts limit:15 offset:0 %}
+			
+						<article>
+							<a href="{{ post.url }}">
+								<h1 style="line-height: 1.0em;">{{ post.title }}</h1>
+								<time datetime="{{ post.date | date_to_xmlschema }}" pubdate>{{ post.date | date_to_string }}</time> 
+								<p style="margin-top: 10px;">{{ post.description }} ({{ post.content | number_of_words }} words)</p>
+							</a>
+						</article>
 						
+						{% endfor %}
+
 					</div>
-	
-	
+					
+				</div>
 
 				<!--					
 					{% for post in site.posts limit:15 offset:0 %}
@@ -81,10 +78,7 @@ title: articles
 						</li>
 					{% endfor %}
 				</ul>-->
-				
-				
-				
-				
+
 				<br /><br />
 
 				

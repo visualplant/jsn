@@ -29,7 +29,8 @@ body.portfolio {
 
 body.articles {
 
-	background-color: #fff;
+	background: url("/assets/images/network-bg.png");
+	background-attachment:fixed;
 
 }
 
@@ -232,8 +233,6 @@ strong {
 
 
 .container p {
-	padding-top: 10px;
-	padding-left: 10px;
 	padding-right: 10px;
 	padding-bottom: 6px;
 }
@@ -328,7 +327,6 @@ a:hover.active-globalsection {
 }
 
 .credit-startpage { 
-	text-align:center;
 	text-transform:uppercase;
 	color:#999;
 	font-size:0.75em;
@@ -498,6 +496,23 @@ a:hover.active-globalsection {
 	text-shadow: 0px 2px 3px #fff;
 	font-weight:bold;
 	line-height:1.5em;
+}
+
+.headline-page {
+	margin-top:60px;
+	font-size:2.6em;
+	line-height:1.3em;
+	font-weight:bold;
+	color:#39434c;
+	text-shadow: 0px 2px 3px #fff;
+}
+
+.subhead { 
+	font-size: 1.6em;
+	color:#39434c;
+	text-shadow: 0px 2px 3px #fff;
+	font-weight: normal;
+	line-height:1.2em;
 }
 
 .opener-row { 

@@ -13,25 +13,36 @@ section: articles
 		
 			<div class="elevencol last">			
 				<div class="box work">
+
+
+								
+						<div class="headline-page">{{ page.title }}</div>
+						<div class="subhead">{{ page.description }}</div>
 	
-	
-					<article id="content" class="hentry">
-					
-						<header>
-							<div>
-								<h1 class="entry-title">{{ page.title }}</h1>
-								<p>Using media queries to make a clean break from legacy browsers.</p>
-							</div>
-						</header>
 						
-						<div class="wrapper">
-							<div class="entry-content">
+						<br clear="all" /><br />
+						
 							
-								{{ content }}
-						
+							<div class="twocol">
+								<div class="credit-startpage">Reading time</div>
+								<div class="credit-startpage">{{ page.readingtime }}</div>
+								
+								<br /><br />
 							</div>
+	
+							<div class="eightcol body-text" style="margin-top: -4px;">{{ content }}</div>
+							
+							<div class="twocol last">
+								<div class="credit-startpage">Posted on</div> 
+
+								
+								<time datetime="{{ page.date | date_to_xmlschema }}" class="credit-startpage" pubdate>{{ page.date | date_to_string }}</time>
+							</div>
+							
+								
+						<br clear="all" /><br /><br />
 						
-							<!-- article footer -->
+							<!-- 
 							<footer>
 								<dl class="byline author vcard">
 									<div id="morePosts">
@@ -54,9 +65,7 @@ section: articles
 									</div>
 								</dl>
 							</footer>
-							<!-- /article footer -->
-							
-						</div>	<!-- /wrapper -->
+							-->
 						
 				
 						<!--<section class="tags">
@@ -67,11 +76,10 @@ section: articles
 						  {% endfor %}
 						  </ul>
 						</section>-->
+	
 					
-					</article>
-					
-				</div> <!-- /elevencol -->
-			</div> <!-- /box work -->
+				</div> <!-- /box work -->
+			</div> <!-- /elevencol -->
 			
 		
 	</div> <!-- /row -->

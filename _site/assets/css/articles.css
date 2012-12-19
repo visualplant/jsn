@@ -102,6 +102,7 @@ p {
   -webkit-hyphens: auto;
   -moz-hyphens: auto;
   hyphens: auto;
+  margin-bottom: 0.7em;
 }
 #content ul {
   list-style: square;

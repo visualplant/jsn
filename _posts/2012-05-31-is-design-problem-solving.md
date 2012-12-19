@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Problem-solving
-description: Fixated on a problem? Then, you might have a problem.
+description: Fixated on design problem? Get over it.
 readingtime: 3 minutes
 thumbnail: &#x58;
 ---

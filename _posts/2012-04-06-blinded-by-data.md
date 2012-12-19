@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Blinded by data
-description: The information at our disposal to invent new things goes way beyond computer-captured data.
+description: Human invention goes ways beyond data.
 readingtime: 2 minutes
 thumbnail: &#x52;
 ---

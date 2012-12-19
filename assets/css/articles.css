@@ -404,7 +404,7 @@ figcaption {
 #articles time, .readingTime {
   position: absolute;
   right: 1em;
-  top: 0.75em;
+  top: 0.65em;
 }
 
 
@@ -793,7 +793,7 @@ figcaption {
   #articles time, .readingTime {
     right: auto;
     left: 2px;
-    top: 1.84em;
+    top: 1.74em;
   }
   .readingTime {
     top: 3.230769230769231em;

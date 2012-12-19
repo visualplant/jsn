@@ -513,6 +513,7 @@ a:hover.active-globalsection {
 	text-shadow: 0px 2px 3px #fff;
 	font-weight: normal;
 	line-height:1.2em;
+	margin-right: 20px;
 }
 
 .opener-row { 
@@ -1055,6 +1056,10 @@ a:active.portal2 {
 	
 	.project-portal-container {
 		width: 50%;
+	}
+	
+	.subhead { 
+		max-width: 570px;
 	}	
 	
 }
@@ -1241,6 +1246,10 @@ a:active.portal2 {
 	.opener-portfolio { 
 		margin-top: 0px;
 		margin-bottom: 15px;
+	}
+	
+	.subhead { 
+		max-width: 570px;
 	}
 	
 

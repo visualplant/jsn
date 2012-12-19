@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Blinded by data
-description: Human invention goes ways beyond data.
+description: Human invention goes way beyond data.
 readingtime: 2 minutes
 thumbnail: &#x52;
 ---

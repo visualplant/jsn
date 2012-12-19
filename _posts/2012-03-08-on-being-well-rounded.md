@@ -1,7 +1,7 @@
 ---
 layout: post
-title: On being well-rounded
-description: Just create.
+title: The qualities of a UX Designer
+description: Being well-rounded, emotionally-centered and intellectually astute is a good start.
 readingtime: 6 minutes
 thumbnail: &#xe00d;
 ---
@@ -20,7 +20,7 @@ In college I minored in Music which taught me about the complex inner constructs
 
 When asked what kind of user research Apple does, Steve Jobs' reply was, "None. It isn't the consumers' job to know what they want." According to his biography, Jobs was a mediocre engineer and rambling dabbler who dropped out of college, dropped in on typography classes and took a pilgrimage to India. Then, how did he nail the best product idea and user experience design time and again? Not by belaboring academics, rather, by being well-rounded, emotionally-centered and intellectually astute. He roamed the earth and absorbed life. That was his user research. Then, he came home to synthesize that experience and pioneer products. In addition to being well-rounded himself, he insisted on recruiting brilliant team players from a wide variety of disciplines. 
 
-	Part of what made the Macintosh great was that people working on it were musicians, poets, and artists, and zoologists, and historians. -Steve Jobs
+	"Part of what made the Macintosh great was that people working on it were musicians, poets, and artists, and zoologists, and historians." -Steve Jobs
 
 With a product vision as the guiding purpose, the team then figured out how to build it. Purpose has a way with process.
 

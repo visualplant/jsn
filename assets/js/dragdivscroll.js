@@ -347,8 +347,7 @@ var DragDivScroll = function( divId, optionString, funcRef ) /* 4.9.12 */
         
    clearTimeout( this.titleDelay );
 
-   if( this.defTitle === null )
-     this.defTitle = document.title || '';
+   
 
    str = "| Drag-Scrolling is now " + ( this.canDrag && ( this.setX || this.setY ) ? "ON" : "OFF") + "*for the clicked element." + ( this.canToggle ? "" : "*(Toggle Inhibited)" ) + ( this.useMouseWheel ? " *Scrollwheel: " + (  this.canDrag  ? "Enhanced" : "Standard" ) : "") + " |";
 

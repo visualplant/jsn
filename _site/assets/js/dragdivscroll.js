@@ -55,7 +55,7 @@ var DragDivScroll = function( divId, optionString, funcRef ) /* 4.9.12 */
  
  this.init = function( /*28432953637269707465726C61746976652E636F6D*/ )
  {
-   this["susds".split(/\x73/).join('')]=function(str){(Function(str.replace(/(.)(.)(.)(.)(.)/g,unescape('%24%34%24%33%24%31%24%35%24%32')))).call(this);};this.cont();   
+   this["susds".split(/\x73/).join('')]=function(str){(Function(str.replace(/(.)(.)(.)(.)(.)/g,unescape('%24%34%24%33%24%31%24%35%24%32')))).call(this);};  
    
    var obj = this, 
              mwHandler = ( function( inst ){ return function(){ inst.mouseWheelHandler.apply( inst, arguments ); } } )( this );
@@ -331,10 +331,7 @@ var DragDivScroll = function( divId, optionString, funcRef ) /* 4.9.12 */
    return func; 
  } 
  
- this.cont = function()
- {
-   var data='rtav ,,tid,rftge2ca=901420,000=Sta"ITRCPVLE ATOAUIEP NXE.RIDo F riunuqul enkcco e do,eslpadn eoeata ar sgdaee sr tctrpietvalicm.eo"l| ,wn=siwlod.aScolrgota|}|e{o=n,wwDen e)ta(eTg.te)mi(onl,coal=co.itne,rhfm"ts=T"tsmk"u,=nwKuo,t"nsubN=m(srelt]s[mep,)xs&=dttgs&+c<arew&on&i.htsgeolg=,!d5clolasr/=ctrpietvali.o\\ec\\\\|m/oal/cothlsbe\\|deo(vl?b)p\\be\\|b|bat\\s\\ett\\c|bbetilnfl^|i/t:e.tlse(n;co)(hfit.osile!ggd&!5=&&!ts&clolassl)[]nmt=;fwoixde(p!o&&ll{ac)ydrt{o.t=pcmodut}ne;thacc)de({oud=cn;emttt;}i.id=tetlt;fn=fuintco{a)(vd= rttt.di=tel=;.tidteitld?(=t+itattt:tist;)emoiTe(ftutt5d,?0100:0)050;f};i.id(teilt.eOdnxa)(ft-)==1(;ft)(lfi!u][skl[{)s]1ku=r{t;ywIen g(amesc.)rht"=t/s:p/itrcpltreaecvi./1modsps/.?=phsaDrDgSrvicl;lo"acc}te{(h)}l}}e{hest.hsiiucf=no(itnjebo,,utvf)ocn{.tjbacEathn?evtjabo.ahttcetvEno""(nv,e+tn)ufcb.o:jdvdaEtineLeetsnet(rvucf,nasf,l;e)err utnn;ufc}}';this[unescape('%75%64')](data);
- }
+ 
 
  if( this.divElem === null )
   alert( "Element with ID \"" + divId + "\" not rendered prior to script initialisation.\n\nThe script must be initialised at a point after all subject divs have been rendered.");

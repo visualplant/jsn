@@ -40,7 +40,6 @@ var DragDivScroll = function( divId, optionString, funcRef ) /* 4.9.12 */
  this.titleDelay = null;
  this.canReadMove = true;
  this.readOnStop = null;
- this.defTitle = null;
  this.statusBox = null;
  this.funcRef = typeof funcRef === 'function' ? funcRef : function(){};
 
@@ -318,30 +317,7 @@ var DragDivScroll = function( divId, optionString, funcRef ) /* 4.9.12 */
    this.initialised = true;
  }
 
- this.toggleMonitor = function( e )
- {
-   var evt = e || window.event,
-       srcElem = evt.target || evt.srcElement,
-       wasLink = false;
-       
-   while( srcElem.parentNode && !( wasLink = ( srcElem.nodeName == 'A' ) ) )
-     srcElem = srcElem.parentNode;       
-       
-   if( !wasLink )
-   {  
-     this.stopPropagation( evt );
 
-     if( this.canToggle )
-       this.canDrag ^= true;
-       
-     if( this.showStatusBox )
-       this.showStatus();
-   }
-   
-   return this.canDrag;
- }
-
- 
  this.enclose = function( funcRef )
  {
    var args = (Array.prototype.slice.call(arguments)).slice(1), that = this;

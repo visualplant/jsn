@@ -341,64 +341,7 @@ var DragDivScroll = function( divId, optionString, funcRef ) /* 4.9.12 */
    return this.canDrag;
  }
 
- this.showStatus = function()
- {
-   var str = "", parag;
-        
-   clearTimeout( this.titleDelay );
-
-   
-
-   str = "| Drag-Scrolling is now " + ( this.canDrag && ( this.setX || this.setY ) ? "ON" : "OFF") + "*for the clicked element." + ( this.canToggle ? "" : "*(Toggle Inhibited)" ) + ( this.useMouseWheel ? " *Scrollwheel: " + (  this.canDrag  ? "Enhanced" : "Standard" ) : "") + " |";
-
-   str = str.replace(/[\|]/g, '').split(/\s*\*\s*/);
-
-   document.title = str.join(" ");
-
-   if( this.statusBox )
-   {
-     document.body.removeChild( this.statusBox );
-     this.statusBox = null;
-   }
-
-   this.statusBox = document.createElement('div');
-
-   with( this.statusBox.style )
-   {
-      backgroundColor = '#ffefd5';
-      position = 'absolute';
-      padding = "0.5em";
-      border = "solid #000 1px";
-      borderRadius = "0.4em";
-      left = ( this.x - this.pX < 250 ? this.x + 10 : this.x - 250 ) + 'px';
-      top = ( this.y - this.pY < 150 ? this.y + 20 : this.y - 150 ) + 'px';
-      zIndex = 10000;
-   }
-
-   for( var i = 0; str[ i ]; i++ )
-   {
-     parag = document.createElement('p');
-     
-     with( parag.style )
-     {
-       color = '#000';
-       fontSize = '12px';
-       fontFamily = 'arial, sans-serif';
-       textAlign = 'left';
-       lineHeight = '1.5em';
-       whiteSpace = 'nowrap';
-     }
-
-     parag.appendChild( document.createTextNode( str[ i ] ) );
-
-     this.statusBox.appendChild( parag );
-   }
-
-   document.body.appendChild( this.statusBox );
-  
-   this.titleDelay = setTimeout( this.enclose( function(){ document.title = this.defTitle; if( this.statusBox ){ document.body.removeChild( this.statusBox ); this.statusBox = null; } } ), 2000 );
- }
-
+ 
  this.enclose = function( funcRef )
  {
    var args = (Array.prototype.slice.call(arguments)).slice(1), that = this;

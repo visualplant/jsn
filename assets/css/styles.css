@@ -722,10 +722,10 @@ ul.credits {
 
 .top-logo {
 	float: left;
-	font-size:26px;
+	font-size:22px;
 	font-weight:bold;
 	letter-spacing:0.09em;
-	padding-top: 8px;
+	padding-top: 11px;
 	padding-left: 20px;
 }
 
@@ -865,6 +865,7 @@ a:active.portal2 {
 }
 
 .about-button {
+	font-size: 13px;
 	text-align: center;
 	padding: 6px;
 	background-color: #333;

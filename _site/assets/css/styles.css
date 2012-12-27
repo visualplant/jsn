@@ -146,8 +146,6 @@ a:hover.articles-link {
 
 /* end article links */
 
-
-
 h2 {
     color:#39434c;
 }
@@ -201,11 +199,11 @@ strong {
 }
 		
 ::selection {
-	background: #ff0099; /* Safari */
+	background: #6f8090; /* Safari */
 	color: #fff;
 	}
 ::-moz-selection {
-	background: #ff0099; /* Firefox */
+	background: #6f8090; /* Firefox */
 	color: #fff;
 }			
 

@@ -30,7 +30,11 @@ section: articles
 								<br /><br />
 							</div>
 	
-							<div class="eightcol body-text" style="margin-top: -4px;max-width: 570px;margin-right: 20px;">{{ content }}</div>
+							<div class="eightcol body-text" style="margin-top: -4px;max-width: 570px;margin-right: 20px;">
+							
+							{{ content }}
+
+							</div>
 							
 							<div class="twocol last">
 								<div class="credit-startpage">Posted on</div> 
@@ -39,8 +43,41 @@ section: articles
 								<div class="credit-startpage" pubdate>{{ page.date | date_to_string }}</div>
 							</div>
 							
-								
+							
+							
 						<br clear="all" /><br /><br />
+						
+						
+						
+						<div class="twocol"></div>
+						
+						<div class="eightcol" style="text-align: center;">
+												
+						{% if page.previous.url %}
+						    &laquo;&nbsp;<a href="{{ page.previous.url }}" rel="previous" title="{{ page.previous.title }}">{{ page.previous.title }}</a>
+						  {% endif %}
+						
+						  {% if page.previous.url %}
+						    {% if page.next.url %}
+						    &nbsp;&nbsp;&nbsp;   &nbsp;&nbsp;&nbsp;
+						    {% endif %}
+						  {% endif %}
+						  
+						
+						  {% if page.next.url %}
+						    <a href="{{ page.next.url }}" rel="next" title="{{ page.next.title }}">{{ page.next.title }}</a>&nbsp;&raquo;
+						  {% endif %}
+						
+						</div>
+						
+						<div class="twocol last"></div>
+						
+						
+						
+						<br clear="all" /><br /><br />
+		
+					
+						 
 						
 							<!-- 
 							<footer>

@@ -15,29 +15,29 @@ body {
 
 body.start {
 
-	/*background: url("/assets/images/network-bg.png");
-	background-attachment:fixed;*/
+	background: url("/assets/images/bg/debut_light.png");
+	background-attachment:fixed;
 
 }
 
 body.portfolio {
 
-	/*background: url("/assets/images/network-bg.png");
-	background-attachment:fixed;*/
+	background: url("/assets/images/bg/debut_light.png");
+	background-attachment:fixed;
 
 }
 
 body.articles {
 
-	/*background: url("/assets/images/network-bg.png");
-	background-attachment:fixed;*/
+	background: url("/assets/images/bg/debut_light.png");
+	background-attachment:fixed;
 
 }
 
 body.about {
 
-	/*background: url("/assets/images/network-bg.png");
-	background-attachment:fixed;*/
+	background: url("/assets/images/bg/debut_light.png");
+	background-attachment:fixed;
 
 }
 

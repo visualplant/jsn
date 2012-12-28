@@ -496,24 +496,6 @@ a:hover.active-globalsection {
 	line-height:1.5em;
 }
 
-.headline-page {
-	margin-top:60px;
-	font-size:2.6em;
-	line-height:1.3em;
-	font-weight:bold;
-	color:#39434c;
-	text-shadow: 0px 2px 3px #fff;
-}
-
-.subhead { 
-	font-size: 1.6em;
-	color:#39434c;
-	text-shadow: 0px 2px 3px #fff;
-	font-weight: normal;
-	line-height:1.2em;
-	margin-right: 20px;
-}
-
 .opener-row { 
 	padding-top:50px;
 }
@@ -896,8 +878,7 @@ a:active.portal2 {
 }
 
 .project-type {
-	 color:#999;
-	 
+	 color:#999; 
 }
 
 

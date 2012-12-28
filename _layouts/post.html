@@ -13,19 +13,14 @@ section: articles
 		
 			<div class="elevencol last">			
 				<div class="box work">
-
-
-								
+						
 						<div class="headline-page">{{ page.title }}</div>
 						<div class="subhead">{{ page.description }}</div>
-	
-						
+
 						<br clear="all" /><br />
-						
-							
+
 							<div class="twocol">
-								<div class="credit-startpage">Reading time</div>
-								<div class="credit-startpage" style="margin-right: 20px;">{{ page.readingtime }}</div>
+								<div class="credit-startpage">Reading time<br />{{ page.readingtime }}</div>
 								
 								<br /><br />
 							</div>
@@ -37,10 +32,7 @@ section: articles
 							</div>
 							
 							<div class="twocol last">
-								<div class="credit-startpage">Posted on</div> 
-
-								
-								<div class="credit-startpage" pubdate>{{ page.date | date_to_string }}</div>
+								<div class="credit-startpage">Posted on<br />{{ page.date | date_to_string }}</div>
 							</div>
 							
 							

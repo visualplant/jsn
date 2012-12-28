@@ -20,19 +20,19 @@ section: articles
 						<br clear="all" /><br />
 
 							<div class="twocol">
-								<div class="credit-startpage">Reading time<br />{{ page.readingtime }}</div>
+								<div class="article-stats">Reading time<br />{{ page.readingtime }}</div>
 								
 								<br /><br />
 							</div>
 	
-							<div class="eightcol body-text" style="margin-top: -4px;max-width: 570px;margin-right: 20px;">
+							<div class="eightcol body-text" style="margin-top: -4px;max-width: 570px;margin-right: 20px;margin-bottom: 40px;">
 							
 							{{ content }}
 
 							</div>
 							
 							<div class="twocol last">
-								<div class="credit-startpage">Posted on<br />{{ page.date | date_to_string }}</div>
+								<div class="article-stats">Posted on<br />{{ page.date | date_to_string }}</div>
 							</div>
 							
 							
@@ -43,21 +43,27 @@ section: articles
 						
 						<div class="twocol"></div>
 						
-						<div class="eightcol" style="text-align: center;">
-												
+						<div class="eightcol" style="text-align: center;margin-bottom: 20px;margin: 0 auto;">
+						
+													
 						{% if page.previous.url %}
+							<div style="float: left;">
 						    &laquo;&nbsp;<a href="{{ page.previous.url }}" rel="previous" title="{{ page.previous.title }}">{{ page.previous.title }}</a>
+						    </div>
 						  {% endif %}
+						  
 						
 						  {% if page.previous.url %}
 						    {% if page.next.url %}
-						    &nbsp;&nbsp;&nbsp;   &nbsp;&nbsp;&nbsp;
+						    <div style="float: left;">&nbsp;&nbsp;&nbsp;   &nbsp;&nbsp;&nbsp;</div>
 						    {% endif %}
 						  {% endif %}
 						  
 						
 						  {% if page.next.url %}
+						  	<div style="float: right;margin-right: 20px;">
 						    <a href="{{ page.next.url }}" rel="next" title="{{ page.next.title }}">{{ page.next.title }}</a>&nbsp;&raquo;
+						    </div>
 						  {% endif %}
 						
 						</div>

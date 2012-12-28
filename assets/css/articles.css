@@ -140,6 +140,14 @@ pre {
   padding-top: 0.75em;
   padding-bottom: 0.75em;
 }
+
+.article-stats { 
+	text-transform:uppercase;
+	color:#999;
+	font-size:0.75em;
+}
+
+
 /*	
 
 	Colours & links
@@ -660,10 +668,6 @@ figcaption {
 	screen and (min-height: 76.5em) and (min-width: 76.5em),
 	screen and (min-width: 106em) {
 	
-	
-  body {
-    font-size: 1.125em;
-  }
   
   #articles h1 {
     font-size: 1.325em;

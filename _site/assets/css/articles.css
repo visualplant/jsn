@@ -121,7 +121,8 @@ small {
 }
 h2 {
   margin: 0.9230769230769231em 0 0.46153846153846156em;
-  font-weight: normal;
+  font-weight: bold;
+  font-size:138%;
 }
 h3 {
   margin: 1.5em 0 0.75em;
@@ -539,6 +540,10 @@ figcaption {
 	margin-top:30px;
 }
 
+h2 {
+  font-size:108%;
+}
+
 
 /*	
 
@@ -589,6 +594,11 @@ figcaption {
   .subhead {
   	font-size:138%;
   }
+  
+  h2 {
+    font-size:138%;
+  }
+  
 }
 /*	
 
@@ -669,6 +679,9 @@ figcaption {
   	margin-top:60px;
   }
   
+  h2 {
+    font-size:138%;
+  }
 }
 /*	
 
@@ -730,6 +743,10 @@ figcaption {
   
   .headline-page {
   	margin-top:60px;
+  }
+  
+  h2 {
+    font-size:138%;
   }
   
 }
@@ -876,6 +893,10 @@ figcaption {
   
   .subhead {
   	width:52%;
+  }
+  
+  h2 {
+    font-size:138%;
   }
 
 }

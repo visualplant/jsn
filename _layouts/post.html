@@ -34,49 +34,32 @@ section: articles
 							<div class="twocol last">
 								<div class="article-stats">Posted on<br />{{ page.date | date_to_string }}</div>
 							</div>
+
+						
+						<div class="full-width-box" style="text-align:center;margin-top:50px;margin-bottom:20px;">
+						
+						
+							{% if page.previous.url %}
+								<div style="float: left;"><a href="{{ page.previous.url }}" rel="previous" title="{{ page.previous.title }}" class="case-study-button">&larr; &nbsp; {{ page.previous.title }}</a></div>
+							{% endif %}
+							
+							{% if page.previous.url %}
+							  {% if page.next.url %}
+							  <div style="float: left;">&nbsp;&nbsp;&nbsp;   &nbsp;&nbsp;&nbsp;</div>
+							  {% endif %}
+							{% endif %}
+							
+							{% if page.next.url %}
+								<div style="float: right;"><a href="{{ page.next.url }}" rel="next" title="{{ page.next.title }}" class="case-study-button">{{ page.next.title }}  &nbsp; &rarr;</a></div>
+							{% endif %}
 							
 							
-							
-						<br clear="all" /><br /><br />
-						
-						
-						
-						<div class="twocol"></div>
-						
-						<div class="eightcol" style="text-align: center;margin-bottom: 20px;margin: 0 auto;">
-						
-													
-						{% if page.previous.url %}
-							<div style="float: left;">
-						    &laquo;&nbsp;<a href="{{ page.previous.url }}" rel="previous" title="{{ page.previous.title }}">{{ page.previous.title }}</a>
-						    </div>
-						  {% endif %}
-						  
-						
-						  {% if page.previous.url %}
-						    {% if page.next.url %}
-						    <div style="float: left;">&nbsp;&nbsp;&nbsp;   &nbsp;&nbsp;&nbsp;</div>
-						    {% endif %}
-						  {% endif %}
-						  
-						
-						  {% if page.next.url %}
-						  	<div style="float: right;margin-right: 20px;">
-						    <a href="{{ page.next.url }}" rel="next" title="{{ page.next.title }}">{{ page.next.title }}</a>&nbsp;&raquo;
-						    </div>
-						  {% endif %}
-						
 						</div>
 						
-						<div class="twocol last"></div>
-						
-						
-						
+
 						<br clear="all" /><br /><br />
 		
-					
-						 
-						
+
 							<!-- 
 							<footer>
 								<dl class="byline author vcard">

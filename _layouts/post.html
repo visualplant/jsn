@@ -34,9 +34,12 @@ section: articles
 							<div class="twocol last">
 								<div class="article-stats">Posted on<br />{{ page.date | date_to_string }}</div>
 							</div>
+							
+							<br clear="all" />
+						
 
 						
-						<div class="full-width-box" style="text-align:center;margin-top:50px;margin-bottom:20px;">
+						<div class="full-width-box" style="text-align:center;margin-top:30px;margin-bottom:20px;border-top: 1px solid #eee;padding-top: 50px;">
 						
 						
 							{% if page.previous.url %}
@@ -45,7 +48,7 @@ section: articles
 							
 							{% if page.previous.url %}
 							  {% if page.next.url %}
-							  <div style="float: left;">&nbsp;&nbsp;&nbsp;   &nbsp;&nbsp;&nbsp;</div>
+							  <div style="float: left;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
 							  {% endif %}
 							{% endif %}
 							

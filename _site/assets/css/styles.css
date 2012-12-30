@@ -913,10 +913,10 @@ a:active.portal2 {
   text-align:center;
   margin:0 auto;
   box-sizing: border-box; 
-  background-color:#fafafa;
+  background-color:#fff;
   margin-bottom: 12px;
   font-weight:normal;
-  color:#ccc;
+  color:#bbb;
   cursor: pointer;
   -webkit-transition: color 0.25s linear;
   -moz-transition: color 0.25s linear;

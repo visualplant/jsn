@@ -13,6 +13,11 @@
 	margin-top: 7px;
 }
 
+.article-body-text {
+	font-size:0.9em;
+	line-height:1.6em;
+}
+
 #articles p {
   line-height: 1.5em;
   position: relative;

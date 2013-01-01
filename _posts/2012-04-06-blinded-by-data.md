@@ -20,7 +20,3 @@ Computers are our assistants. They are still a work in progress, at least hundre
 ***Follow-up: Dec 31, 2012***
 
 Good to see this sentiment echoed by a [select few](http://www.nytimes.com/2012/12/30/technology/big-data-is-great-but-dont-forget-intuition.html?ref=technology&_r=0).
-
-
-
-

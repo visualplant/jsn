@@ -4,6 +4,7 @@ title: Good UI yields lower latencies
 description: The outcome of User Interface Design literally equates to performance
 readingtime: 4 minutes
 thumbnail: &#xe016;
+published: true
 ---
 
 This week I met one of the engineering gurus who works behind the scenes at Google optimizing network operations that ultimately are responsible for the amazing performance millions of users enjoy when they do a Google search.

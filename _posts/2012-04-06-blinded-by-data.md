@@ -4,6 +4,7 @@ title: Blinded by data
 description: Human invention goes way beyond data.
 readingtime: 2 minutes
 thumbnail: &#x52;
+published: true
 ---
 
 Today's product design jargon makes frequent use of the term "data-driven". Our decisions on what to design and build must come from data to be justified as sound. Otherwise, we'd be relying on vague intuition. Never a good thing.

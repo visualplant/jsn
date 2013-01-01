@@ -4,7 +4,7 @@ title: Blinded by data
 description: Human invention goes way beyond data.
 readingtime: 2 minutes
 thumbnail: &#x52;
-published: true
+published: false
 ---
 
 Today's product design jargon makes frequent use of the term "data-driven". Our decisions on what to design and build must come from data to be justified as sound. Otherwise, we'd be relying on vague intuition. Never a good thing.
@@ -17,7 +17,7 @@ Computers are a work in progress and at least hundreds if not thousands of years
 
 ***Follow-up: Dec 31, 2012***
 
-Good to this sentiment echoed by a [select few](http://www.nytimes.com/2012/12/30/technology/big-data-is-great-but-dont-forget-intuition.html?ref=technology&_r=0)
+Good to this sentiment echoed by a [select few](http://www.nytimes.com/2012/12/30/technology/big-data-is-great-but-dont-forget-intuition.html?ref=technology&_r=0).
 
 
 

@@ -4,6 +4,7 @@ title: The qualities of a UX Designer
 description: Being well-rounded, emotionally-centered and intellectually astute is a good start.
 readingtime: 6 minutes
 thumbnail: &#xe00d;
+published: true
 ---
 
 "Learn all the changes, then forget them." - Charlie Parker

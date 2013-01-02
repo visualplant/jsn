@@ -6,7 +6,7 @@ readingtime: 6 minutes
 thumbnail: &#xe00d;
 ---
 
-	"Learn all the changes, then forget them." - Charlie Parker
+"Learn all the changes, then forget them." - Charlie Parker
 	
 I believe I've put in my 10,000 hours, and I've tried lots of academic approaches to user-centered design. My conclusion on what really makes you great in this field: being well-rounded.
 
@@ -14,7 +14,7 @@ I don't mean well-rounded in all the various academic, scientifically-derived UX
 
 ##Just create
 
-In college I minored in Music which taught me about the complex inner constructs of the works of masters, like J.S. Bach, Charlie Parker and Jimi Hendrix. Music theorists discovered patterns such as "key modulations" and "polymeters" to explain how and why great music was great. My music teachers then drilled it into to me, so I could compose music like the masters. But ask Bach, Parker and Hendrix about such patterns and they'd probably laugh. They didn't survey people to assess if their current listening habits would accept new sounds. They didn't write their music by consciously plotting key signatures and polyrhythms. They just went ahead and played it. They followed their ear and derived music from experience and emotion. Jimi's word for a theorist's augmented 4th interval was not "tritone". It was "Purple Haze". Great artists don't deconstruct to recreate. They just create. Same goes for technology product design.
+In college I minored in Music which taught me about the complex inner constructs of the works of masters, like J.S. Bach, Charlie Parker and Jimi Hendrix. Music theorists discovered patterns such as "key modulations" and "polymeters" to explain how and why great music was great. My music teachers then drilled it into to me, so I could compose music like the masters. But ask Bach, Parker and Hendrix about such patterns and they'd probably laugh. They didn't survey people to assess if their current listening habits would accept new sounds. They didn't write their music by consciously plotting key signatures and polyrhythms. They just went ahead and played it. They followed their ear and derived music from experience and emotion. Jimi's word for a theorist's augmented 4th interval was not "tritone". It was "Purple Haze". Great artists don't deconstruct to recreate. They just create. Same goes for digital product design.
 
 ##Don't ask for the answer, provide it
 

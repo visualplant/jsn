@@ -24,15 +24,74 @@ layout: base
 
 <script src="/assets/js/bootstrap-scrollspy.js"></script>
 
+
+<!-- Waypoints  -->
 <script type="text/javascript" src="/assets/js/waypoints.min.js"></script>
 <script type="text/javascript">
+
+/* Show case title in global nav when scrolled below summary */
 	$('.project-name').waypoint(function(event, direction) {
 	   	$('.project-name-in-header').toggleClass('show-it', 300);
 	   	$('.work-with-project-name').toggleClass('dim-it', 100);
 	}, {
 		offset: 0
 	});
+	
+/* Case study Waypoints */
+	
+	{% if page.title == 'visualplant' %}
+		
+		/* Visualplant Waypoints */
+	
+		$('#summary').waypoint({
+		  handler: function() {
+		    $('.background-text').toggleClass('show', 300);
+		  },
+		  offset: '60%'
+		});
+	
+	{% else %}
+	{% endif %}
+	
+	{% if page.title == 'traveal' %}
+		
+		/* Traveal Waypoints */
+
+		$('#summary').waypoint({
+		  handler: function() {
+		    $('.background-text').toggleClass('show', 300);
+		  },
+		  offset: '60%'
+		});
+
+	{% else %}
+	{% endif %}
+	
+	{% if page.title == 'mokini' %}
+			
+			/* Traveal Waypoints */
+	
+			$('#summary').waypoint({
+			  handler: function() {
+			    $('.background-text').toggleClass('show', 300);
+			  },
+			  offset: '60%'
+			});
+	
+		{% else %}
+		{% endif %}
+	
+	
+	
+	
+	
 </script>
+
+
+
+
+
+
 
 <script type="text/javascript">
 $('#filter-btn').click(function() {

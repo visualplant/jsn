@@ -11,19 +11,32 @@ layout: base
 <!-- Flexslider -->
 <script type="text/javascript">
     $(window).load(function(){
-      $('.flexslider').flexslider({
+    
+      $('#slideshow').flexslider({
         animation: "slide",
         animationLoop: true,
-        slideshow: false, // start automatically?
+        slideshow: false, // true to play automatically on page load
         start: function(slider){
           $('#slideshow').removeClass('loading');
         }
       });
+      
+      $('#slideshow-dos').flexslider({
+        animation: "slide",
+        animationLoop: true,
+        slideshow: false, // true to play automatically on page load
+        start: function(slider){
+          $('#slideshow-dos').removeClass('loading');
+        }
+      });
+      
     });
 </script>
 
 <script src="/assets/js/bootstrap-scrollspy.js"></script>
 
+<!-- Inview  -->
+<script src="/assets/js/jquery.inview.min.js"></script>
 
 <!-- Waypoints  -->
 <script type="text/javascript" src="/assets/js/waypoints.min.js"></script>
@@ -38,59 +51,96 @@ layout: base
 	});
 	
 /* Case study Waypoints */
-	
+		
 	{% if page.title == 'visualplant' %}
 		
 		/* Visualplant Waypoints */
-	
-		$('#summary').waypoint({
-		  handler: function() {
-		    $('.background-text').toggleClass('show', 300);
-		  },
-		  offset: '60%'
+		
+		$('#slideshow').bind('inview', function(event, isInView, visiblePartX, visiblePartY) {
+		  if (isInView) {
+		    // element is now visible in the viewport
+		    if (visiblePartY == 'top') {
+		      // top part of element is visible
+		    } else if (visiblePartY == 'bottom') {
+		      // bottom part of element is visible
+		    } else {
+		      // whole part of element is visible
+		      $('#slideshow').removeClass('dim', 300);  //undim slideshow player;
+		      $('#slideshow').addClass('show', 0);  //show slideshow player;
+		      $('#slideshow').flexslider("play");  //Play slideshow;
+		    }
+		  } else {
+		    // element has gone out of viewport
+		    $('#slideshow').flexslider("pause");  //Pause slideshow;
+		    $('#slideshow').removeClass('show', 300);  //unshow slideshow player;
+		    $('#slideshow').addClass('dim', 0);  //dim slideshow player;
+		  }
 		});
+		
+		$('#slideshow-dos').bind('inview', function(event, isInView, visiblePartX, visiblePartY) {
+		  if (isInView) {
+		    // element is now visible in the viewport
+		    if (visiblePartY == 'top') {
+		      // top part of element is visible
+		    } else if (visiblePartY == 'bottom') {
+		      // bottom part of element is visible
+		    } else {
+		      // whole part of element is visible
+		      $('#slideshow-dos').removeClass('dim', 300);  //undim slideshow player;
+		      $('#slideshow-dos').addClass('show', 0);  //show slideshow player;
+		      $('#slideshow-dos').flexslider("play");  //Play slideshow;
+		    }
+		  } else {
+		    // element has gone out of viewport
+		    $('#slideshow-dos').flexslider("pause");  //Pause slideshow;
+		    $('#slideshow-dos').removeClass('show', 300);  //unshow slideshow player;
+		    $('#slideshow-dos').addClass('dim', 0);  //dim slideshow player;
+		  }
+		});
+
 	
 	{% else %}
 	{% endif %}
+	
 	
 	{% if page.title == 'traveal' %}
 		
 		/* Traveal Waypoints */
 
-		$('#summary').waypoint({
-		  handler: function() {
-		    $('.background-text').toggleClass('show', 300);
-		  },
-		  offset: '60%'
+		$('#slideshow').bind('inview', function(event, isInView, visiblePartX, visiblePartY) {
+		  if (isInView) {
+		    // element is now visible in the viewport
+		    if (visiblePartY == 'top') {
+		      // top part of element is visible
+		    } else if (visiblePartY == 'bottom') {
+		      // bottom part of element is visible
+		    } else {
+		      // whole part of element is visible
+		      $('#slideshow').removeClass('dim', 300);  //undim slideshow player;
+		      $('#slideshow').addClass('show', 0);  //show slideshow player;
+		      $('#slideshow').flexslider("play");  //Play slideshow;
+		    }
+		  } else {
+		    // element has gone out of viewport
+		    $('#slideshow').flexslider("pause");  //Pause slideshow;
+		    $('#slideshow').removeClass('show', 300);  //unshow slideshow player;
+		    $('#slideshow').addClass('dim', 0);  //dim slideshow player;
+		  }
 		});
 
 	{% else %}
 	{% endif %}
 	
+	
 	{% if page.title == 'mokini' %}
 			
 			/* Traveal Waypoints */
-	
-			$('#summary').waypoint({
-			  handler: function() {
-			    $('.background-text').toggleClass('show', 300);
-			  },
-			  offset: '60%'
-			});
+
 	
 		{% else %}
 		{% endif %}
-	
-	
-	
-	
-	
+
 </script>
-
-
-
-
-
 
 
 <script type="text/javascript">

@@ -158,6 +158,10 @@ strong {
 	display: none;
 }
 
+.case-image {
+	width: 100%;
+}
+
 .mobile-menu-item {
 	padding-top: 18px;
 	height: 40px;
@@ -350,6 +354,7 @@ a:hover.active-globalsection {
 	color: #000;
 	text-align: left;
 	padding-left:20px;
+	padding-right: 20px;
 	padding-bottom:11px;
 	padding-top:20px;
 	margin: 20px 0 0 0;

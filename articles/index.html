@@ -26,7 +26,7 @@ title: articles
 			
 						<article>
 							<a href="{{ post.url }}">
-								<h1 style="line-height: 1.0em;">{{ post.title }}</h1>
+								<h1>{{ post.title }}</h1>
 								<time datetime="{{ post.date | date_to_xmlschema }}" pubdate>{{ post.date | date_to_string }}</time> 
 								<p style="margin-top: 8px;">{{ post.description }} ({{ post.content | number_of_words }} words)</p>
 							</a>

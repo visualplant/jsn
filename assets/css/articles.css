@@ -6,11 +6,12 @@
 
 #articles time, #articles p {
 	font-size: 0.9em;
-	color: #000;
+	color: #39434c;
+	line-height: 1.5em;
 }
 
-#articles time {
-	margin-top: 7px;
+#articles h1 {
+  margin-top: 2px;
 }
 
 .article-body-text {
@@ -18,11 +19,6 @@
 	line-height:1.6em;
 }
 
-#articles p {
-  line-height: 1.5em;
-  position: relative;
-  top: -2px;
-}
 
 img {
   border: 0;
@@ -196,7 +192,7 @@ body {
 }
 
 #articles h1 {
-  color: #333;
+  color: #39434c;
 }
 
 #content h1,
@@ -549,6 +545,10 @@ h2 {
   font-size:108%;
 }
 
+#articles time {
+  margin-top: 8px;
+}
+
 
 /*	
 
@@ -666,6 +666,11 @@ h2 {
     -moz-transform: scale(1.09);
     -ms-transform: scale(1.09);
     transform: scale(1.09);
+    
+    transition-duration: 0.25s;
+    -moz-transition-duration: 0.25s; /* Firefox 4 */
+    -webkit-transition-duration: 0.25s; /* Safari and Chrome */
+    -o-transition-duration: 0.25s; /* Opera */
   }
   #masthead a:active, #articles a:active, .links a:active {
     -webkit-transform: scale(1);
@@ -844,15 +849,15 @@ h2 {
   }
 
   #articles h1 {
-    font-size: 1.625em;
-    line-height: 1.3846153846153846em;
+    font-size: 1.425em;
+    line-height: 1.3em;
     padding-left: 6.461538461538462em;
     width: 10.4em;
   }
   
   #articles p {
     width: 22.0em;
-    margin: 0 0 0 1.5em;
+    margin: 0 0 0 3.5em;
   }
   
   #articles time {

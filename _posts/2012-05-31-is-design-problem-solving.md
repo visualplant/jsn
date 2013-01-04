@@ -3,6 +3,7 @@ layout: post
 title: Problem solving
 description: Fixated on a design problem? Get over it.
 readingtime: 3 minutes
+tags: definition
 thumbnail: &#x58;
 ---
 

@@ -68,6 +68,7 @@ a:link.case-study-button, a:visited.case-study-button {
 	padding-right: 18px;
 	padding-left: 18px;
 	text-decoration: none;
+	margin-bottom: 20px;
 }
 
 a:active.case-study-button {

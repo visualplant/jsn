@@ -53,6 +53,18 @@ layout: base
 /* Case study Waypoints */
 		
 	{% if page.title == 'visualplant' %}
+	
+		/* show slideshow(s) on mouseover */
+	
+		$('#slideshow').mouseover(function() {
+		  $('#slideshow').removeClass('dim', 300);  //undim slideshow player;
+		  $('#slideshow').addClass('show', 0);  //show slideshow player;
+		});
+		
+		$('#slideshow-dos').mouseover(function() {
+		  $('#slideshow-dos').removeClass('dim', 300);  //undim slideshow player;
+		  $('#slideshow-dos').addClass('show', 0);  //show slideshow player;
+		});
 		
 		/* Visualplant Waypoints */
 		
@@ -104,6 +116,13 @@ layout: base
 	
 	
 	{% if page.title == 'traveal' %}
+	
+		/* show slideshow on mouseover */
+		
+		$('#slideshow').mouseover(function() {
+		  $('#slideshow').removeClass('dim', 300);  //undim slideshow player;
+		  $('#slideshow').addClass('show', 0);  //show slideshow player;
+		});
 		
 		/* Traveal Waypoints */
 

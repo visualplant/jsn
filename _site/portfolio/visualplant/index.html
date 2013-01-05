@@ -603,6 +603,18 @@ $(document).ready(function() {
 /* Case study Waypoints */
 		
 	
+	
+		/* show slideshow(s) on mouseover */
+	
+		$('#slideshow').mouseover(function() {
+		  $('#slideshow').removeClass('dim', 300);  //undim slideshow player;
+		  $('#slideshow').addClass('show', 0);  //show slideshow player;
+		});
+		
+		$('#slideshow-dos').mouseover(function() {
+		  $('#slideshow-dos').removeClass('dim', 300);  //undim slideshow player;
+		  $('#slideshow-dos').addClass('show', 0);  //show slideshow player;
+		});
 		
 		/* Visualplant Waypoints */
 		

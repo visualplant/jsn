@@ -7,7 +7,7 @@ tags: definition
 thumbnail: &#x58;
 ---
 
-I've heard Design referred to as "problem solving." Is this description helpful?
+I've heard design referred to as "problem solving." Is this description helpful?
 
 Problem solving assumes that the start point is a problem and the end point is a solution to that problem. If the designer is to solve problems, then s/he waits for a problem to come along (or a boss or client to assign a problem) which then becomes her task to solve. The task, of course, represents a point of pain – an issue that needs to be fixed. So, the designer goes to work doing research, looks very closely at the problem, studies it through a microscope, making the problem appear nice and big. S/he shows this blown-up problem back to her manager who agrees this is, indeed, a biggie. Then, the designer goes to work on the problem. If the problem is, for instance, that users are abandoning a registration process on step 2, then the designer focuses on the problem: step 2. Something must be wrong there.
 

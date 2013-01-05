@@ -443,7 +443,9 @@ figcaption {
 }
 #articles article {
   position: relative;
+  border-bottom: 1px solid #eee;
 }
+
 #articles a {
   padding: 0.75em 7.5em 0.75em 0.13em;
   display: block;
@@ -773,6 +775,9 @@ h2 {
     width: 56em;
     max-width: none;
   }
+ #articles article {
+   border-bottom: none;
+ }
  
   
   #content p,

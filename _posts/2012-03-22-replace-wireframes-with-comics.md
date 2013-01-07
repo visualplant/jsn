@@ -2,7 +2,7 @@
 layout: post
 title: Replace wireframes with comics
 description: If comics could lighten the horror of mass-murder, they surely can lessen the doldrums of wireframes.
-readingtime: 5 minutes
+readingtime: 1 minute
 thumbnail: &#xe03e;
 ---
 

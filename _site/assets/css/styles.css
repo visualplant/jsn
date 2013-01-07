@@ -481,6 +481,7 @@ section {
 .opener { 
 	float:left;
 	margin-top:27px;
+	margin-bottom: 20px;
 	margin-right: 3%;
 	width:52%;
 }
@@ -496,6 +497,7 @@ section {
 	float:left;
 	margin-top:-35px;
 	width:45%;
+	margin-bottom: 30px;
 }
 
 .visualplant {
@@ -1137,6 +1139,7 @@ a:active.portal2 {
 		text-align:center;
 		width:100%;
 		margin-top:10px;
+		margin-bottom: 15px;
 		float:none;
 	}
 	
@@ -1144,6 +1147,7 @@ a:active.portal2 {
 		width:100%;
 		text-align:center;
 		margin-top:0;
+		margin-bottom: 0;
 		float:none;
 	}
 	

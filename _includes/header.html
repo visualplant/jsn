@@ -1,0 +1,48 @@
+<div class="header clearfix">
+	
+	<div class="top-logo"><a href="/">JSN</a></div>
+	
+	<div class="nav">
+		<ul class="menu" style="clear: both;">
+			
+			<!-- shows for desktop -->
+			<li><a href="/about/" 
+			
+				{% if page.section == 'about' %}
+					class="active-globalsection" 
+				{% else %}
+					class="globalsection"
+				{% endif %}
+			
+				id="desktop-menu-link">about</a>
+			</li>
+			
+			<li><a href="javascript:void(0);" 
+
+				{% if page.section == 'portfolio' %}
+					class="active-globalsection" 
+				{% else %}
+					class="globalsection"
+				{% endif %}
+
+				id="desktop-menu-link"><span class="work-with-project-name" onclick="location.href='/portfolio/'">work</span>{% if page.title == 'work' %}{% else %}<span class="project-name-in-header" onclick="location.href='#top'">: {{ page.title }}</span>{% endif %}</a>
+			</li>
+					
+			<li><a href="/articles/" 
+			
+				 {% if page.section == 'articles' %}
+				 	class="active-globalsection" 
+				 {% else %}
+				 	class="globalsection"
+				 {% endif %}
+				
+				id="desktop-menu-link">articles</a>
+			</li>
+			
+			<!-- shows for mobile -->
+			<li><a href="#" class="globalsection" id="mobile-menu-link">menu</a></li>
+			
+		</ul>
+	</div>
+
+</div>

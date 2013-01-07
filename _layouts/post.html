@@ -1,108 +1,15 @@
 ---
-layout: base
-section: articles
+layout: default
 ---
-{% include mobile-menu.html %}
-{% include header.html %}		
-			
+<div id="post">
+{{ content }}
+</div>
 
-<div class="container animate-in">
-	<div class="row">
-	
-		<div class="onecol"></div>
-		
-			<div class="elevencol last">			
-				<div class="box work">
-						
-						<div class="headline-page">{{ page.title }}</div>
-						<div class="subhead">{{ page.description }}</div>
-
-						<br clear="all" /><br />
-
-							<div class="twocol">
-								<div class="article-stats"><b>Reading time</b><br />{{ page.readingtime }}</div>
-								
-								<br /><br />
-							</div>
-	
-							<div class="sevencol article-body-text" style="margin-top: -4px;max-width: 570px;margin-right: 20px;margin-bottom: 40px;">
-							
-							{{ content }}
-
-							</div>
-							
-							<div class="threecol last">
-								<div class="article-stats"><b>Posted on</b><br />{{ page.date | date_to_string }}</div>
-							</div>
-							
-							<br clear="all" />
-							<!--
-							<div style="margin-top: 15px;">
-								{% for tag in page.tags %}
-								<div class="role">{{ tag }}</div>
-								{% endfor %}
-							</div>-->
-						
-
-						
-						<div class="full-width-box cf" style="text-align:center;margin-top:30px;margin-bottom:20px;border-top: 1px solid #eee;border-bottom: 1px solid #eee;padding-top: 40px;padding-bottom: 20px;">
-						
-						
-							{% if page.previous.url %}
-								<div style="float: left;margin-bottom: 20px;"><nobr><a href="{{ page.previous.url }}" rel="previous" title="{{ page.previous.title }}" class="case-study-button">&larr; &nbsp; {{ page.previous.title }}</a></nobr></div>
-							{% endif %}
-							
-							{% if page.previous.url %}
-							  {% if page.next.url %}
-								
-							  {% endif %}
-							{% endif %}
-							
-							{% if page.next.url %}
-								<div style="float: right;margin-bottom: 20px;"><nobr><a href="{{ page.next.url }}" rel="next" title="{{ page.next.title }}" class="case-study-button">{{ page.next.title }}  &nbsp; &rarr;</a></nobr></div>
-							{% endif %}
-							
-							
-						</div>
-						
-
-						<br clear="all" /><br /><br />
-						
-						
-						
-		
-
-							<!-- 
-							<footer>
-								<dl class="byline author vcard">
-									<div id="morePosts">
-										<dt>&#x21A9; Archive</dt>
-										<dd><a href="/articles/">More posts</a></dd>
-									</div>
-									<div id="published">
-										<dt>Posted on</dt>
-										<dd><time datetime="{{ post.date | date_to_xmlschema }}" pubdate class="updated">{{ post.date | date_to_string }}</time></dd>
-									</div>
-									<div id="readingTime">
-										<dt>Reading time</dt>
-										<dd>{{ readingtime }}</dd>
-									</div>
-									<div id="nextPost">
-										<dt>Next post &rarr;</dt>
-										<dd>
-											<a href="../a-smoother-page-load/index.html">A Smoother Page Load</a> 
-										</dd>
-									</div>
-								</dl>
-							</footer>
-							-->
-	
-					
-				</div> <!-- /box work -->
-			</div> <!-- /elevencol -->
-			
-		
-	</div> <!-- /row -->
-</div> <!-- /container -->
-
-{% include footer.html %}
+<div id="related">
+  <h2>Related Posts</h2>
+  <ul class="posts">
+    {% for post in site.related_posts limit:3 %}
+      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
+</div>

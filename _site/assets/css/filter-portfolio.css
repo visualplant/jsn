@@ -83,6 +83,11 @@ input.b-filter-meta#ShapeTriangle:checked ~ .b-list > .b-list-item_round,
 	cursor: pointer;
 	}
 
+		
+.b-filter-controls {
+	
+}
+
 
 /* Active state for multi-selects */
 .b-filter-meta#ColorRed:checked ~ .b-filter-controls .b-filter-label[for=ColorRed],
@@ -238,6 +243,11 @@ input.b-filter-meta#ShapeTriangle:checked ~ .b-list > .b-list-item_round,
 
 @media handheld, only screen and (max-width: 480px) {
 
-	.b-filter-controls {	
-		display: none;
+	.b-filter-controls {
+		margin-top: 0;
+	}
+	
+	
+	.b-filter-reset {
+		top: 13px;
 	}

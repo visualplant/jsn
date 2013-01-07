@@ -2,7 +2,7 @@
 layout: post
 title: Good UI yields lower latencies
 description: The outcome of User Interface Design literally equates to performance
-readingtime: 3 minutes
+readingtime: 4 minutes
 thumbnail: &#xe016;
 published: true
 ---

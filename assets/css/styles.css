@@ -210,10 +210,6 @@ strong {
 ::-moz-selection {
 	background: #6f8090; /* Firefox */
 	color: #fff;
-}			
-
-.container {
-	padding-left: 0px;
 }
 
 .animate-in {
@@ -236,7 +232,6 @@ strong {
 
 
 .container p {
-	padding-right: 10px;
 	padding-bottom: 6px;
 }
 
@@ -367,7 +362,7 @@ a:hover.active-globalsection {
 }
 
 .full-width-box {
-	margin-right:15px;
+	
 }
 
 .portfolio-thumb { 
@@ -394,7 +389,6 @@ a:hover.active-globalsection {
 .text-cols-1 {
 	-moz-column-count: 1;
 	-webkit-column-count: 1;
-	margin-right:15px;
 	max-width:250px;
 }
 
@@ -403,7 +397,6 @@ a:hover.active-globalsection {
     -moz-column-gap: 20px;
 	-webkit-column-count: 3;
 	-webkit-column-gap : 20px;
-	margin-right:15px;
 }
 
 .text-cols-2 {
@@ -411,7 +404,6 @@ a:hover.active-globalsection {
     -moz-column-gap: 20px;
 	-webkit-column-count: 2;
 	-webkit-column-gap : 20px;
-	margin-right:15px;
 }
 
 .portfolio-head {
@@ -599,9 +591,8 @@ ul.credits {
 }
 
 .background-text {
-	padding: 20px;
+	padding: 15px;
 	background-color: #fafae9;
-	margin-right: 20px;
 	margin-bottom: 40px;
 	-webkit-transition: all 0.25s linear;
 	-moz-transition: all 0.25s linear;
@@ -643,7 +634,6 @@ ul.credits {
 }
 
 .credits-box { 
-	margin-right:15px;
 	background-color:#eee;
 	padding:10px;
 	min-height:85px;
@@ -656,9 +646,8 @@ ul.credits {
 }
 
 .credits-head { 
-	font-size:0.9em;
+	font-size:0.95em;
 	font-weight:bold;
-	margin-right:15px;
 	margin-top:30px;
 	background-color:#ccc;
 	padding-left:10px;
@@ -1071,7 +1060,7 @@ a:active.portal2 {
 /* ============================= */
 
 @media handheld, only screen and (max-width: 480px) {
-
+	
 	body {
 		
 	}

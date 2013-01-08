@@ -885,20 +885,22 @@ a:active.portal2 {
 }
 
 .about-button {
-	font-size: 13px;
+	font-size: 14px;
 	text-align: center;
 	padding: 6px;
-	background-color: #333;
+	background-color: #ccc;
+	font-weight: bold;
 	color: #fff;
+	letter-spacing: 0.2em;
 	border-radius: 20px;
 	width: 100px;
 	margin: 0 auto;
-	cursor: pointer; 
+	cursor: pointer;
 }	
 
 .about-button:active {
-	background-color: #000;
-	color: #fff; 
+	background-color: #333;
+	color: #eee; 
 }
 
 .more {

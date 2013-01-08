@@ -10,7 +10,6 @@
 .b-list {
 	position: relative;
 	z-index: 9;
-	padding-top: 30px;
 }
 
 .b-list-item {

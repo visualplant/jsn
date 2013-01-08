@@ -164,13 +164,21 @@
 			-->
 			
 		<div class="opener-portfolio project-name">
-			15 years, 6 industries
+			Case studies
 			
 			<!--<a href="#" id="filter-btn" title="Filter by tag" style="cursor:pointer;font-size:0.9em;margin:3px;position: relative;left: 20px;" aria-hidden="true" data-icon="&#xe02b;"></a>-->
 			
 		</div>
+		
+		<div style="text-align: center;width: 100%;border-top: 1px solid #eee;">
+
+			
+			<div id="filter-btn" class="filter-button">filter</div>
+			
+
+		</div>
 	
-		<div class="b-filter-controls cf" style="padding-bottom: 15px;padding-top: 15px;border-bottom: 1px solid #eee;border-top: 1px solid #eee;">
+		<div class="b-filter-controls cf" style="display: none;padding-bottom: 15px;border-bottom: 1px solid #eee;">
 		
 			<div class="fivecol">
 
@@ -1034,6 +1042,7 @@ $(document).ready(function() {
 $('#filter-btn').click(function() {
   $('.b-filter-controls').slideToggle('fast', function() {
   });
+  $('#filter-btn').toggleClass('filter-button-active', 0);
 });
 </script>
 

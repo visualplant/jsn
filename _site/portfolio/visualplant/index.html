@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-<title>JSN / visualplant</title>
+<title>JSN / Visualplant</title>
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
 <meta http-equiv="content-language" content="en" />
@@ -95,7 +95,7 @@
 					class="active-globalsection" 
 				
 
-				id="desktop-menu-link"><span class="work-with-project-name" onclick="location.href='/portfolio/'">work</span><span class="project-name-in-header" onclick="location.href='#top'">: visualplant</span></a>
+				id="desktop-menu-link"><span class="work-with-project-name" onclick="location.href='/portfolio/'">work</span><span class="project-name-in-header" onclick="location.href='#top'">: Visualplant</span></a>
 			</li>
 					
 			<li><a href="/articles/" 
@@ -601,64 +601,6 @@ $(document).ready(function() {
 	
 /* Case study Waypoints */
 		
-	
-	
-		/* show slideshow(s) on mouseover */
-	
-		$('#slideshow').mouseover(function() {
-		  $('#slideshow').removeClass('dim', 300);  //undim slideshow player;
-		  $('#slideshow').addClass('show', 0);  //show slideshow player;
-		});
-		
-		$('#slideshow-dos').mouseover(function() {
-		  $('#slideshow-dos').removeClass('dim', 300);  //undim slideshow player;
-		  $('#slideshow-dos').addClass('show', 0);  //show slideshow player;
-		});
-		
-		/* Visualplant Waypoints */
-		
-		$('#slideshow').bind('inview', function(event, isInView, visiblePartX, visiblePartY) {
-		  if (isInView) {
-		    // element is now visible in the viewport
-		    if (visiblePartY == 'top') {
-		      // top part of element is visible
-		    } else if (visiblePartY == 'bottom') {
-		      // bottom part of element is visible
-		    } else {
-		      // whole part of element is visible
-		      $('#slideshow').removeClass('dim', 300);  //undim slideshow player;
-		      $('#slideshow').addClass('show', 0);  //show slideshow player;
-		      $('#slideshow').flexslider("play");  //Play slideshow;
-		    }
-		  } else {
-		    // element has gone out of viewport
-		    $('#slideshow').flexslider("pause");  //Pause slideshow;
-		    $('#slideshow').removeClass('show', 300);  //unshow slideshow player;
-		    $('#slideshow').addClass('dim', 0);  //dim slideshow player;
-		  }
-		});
-		
-		$('#slideshow-dos').bind('inview', function(event, isInView, visiblePartX, visiblePartY) {
-		  if (isInView) {
-		    // element is now visible in the viewport
-		    if (visiblePartY == 'top') {
-		      // top part of element is visible
-		    } else if (visiblePartY == 'bottom') {
-		      // bottom part of element is visible
-		    } else {
-		      // whole part of element is visible
-		      $('#slideshow-dos').removeClass('dim', 300);  //undim slideshow player;
-		      $('#slideshow-dos').addClass('show', 0);  //show slideshow player;
-		      $('#slideshow-dos').flexslider("play");  //Play slideshow;
-		    }
-		  } else {
-		    // element has gone out of viewport
-		    $('#slideshow-dos').flexslider("pause");  //Pause slideshow;
-		    $('#slideshow-dos').removeClass('show', 300);  //unshow slideshow player;
-		    $('#slideshow-dos').addClass('dim', 0);  //dim slideshow player;
-		  }
-		});
-
 	
 	
 	

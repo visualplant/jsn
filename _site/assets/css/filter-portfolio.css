@@ -246,7 +246,12 @@ input.b-filter-meta#ShapeTriangle:checked ~ .b-list > .b-list-item_round,
 }
 
 
-
+ unfilter {
+ 	 display: none;
+ 	 position: relative;
+ 	 top: 1px;
+ 	 left: 6px;
+ }
 
 
 .filter-border {

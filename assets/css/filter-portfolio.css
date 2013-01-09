@@ -238,7 +238,16 @@ input.b-filter-meta#ShapeTriangle:checked ~ .b-list > .b-list-item_round,
 	color: #fff;
 	background-color: #999;
 	text-shadow: none;
+	width: 80px;
 }
+
+.filter-button-active:after { 
+	content: &otimes;;
+}
+
+
+
+
 
 .filter-border {
 	 text-align: center;
@@ -267,11 +276,7 @@ input.b-filter-meta#ShapeTriangle:checked ~ .b-list > .b-list-item_round,
 
 @media handheld, only screen and (max-width: 480px) {
 
-	.b-filter-controls {	
-		display: none;
-	}
-	
-	#filter-btn {
+	.b-filter-controls, #filter-btn {	
 		display: none;
 	}
 	

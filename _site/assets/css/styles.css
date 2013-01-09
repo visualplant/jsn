@@ -804,7 +804,7 @@ ul.credits {
 	float: left;
 	width: 33%;
 	box-sizing: border-box;
-	margin-bottom: 40px;
+	margin-bottom: 20px;
 	padding: 10px;
 	-webkit-transition: all 0.25s linear;
 	-moz-transition: all 0.25s linear;
@@ -885,21 +885,21 @@ a:active.portal2 {
 }
 
 .about-button {
-	font-size: 14px;
+	font-size: 18px;
 	text-align: center;
 	padding: 6px;
-	background-color: #ccc;
-	font-weight: bold;
-	color: #fff;
+	border: 1px solid #ccc;
+	font-weight: normal;
+	color: #aaa;
 	letter-spacing: 0.2em;
 	border-radius: 20px;
-	width: 100px;
+	width: 90px;
 	margin: 0 auto;
 	cursor: pointer;
 }	
 
 .about-button:active {
-	background-color: #333;
+	background-color: #aaa;
 	color: #eee; 
 }
 

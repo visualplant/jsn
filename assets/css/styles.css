@@ -245,34 +245,6 @@ strong {
 
 
 
-.filter-button { 
-	position: relative;
-	top: -15px;
-	cursor: pointer;
-	font-size:0.95em;
-	letter-spacing: 0.1em;
-	color: #ff0099;
-	padding: 4px;
-	background-color: #fff;
-	border: 1px solid #ececec;
-	-moz-border-radius: 20px; /* FF1+ */
-	-webkit-border-radius: 20px; /* Saf3-4 */
-	border-radius: 20px; /* Opera 10.5, IE 9, Saf5, Chrome */
-	text-shadow: 0px 2px 3px #fff;
-	width: 70px;
-	margin: 0 auto;
-}
-
-.filter-button-active { 
-	color: #fff;
-	background-color: #999;
-	text-shadow: none;
-}
-
-
-
-
-
 /* HEADER */
 
 .header {
@@ -619,6 +591,13 @@ ul.credits {
 	font-style: italic;
 	font-family: georgia, serif;
 }
+
+.label-portfolio {
+	color:#999;
+	margin-bottom: 5px;
+}
+
+
 
 .background-text {
 	padding: 15px;

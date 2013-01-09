@@ -62,7 +62,6 @@ input.b-filter-meta#ShapeTriangle:checked ~ .b-list > .b-list-item_round,
 
 
 .b-filter-checks .b-filter-label {
-	float:left;
 	color: #333;
 	display: inline-block;
 	text-transform:uppercase;

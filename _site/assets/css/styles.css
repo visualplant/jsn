@@ -27,6 +27,12 @@ body.portfolio {
 
 }
 
+body.prototype {
+
+	background-color: #000;
+
+}
+
 body.articles {
 
 	background: url("/assets/images/bg/debut_light.png");
@@ -97,6 +103,25 @@ a:link.background-button, a:visited.background-button {
 
 a:hover.background-button {
 	background:;
+}
+
+a:link.prototype-button, a:visited.prototype-button {
+	background:#0099ff;
+	font-weight:bold;
+	color: #fff;
+	padding:10px;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+	padding-right: 18px;
+	padding-left: 18px;
+	text-decoration: none;
+	margin-bottom: 20px;
+}
+
+a:active.prototype-button {
+	background:#336699;
+	color: #ccc;
 }
 
 
@@ -705,6 +730,28 @@ ul.credits {
 	background-size:100%;
 	background-color:#000;
 	z-index:2;
+}
+
+.next-bottom {
+	position:relative;
+	width:100%;
+	min-height:26px;
+	overflow:hidden;
+	border-top: 1px solid #cecece;
+	border-bottom: 1px solid #999;
+	/*background-image:url('/assets/images/header-gradient.png');*/
+	background-size:100%;
+	background-color:#eee;
+	padding-bottom: 20px;
+	z-index:2;
+}
+
+.prototype-back {
+	position:relative;
+	width:100%;
+	overflow:hidden;
+	border-top: 1px solid #cecece;
+	background-color:#666;
 }
 
 .header-back { 

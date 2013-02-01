@@ -1,0 +1,240 @@
+---
+layout: case
+title: Interview
+section: private
+tags: [video, interview]
+---
+
+<div class="sidebar animate-in">
+
+	<form class="submitquestionform" style="display:none;">
+		 <div id="submitQuestion">
+		 	<input type="text" class="filterinput" placeholder="Your name"><br />
+		 	<input type="text" class="filterinput" placeholder="Your email address"><br />
+		 	<input type="text" class="filterinput" placeholder="Your company"><br />
+		 	<input type="text" class="filterinput" placeholder="The job title"><br />
+		 	<input type="text" class="filterinput" placeholder="Link to the job description">
+		 </div>
+
+		 <div class="submitButtonDiv">
+		 	<input name="submitquestion" type="button" class="submitButton shadowbox" value="Submit your question"><br clear="all"></form>
+		 </div>
+						 
+	
+	<ul id="list" class="sidebar-nav">
+		
+		<li class="filteritem"><a href="javascript:void(0);" id="q1">about</a>
+			<span id="keywords" style="display:none;">basics background education biography describe your life </span>
+		</li>
+		
+		<li><a href="javascript:void(0);" id="q2">education</a>
+			<span id="keywords" style="display:none;">school academics experience study college university </span>
+		</li>
+		
+		<li><a href="javascript:void(0);" id="q3">experience</a>
+			<span id="keywords" style="display:none;">previous jobs past employers </span>
+		</li>
+		
+		<li><a href="javascript:void(0);" id="q4">company size</a>
+			<span id="keywords" style="display:none;">corporations start up small team large agile lean bootstrap commando </span>
+		</li>
+		
+		<li><a href="javascript:void(0);" id="q5">teamwork</a>
+			<span id="keywords" style="display:none;">collaborate collaboration solo dynamic engage </span>
+		</li>
+		
+		<li><a href="javascript:void(0);" id="q6">why ux</a>
+			<span id="keywords" style="display:none;"> </span>
+		</li>
+		
+		<li><a href="javascript:void(0);" id="q7">approach</a>
+			<span id="keywords" style="display:none;">philosophy reason method angle </span>
+		</li>
+		
+		<li><a href="javascript:void(0);" id="q8">pressure</a>
+			<span id="keywords" style="display:none;">deadline team intense intensity </span>
+		</li>
+		
+		<li><a href="javascript:void(0);" id="q9">big project</a>
+			<span id="keywords" style="display:none;">large example case study </span>
+		</li>
+		
+		<li><a href="javascript:void(0);" id="q10">strength</a>
+			<span id="keywords" style="display:none;">benefits </span>
+		</li>
+		
+		<li><a href="javascript:void(0);" id="q11">looking</a>
+			<span id="keywords" style="display:none;">move change fired hired job search consulting </span>
+		</li>
+		
+	</ul>
+	
+</div>
+
+<div class="container animate-in">
+	<div class="row">
+	
+		<!-- grid place-holder for local nav (above) -->
+		<div class="twocol"></div>
+
+		<div class="tencol last">
+			<div class="box work">
+			
+				<div id="interview-video" class="full-width-box" style="margin-top: 80px;display: none;">
+				
+					<!--<iframe width="100%" height="166" scrolling="no" frameborder="no" src="http://w.soundcloud.com/player/?url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F33327638&amp;auto_play=false&amp;show_artwork=false&amp;color=00c9ff"></iframe>-->
+
+					
+					<iframe id="interview-player" src="http://player.vimeo.com/video/43807070?api=1&amp;title=0&amp;byline=0&amp;portrait=0&amp;" width="100%" height="500" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+					
+				
+				</div>
+						
+						
+				
+				<div class="full-width-box">
+					<div class="project-name">The interview project</div>
+					<div class="headline opener">
+						Jason answers oft-asked questions on camera in a <span class="project-type">15-minute asynchronous interview</span>.
+					</div>
+		
+					<div class="opener-image" style="">
+						<a id="play-interview-btn" href="javascript:void(0);"><img src="/assets/images/mokini/mokini-logo-card.png" alt="Play video interview"></a>
+
+
+						
+					</div>
+				
+				</div>
+					
+				<br clear="all"><br />
+		
+
+				<div class="section-divider">&nbsp;</div>
+				
+				<div class="full-width-box" style="text-align:center;margin-top:50px;margin-bottom:40px;display: none;">
+					<div class="next-up"><b>See my:</b></div>
+					<div><a href="/portfolio/" class="case-study-button">Work portfolio &nbsp; &rarr;</a></div>
+				</div>
+
+			</div> <!-- /ninecol -->
+		</div> <!-- /box work -->
+		
+	</div> <!-- /row -->
+</div> <!-- /container -->
+
+
+
+<script type="text/javascript">
+
+// Interview questions filter
+
+(function ($) {
+  // custom css expression for a case-insensitive contains()
+  jQuery.expr[':'].Contains = function(a,i,m){
+      return (a.textContent || a.innerText || "").toUpperCase().indexOf(m[3].toUpperCase())>=0;
+  };
+ 
+  function filterList(header, list) { 
+  // header is any element, list is an unordered list
+    // create and add the filter form to the header
+    var form = $("<form>").attr({"class":"filterform","action":"#"}),
+        input = $("<input>").attr({"class":"filterinput","type":"text","placeholder":"Ask me a question"});
+    $(form).append(input).appendTo(header);
+    
+    onclick="this.value='';"
+ 
+    $(input)
+      .change( function () {
+        var filter = $(this).val();
+        if(filter) {
+ 	  
+		  $matches = $(list).find('a:Contains(' + filter + ')').parent();
+		  $('li', list).not($matches).slideUp();
+		  $matches.slideDown();
+		    
+        } else {
+          $(list).find("li").slideDown();
+        }
+        return false;
+      })
+    .keyup( function () {
+        // fire the above change event after every letter
+        $(this).change();
+    });
+  }
+
+  //ondomready
+  $(function () {
+    filterList($("#form"), $("#list"));
+  });
+}(jQuery));
+
+
+
+//seek to video location links
+
+//<![CDATA[ 
+$(document).ready(function() {
+
+var playerinterview = $f($('#interview-player')[0]);
+
+$('#q1').click(function() {
+    playerinterview.api('seekTo', 1);
+    setTimeout("playerinterview.api('play')",3000);
+});
+
+$('#q2').click(function() {
+    playerinterview.api('seekTo', 22);
+    setTimeout("playerinterview.api('play')",3000);
+});
+
+$('#q3').click(function() {
+    playerinterview.api('seekTo', 87);
+    setTimeout("playerinterview.api('play')",3000);
+});
+
+$('#q4').click(function() {
+    playerinterview.api('seekTo', 107);
+    setTimeout("playerinterview.api('play')",3000);
+});
+
+$('#q5').click(function() {
+    playerinterview.api('seekTo', 133);
+    setTimeout("playerinterview.api('play')",3000);
+});
+
+$('#q6').click(function() {
+    playerinterview.api('seekTo', 216);
+    setTimeout("playerinterview.api('play')",3000);
+});
+
+$('#q7').click(function() {
+    playerinterview.api('seekTo', 344);
+    setTimeout("playerinterview.api('play')",3000);
+});
+
+$('#q8').click(function() {
+    playerinterview.api('seekTo', 420);
+    setTimeout("playerinterview.api('play')",3000);
+});
+$('#q9').click(function() {
+    playerinterview.api('seekTo', 474);
+    setTimeout("playerinterview.api('play')",3000);
+});
+
+$('#q10').click(function() {
+    playerinterview.api('seekTo', 644);
+    setTimeout("playerinterview.api('play')",3000);
+});
+
+$('#q11').click(function() {
+    playerinterview.api('seekTo', 693);
+    setTimeout("playerinterview.api('play')",3000);
+});
+
+
+});//]]>
+ 
+</script>
+		

@@ -678,7 +678,21 @@ $('#filter-btn').click(function() {
   $('#filter-btn').toggleClass('filter-button-active', 0);
   $('unfilter').toggle();
 });
+
+$('#play-interview-btn').click(function() {
+  $('#interview-video').slideToggle('fast');
+  
+});
+
+/* Load Vimeo's JS asynchronously per http://css-tricks.com/thinking-async */
+(function(d, t) {
+    var g = d.createElement(t),
+        s = d.getElementsByTagName(t)[0];
+    g.src = 'http://a.vimeocdn.com/js/froogaloop2.min.js?495ca-1328924472';
+    s.parentNode.insertBefore(g, s);
+}(document, 'script'));
 </script>
+
 
 
 </body>

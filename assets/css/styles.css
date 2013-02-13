@@ -50,12 +50,12 @@ body.about {
 /* LINKS */
 
 a:link, a:visited {
-	color: #ff0099;
+	color: #0099cc;
 	text-decoration: none;
 }
 
 a:active {
-	color: #999;
+	color: #336699;
 }
 
 a:hover {
@@ -64,7 +64,7 @@ a:hover {
 
 
 a:link.case-study-button, a:visited.case-study-button {
-	background:#ff6c89;
+	background:#0099cc;
 	font-weight:bold;
 	color: #fff;
 	padding:10px;
@@ -78,7 +78,7 @@ a:link.case-study-button, a:visited.case-study-button {
 }
 
 a:active.case-study-button {
-	background:#999;
+	background:#336699;
 	color: #eee;
 }
 
@@ -276,7 +276,7 @@ strong {
 	position: fixed; 
 	width: 100%; 
 	height: 46px;
-	background-image:url('/assets/images/header-gradient.png');
+	background-image:url('/assets/images/header-gradient.jpg');
 	background-size:100%;
 	box-shadow: 0px 3px 5px #bbb;
 	z-index: 3;
@@ -315,17 +315,17 @@ a:link.active-globalsection, a:visited.active-globalsection  {
 	text-decoration: none;
 	padding: 5px 13px 5px 15px;
 	border-radius: 20px;
-	background-color: #aaa;
+	background-color: #336699;
 }
 
 a:hover.globalsection  {
 	color: #fff;
-	background-color: #ccc;
+	background-color: #018bb9;
 }
 
 a:active.globalsection  {
 	color: #eee;
-	background-color: #aaa;
+	background-color: #336699;
 }
 
 
@@ -626,7 +626,7 @@ ul.credits {
 
 .background-text {
 	padding: 15px;
-	background-color: #fafae9;
+	background-color: #ececec;
 	margin-bottom: 40px;
 	-webkit-transition: all 0.25s linear;
 	-moz-transition: all 0.25s linear;
@@ -725,10 +725,10 @@ ul.credits {
 	width:100%;
 	height:26px;
 	overflow:hidden;
-	border-bottom: 1px solid #ddd;
-	background-image:url('/assets/images/header-gradient.png');
+	border-bottom: 1px solid #999;
+	/* background-image:url('/assets/images/header-gradient.jpg'); */
 	background-size:100%;
-	background-color:#000;
+	background-color:#999;
 	z-index:2;
 }
 
@@ -776,9 +776,9 @@ ul.credits {
 }
 
 .top-logo > a {
-	color:#ffffcc;
+	color:#fff;
 	background: none;
-	text-shadow:0 0 30px white;
+	text-shadow:0 0 20px white;
 }
 
 
@@ -836,6 +836,10 @@ ul.credits {
 	-moz-transition: all 0.25s linear;
 	-o-transition: all 0.25s linear;
 	transition: all 0.25s linear;
+	
+	filter: gray; 
+	-webkit-filter: grayscale(1);
+	filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale"); /* Firefox 10+, Firefox on Android */
 }
 
 .project-portal-container:hover {
@@ -843,6 +847,9 @@ ul.credits {
 	-moz-transform: scale(1.15);
 	-ms-transform: scale(1.15);
 	transform: scale(1.15);
+	
+	filter: none;
+	-webkit-filter: grayscale(0);
 }
 
 .portal {
@@ -858,10 +865,16 @@ ul.credits {
 	border:15px solid #ccc;
 	height:180px;
 	width:180px;
-	-webkit-transition: box-shadow 0.25s linear;
-	-moz-transition: box-shadow 0.25s linear;
-	-o-transition: box-shadow 0.25s linear;
-	transition: box-shadow 0.25s linear;	
+
+	
+	-webkit-transition: all 0.25s linear;
+	-moz-transition: all 0.25s linear;
+	-o-transition: all 0.25s linear;
+	transition: all 0.25s linear;
+	
+	filter: gray; 
+	-webkit-filter: grayscale(1);
+	filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale"); /* Firefox 10+, Firefox on Android */	
 }
 
 .portal:active {
@@ -872,7 +885,8 @@ ul.credits {
 }
 
 .portal:hover {
-	
+	filter: none;
+	-webkit-filter: grayscale(0);
 }
 
 a:link.portal2, a:visited.portal2 {
@@ -993,12 +1007,12 @@ a:active.portal2 {
 }
 
 .sidebar-nav > li > a:hover {
-  background-color: #ccc;
+  background-color: #018bb9;
   color: #fff;
 }
 
 .sidebar-nav > li > a:active {
-  background-color: #aaa;
+  background-color: #336699;
   color: #fff;
 }
 
@@ -1014,7 +1028,7 @@ a:active.portal2 {
   text-align:center;
   margin:0 auto;
   box-sizing: border-box; 
-  background-color:#aaa;
+  background-color:#336699;
   margin-bottom: 12px;
   font-weight:normal;
   color:#fff;

@@ -111,7 +111,7 @@ small {
 */
 
 #articles h1:hover {
-  color: #ff0099;
+  color: #018bb9;
 }
 #articles h1 {
   font-size: 1.375em;
@@ -228,8 +228,8 @@ a {
   border-bottom-color: #e8d174;
 }
 #articles a:active h1 {
-  color: #7f7d74;
-  border-bottom-color: #7f7d74;
+  color: #336699;
+  border-bottom-color: #336699;
 }
 /*	
 

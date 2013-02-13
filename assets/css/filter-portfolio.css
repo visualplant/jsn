@@ -57,6 +57,9 @@ input.b-filter-meta#ShapeTriangle:checked ~ .b-list > .b-list-item_round,
 	-moz-transform: scale(1.2);
 	-ms-transform: scale(1.2);
 	transform: scale(1.2);
+	
+	filter: none;
+	-webkit-filter: grayscale(0);
 
 	}
 
@@ -91,7 +94,7 @@ input.b-filter-meta#ShapeTriangle:checked ~ .b-list > .b-list-item_round,
 
 	color: #fff;
 	text-shadow: none;
-	background-color: #aaa;	
+	background-color: #336699;	
 
 }
 	
@@ -167,7 +170,7 @@ input.b-filter-meta#ShapeTriangle:checked ~ .b-list > .b-list-item_round,
 .b-filter-meta#ShapeTriangle:checked ~ .b-filter-controls .b-filter-label[for=ShapeTriangle] {
 	z-index: 7;
 	color: #FFF;
-	background-color: #aaa;
+	background-color: #336699;
 	text-shadow: none;
 	}
 
@@ -222,7 +225,7 @@ input.b-filter-meta#ShapeTriangle:checked ~ .b-list > .b-list-item_round,
 	cursor: pointer;
 	font-size:0.95em;
 	letter-spacing: 0.1em;
-	color: #ff0099;
+	color: #0099cc;
 	padding: 4px;
 	background-color: #fff;
 	border: 1px solid #ececec;
@@ -236,7 +239,7 @@ input.b-filter-meta#ShapeTriangle:checked ~ .b-list > .b-list-item_round,
 
 .filter-button-active { 
 	color: #fff;
-	background-color: #999;
+	background-color: #336699;
 	text-shadow: none;
 	width: 80px;
 }

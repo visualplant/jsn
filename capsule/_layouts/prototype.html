@@ -1,0 +1,32 @@
+---
+layout: base
+---
+
+{{ content }}
+
+{% include footer.html %}
+
+<!-- Flexslider -->
+<script type="text/javascript">
+    $(window).load(function(){
+    
+      $('#slideshow').flexslider({
+        animation: "slide",
+        animationLoop: true,
+        slideshow: false, // true to play automatically on page load
+        start: function(slider){
+          $('#slideshow').removeClass('loading');
+        }
+      });
+      
+      $('#slideshow-dos').flexslider({
+        animation: "slide",
+        animationLoop: true,
+        slideshow: false, // true to play automatically on page load
+        start: function(slider){
+          $('#slideshow-dos').removeClass('loading');
+        }
+      });
+      
+    });
+</script>

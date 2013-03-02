@@ -2,6 +2,61 @@
 /* ! Layout for desktop version   */
 /* ============================== */
 
+
+
+.box-wrap {
+	position: relative;
+	z-index: 1; /* prevent shadows falling behind containers with backgrounds */
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.interior-box-wrap {
+	position: relative;
+	width: 312px;
+	padding: 20px;
+	margin: 0 0 30px 0;
+	background: #f0f0f0;
+	box-shadow: 0 1px 4px rgba(0, 0, 0, 0.27);
+}
+
+/* page curl shadows */
+.box-wrap .interior-box-wrap:before,
+.box-wrap .interior-box-wrap:after {
+	content: '';
+	z-index: -1;
+	position: absolute;
+	left: 15px;
+	bottom: 15px;
+	width: 70%;
+	max-width: 300px; /* avoid rotation causing ugly appearance at large container widths */
+	max-height: 100px;
+	height: 55%;
+	-webkit-box-shadow: 0 8px 16px rgba(0, 0, 0, 0.6);
+	-moz-box-shadow: 0 8px 16px rgba(0, 0, 0, 0.6);
+	box-shadow: 0 8px 16px rgba(0, 0, 0, 0.6);
+	-webkit-transform: skew(-15deg) rotate(-6deg);
+	-moz-transform: skew(-15deg) rotate(-6deg);
+	-ms-transform: skew(-15deg) rotate(-6deg);
+	-o-transform: skew(-15deg) rotate(-6deg);
+	transform: skew(-15deg) rotate(-6deg); 
+}
+.box-wrap .interior-box-wrap:after {
+	left: auto;
+	right: 15px;
+	-webkit-transform: skew(15deg) rotate(6deg);
+	-moz-transform: skew(15deg) rotate(6deg);
+	-ms-transform: skew(15deg) rotate(6deg);
+	-o-transform: skew(15deg) rotate(6deg);
+	transform: skew(15deg) rotate(6deg); 
+}
+
+
+
+
+
+
+
 body {
 	font-family: helvetica, sans-serif;
 	background-color:#eee;

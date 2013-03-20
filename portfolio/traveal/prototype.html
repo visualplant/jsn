@@ -1,0 +1,63 @@
+---
+layout: prototype
+title: Traveal Prototype
+section: prototype
+tags: [case, consultant]
+---
+
+<script type="text/javascript">
+  function goFullscreen(id) {
+    // Get the element that we want to take into fullscreen mode
+    var element = document.getElementById(id);
+    
+    // These function will not exist in the browsers that don't support fullscreen mode yet, 
+    // so we'll have to check to see if they're available before calling them.
+    
+    if (element.mozRequestFullScreen) {
+      // This is how to go into fullscren mode in Firefox
+      // Note the "moz" prefix, which is short for Mozilla.
+      element.mozRequestFullScreen();
+    } else if (element.webkitRequestFullScreen) {
+      // This is how to go into fullscreen mode in Chrome and Safari
+      // Both of those browsers are based on the Webkit project, hence the same prefix.
+      element.webkitRequestFullScreen();
+   }
+   // Hooray, now we're in fullscreen mode!
+  }
+</script>
+
+<div class="container animate-in" style="background-color: #000;width:1200px;">
+	<div class="row">
+
+		<div id="slideshow" class="flexslider loading" style="border: 0;" onmouseover="">
+		
+			<ul class="slides">
+				<li><img src="/assets/images/traveal/Traveal-Deals.png" /></li>
+				<li><img src="/assets/images/traveal/Traveal-Hotels.png" /></li>
+				<li><img src="/assets/images/traveal/Traveal-Places.png" /></li>
+				<li><img src="/assets/images/traveal/Traveal-Choose-Dates.png" /></li>
+				<li><img src="/assets/images/traveal/Traveal-Splash.png" /></li>
+		  	</ul>
+		  	
+		</div>
+		
+		<div id="fuckhole"><img src="/assets/images/traveal/Traveal-Deals.png" /></div>
+		
+		<button onclick="goFullscreen('fuckhole'); return false">Click Me To Go Fullscreen!</button>
+
+	</div>
+</div>
+
+<!-- next up -->
+<div class="prototype-back">
+	<div class="container">
+		<div class="row">
+
+			<div class="full-width-box" style="text-align:center;margin-top:30px;margin-bottom:30px;">
+				<div><a href="/portfolio/traveal/#slideshow" class="case-study-button"> &nbsp; &larr; Back &nbsp;</a></div>
+			</div>
+
+		</div>
+	</div>
+	
+</div>

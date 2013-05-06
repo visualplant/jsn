@@ -1,8 +1,21 @@
 ---
 layout: base
 ---
-{% include mobile-menu.html %}
-{% include header.html %}
+
+<!-- Header case for Harmonic - Remove soon! -->
+{% if page.title == 'Harmonic' %}
+
+	{% include mobile-menu-harmonic.html %}
+	{% include header-harmonic.html %}
+
+{% else %}
+	
+	{% include mobile-menu.html %}
+	{% include header.html %}
+	
+{% endif %}
+
+
 
 {{ content }}
 
@@ -183,8 +196,6 @@ layout: base
    // Hooray, now we're in fullscreen mode!
   }
 </script>
-
-
 
 <script type="text/javascript">
 $('#filter-btn').click(function() {

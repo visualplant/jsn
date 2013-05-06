@@ -598,6 +598,7 @@ section {
 	text-shadow: 0px 2px 3px #fff;
 	font-weight:bold;
 	line-height:1.5em;
+	margin-bottom: 15px;
 }
 
 .opener-row { 
@@ -913,9 +914,23 @@ ul.credits {
 	-moz-transform: scale(1.15);
 	-ms-transform: scale(1.15);
 	transform: scale(1.15);
-	
+}
+
+
+.project-portal-container3 {
+	float: left;
+	width: 33%;
+	box-sizing: border-box;
+	margin-bottom: 20px;
+	padding: 10px;
+	}
+
+.project-portal-container3:hover {
 	
 }
+
+
+
 
 .portal {
 	display: block;
@@ -990,6 +1005,36 @@ a:active.portal2 {
 	box-shadow:inset 0px 0px 15px #333; /* Opera 10.5, IE 9 */
 	border-color: #aaa;
 }
+
+
+
+
+
+a:link.portal3, a:visited.portal3 {
+	display: block;
+	margin-left: auto;
+    margin-right: auto;
+	-moz-box-shadow:inset 0px 0px 15px #666; /* FF3.5+ */
+	-webkit-box-shadow:inset 0px 0px 15px #666; /* Saf3.0+*/
+	box-shadow:inset 0px 0px 15px #666; /* Opera 10.5, IE 9 */
+	-moz-border-radius: 90px; /* FF1+ */
+	-webkit-border-radius: 90px; /* Saf3-4 */
+	border-radius: 90px; /* Opera 10.5, IE 9, Saf5, Chrome */
+	border:8px solid #ccc;
+	height:85px;
+	width:85px;
+}
+
+a:active.portal3 {
+	-moz-box-shadow:inset 0px 0px 15px #333; /* FF3.5+ */
+	-webkit-box-shadow:inset 0px 0px 15px #333; /* Saf3.0+*/
+	box-shadow:inset 0px 0px 15px #333; /* Opera 10.5, IE 9 */
+	border-color: #aaa;
+}
+
+
+
+
 
 .portal-container {
 	margin-bottom:15px;

@@ -41,7 +41,10 @@
 </head>
 
 <body class="portfolio" data-spy="scroll" data-target=".sidebar">
-  <section id="top"></section><div id="mobile-menu" style="display:none;">
+  <section id="top"></section><!-- Header case for Harmonic - Remove soon! -->
+
+	
+	<div id="mobile-menu" style="display:none;">
 
 	<ul style="text-align: center;">
 		<a href="/about/"><li 
@@ -72,7 +75,7 @@
 	</ul>
 
 </div>
-<div class="header clearfix">
+	<div class="header clearfix">
 	
 	<div class="top-logo"><a href="/">JSN</a></div>
 	
@@ -114,6 +117,10 @@
 	</div>
 
 </div>
+	
+
+
+
 
 <div class="sidebar animate-in">
 	
@@ -334,18 +341,33 @@
 </div>
 
 <!-- jQuery -->
-<script src="/assets/js/jquery.min.js"></script>
+<script src="/assets/js/jquery-1.9.0.min.js"></script>
 
 <!-- FlexSlider -->
 <script defer src="/assets/js/jquery.flexslider-min.js"></script>
 
-<!-- FancyBox -->
-<script type="text/javascript" src="/assets/js/jquery.fancybox.js?v=2.1.0"></script>
 
-<!-- Add FancyBox Media helper (optional) -->
-<script type="text/javascript" src="/assets/js/jquery.fancybox-media.js?v=1.0.3"></script>
 
-<link rel="stylesheet" type="text/css" href="/assets/js/jquery.fancybox.css?v=2.1.0" media="screen" />
+<!-- Add fancyBox main JS and CSS files -->
+<script type="text/javascript" src="/assets/js/fancybox/jquery.fancybox.js?v=2.1.4"></script>
+<link rel="stylesheet" type="text/css" href="/assets/js/fancybox/jquery.fancybox.css?v=2.1.4" media="screen" />
+
+<!-- Add Button helper (this is optional) -->
+<link rel="stylesheet" type="text/css" href="/assets/js/fancybox/helpers/jquery.fancybox-buttons.css?v=1.0.5" />
+<script type="text/javascript" src="/assets/js/fancybox/helpers/jquery.fancybox-buttons.js?v=1.0.5"></script>
+
+<!-- Add Thumbnail helper (this is optional) -->
+<link rel="stylesheet" type="text/css" href="/assets/js/fancybox/helpers/jquery.fancybox-thumbs.css?v=1.0.7" />
+<script type="text/javascript" src="/assets/js/fancybox/helpers/jquery.fancybox-thumbs.js?v=1.0.7"></script>
+
+<!-- Add Media helper (this is optional) -->
+<script type="text/javascript" src="/assets/js/fancybox/helpers/jquery.fancybox-media.js?v=1.0.5"></script>
+	
+<!-- Add mousewheel plugin (this is optional) -->
+<script type="text/javascript" src="/assets/js/fancybox/jquery.mousewheel-3.0.6.pack.js"></script>
+
+
+
 
 <script type="text/javascript">
 $(document).ready(function() {
@@ -481,8 +503,6 @@ $(document).ready(function() {
    // Hooray, now we're in fullscreen mode!
   }
 </script>
-
-
 
 <script type="text/javascript">
 $('#filter-btn').click(function() {

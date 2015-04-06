@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+<title>JSN / {{ page.title }}</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+<meta http-equiv="content-language" content="en" />
+
+<!-- The Grid. Start page is centered.  -->
+{% if page.section == 'start' %}
+<link rel='stylesheet' href='/assets/css/start.css' type='text/css' media='screen' />
+
+<!--[if IE 8]>
+	<link rel='stylesheet' href='/assets/css/start-ie8.css' type='text/css' media='screen' />
+<![endif]-->
+<!--[if IE 9]>
+	<link rel='stylesheet' href='/assets/css/start-ie9.css' type='text/css' media='screen' />
+<![endif]-->
+
+{% else %}
+<link rel='stylesheet' href='/assets/css/1140.css' type='text/css' media='screen' /> 
+{% endif %}
+
+<!-- Articles styles -->
+{% if page.section == 'articles' %}
+<link rel="stylesheet" href="/assets/css/articles.css" type="text/css" media="screen" />
+{% else %}
+{% endif %}
+
+
+</head>
+
+<body class="gridlock">
+  {{ content }}
+</body>
+
+</html>

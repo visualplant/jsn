@@ -843,7 +843,7 @@ ul.credits {
 	float: left;
 	font-size:22px;
 	font-weight:bold;
-	letter-spacing:0.09em;
+	letter-spacing:0.05em;
 	padding-top: 11px;
 	padding-left: 20px;
 }
@@ -851,7 +851,7 @@ ul.credits {
 .top-logo > a {
 	color:#fff;
 	background: none;
-	text-shadow:0 0 20px white;
+	/*text-shadow:0 0 20px white;*/
 }
 
 

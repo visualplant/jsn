@@ -1,0 +1,65 @@
+/*! 
+ * SiteTitle v0.0.1 [2015-01-21] 
+ * Site description. 
+ * Fastspot 
+ *//* ==================================================================
+	 Fonts
+================================================================== */
+/**
+ * @license
+ * MyFonts Webfont Build ID 2957683, 2015-01-21T20:12:09-0500
+ * 
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are 
+ * explicitly restricted from using the Licensed Webfonts(s).
+ * 
+ * You may obtain a valid license at the URLs below.
+ * 
+ * Webfont: Texta-Bold by Latinotype
+ * URL: http://www.myfonts.com/fonts/latinotype/texta/bold/
+ * 
+ * Webfont: Texta-Light by Latinotype
+ * URL: http://www.myfonts.com/fonts/latinotype/texta/light/
+ * 
+ * Webfont: Texta-Medium by Latinotype
+ * URL: http://www.myfonts.com/fonts/latinotype/texta/medium/
+ * 
+ * Webfont: Texta-Regular by Latinotype
+ * URL: http://www.myfonts.com/fonts/latinotype/texta/regular/
+ * 
+ * 
+ * License: http://www.myfonts.com/viewlicense?type=web&buildid=2957683
+ * Licensed pageviews: 10,000
+ * Webfonts copyright: Copyright (c) 2014 by Daniel Hernandez &amp; Miguel Hernandez. All rights reserved.
+ * 
+ * © 2015 MyFonts Inc
+*/
+
+
+/* @import must be at top of file, otherwise CSS will not work */
+@import url("//hello.myfonts.net/count/2d2173");
+@import url("//hello.myfonts.net/count/2d217c");
+
+  
+@font-face {font-family: 'Texta-Thin';src: url('../webfonts/2D217C_0_0.eot');src: url('../webfonts/2D217C_0_0.eot?#iefix') format('embedded-opentype'),url('../webfonts/2D217C_0_0.woff2') format('woff2'),url('../webfonts/2D217C_0_0.woff') format('woff'),url('../webfonts/2D217C_0_0.ttf') format('truetype');}
+
+  
+@font-face {font-family: 'Texta-Bold';src: url('../webfonts/2D2173_0_0.eot');src: url('../webfonts/2D2173_0_0.eot?#iefix') format('embedded-opentype'),url('../webfonts/2D2173_0_0.woff2') format('woff2'),url('../webfonts/2D2173_0_0.woff') format('woff'),url('../webfonts/2D2173_0_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'Texta-Light';src: url('../webfonts/2D2173_1_0.eot');src: url('../webfonts/2D2173_1_0.eot?#iefix') format('embedded-opentype'),url('../webfonts/2D2173_1_0.woff2') format('woff2'),url('../webfonts/2D2173_1_0.woff') format('woff'),url('../webfonts/2D2173_1_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'Texta-Medium';src: url('../webfonts/2D2173_2_0.eot');src: url('../webfonts/2D2173_2_0.eot?#iefix') format('embedded-opentype'),url('../webfonts/2D2173_2_0.woff2') format('woff2'),url('../webfonts/2D2173_2_0.woff') format('woff'),url('../webfonts/2D2173_2_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'Texta-Regular';src: url('../webfonts/2D2173_3_0.eot');src: url('../webfonts/2D2173_3_0.eot?#iefix') format('embedded-opentype'),url('../webfonts/2D2173_3_0.woff2') format('woff2'),url('../webfonts/2D2173_3_0.woff') format('woff'),url('../webfonts/2D2173_3_0.ttf') format('truetype');}
+
+
+body{text-rendering:optimizeLegibility;-webkit-font-smoothing:antialiased}
+
+.Texta-Bold{font-family:Texta-Bold;font-weight:400;font-style:normal}
+.Texta-Light{font-family:Texta-Light;font-weight:300;font-style:normal}
+.Texta-Thin{font-family:Texta-Thin;font-weight:300;font-style:normal}
+.Texta-Medium{font-family:Texta-Medium;font-weight:400;font-style:normal}
+.Texta-Regular{font-family:Texta-Regular;font-weight:400;font-style:normal}

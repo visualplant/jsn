@@ -58,7 +58,10 @@
 
 
 body {
-	font-family: 'helvetica', sans-serif;
+	font-family:'Texta-Regular';
+	text-rendering:optimizeLegibility;
+	-webkit-font-smoothing:antialiased;
+	font-size:19px;
 	background-color:#eee;
 	box-sizing: border-box; 
 	-o-box-sizing: border-box; 
@@ -717,7 +720,7 @@ ul.credits {
 /*credits pane on case study*/
 .roles { 
 	text-transform:uppercase;
-	font-size:0.7em;
+	font-size:0.8em;
 	margin-bottom:5px;
 }
 
@@ -725,7 +728,7 @@ ul.credits {
 .role { 
 	float:left;
 	text-transform:uppercase;
-	font-size:0.7em;
+	font-size:0.8em;
 	margin-right: 3px;
 	padding-right: 10px;
 	padding-left: 10px;

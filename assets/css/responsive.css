@@ -1,0 +1,13 @@
+/* Mobile first */
+.start-headline { 
+  font-size: 30px;
+}
+
+/* Now desktop */
+@media (min-width: 600px) {
+  
+  .start-headline { 
+    font-size: 60px; 
+  }
+  
+}

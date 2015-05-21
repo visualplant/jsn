@@ -358,7 +358,7 @@ strong {
 	float: left;
 	margin: 15px 15px 0 5px;
 	font-size: 16px;
-	letter-spacing: 0.09em;
+	font-size: 0.9em;
 }
 
 .menu > li { list-style: none; float:left; margin-left: 14px;  }
@@ -371,12 +371,14 @@ a:link.globalsection, a:visited.globalsection {
 	text-decoration: none;
 	margin-left: -10px;
 	padding: 5px 13px 5px 15px;
+	margin-right: -10px;
 	border-radius: 20px;
 	background-color: none;
 	-webkit-transition: all 0.25s linear;
 	-moz-transition: all 0.25s linear;
 	-o-transition: all 0.25s linear;
 	transition: all 0.25s linear;
+	
 }
 
 a:link.active-globalsection, a:visited.active-globalsection  {
@@ -1097,7 +1099,7 @@ a:active.portal3 {
 .sidebar-nav {
   list-style: none;
   font-size: 0.9em;
-  letter-spacing: 0.09em;
+  l
 }
 
 .sidebar-nav > li > a {

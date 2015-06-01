@@ -483,7 +483,7 @@ a:hover.active-globalsection {
 
 .body-text {
 	font-size:0.9em;
-	line-height:1.6em;
+	line-height:1.4em;
 }
 
 .text-cols-1 {
@@ -528,7 +528,7 @@ section {
 .project-name {
 	margin-top:60px;
 	font-size:2.6em;
-	line-height:1.3em;
+	line-height:1.0em;
 	font-weight:bold;
 	color:#39434c;
 	text-shadow: 0px 2px 3px #fff;
@@ -601,8 +601,8 @@ section {
 	color:#39434c;
 	text-shadow: 0px 2px 3px #fff;
 	font-weight:bold;
-	line-height:1.5em;
-	margin-bottom: 15px;
+	line-height:1.3em;
+	margin-bottom: 12px;
 }
 
 .opener-row { 
@@ -676,10 +676,11 @@ ul.credits {
 }
 
 .quote-credit { 
-	margin-top:15px;
 	text-transform:uppercase;
-	font-size:65%;
-	line-height:1.5em;
+	font-size:0.7em;
+	margin-bottom:5px;
+	line-height:1.0em;
+	margin-top: 15px;
 }
 
 .caption {
@@ -721,8 +722,9 @@ ul.credits {
 /*credits pane on case study*/
 .roles { 
 	text-transform:uppercase;
-	font-size:0.8em;
+	font-size:0.7em;
 	margin-bottom:5px;
+	line-height:1.0em;
 }
 
 /*quick view modal*/
@@ -751,6 +753,7 @@ ul.credits {
 .credit-name { 
 	font-weight:bold;
 	font-size:0.9em;
+	line-height:1.0em;
 }
 
 .credits-head { 

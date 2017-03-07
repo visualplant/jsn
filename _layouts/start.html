@@ -10,7 +10,7 @@ title: WORKS FOR THE INTERNET
 		<div class="hero">
 		
 			<div class="start-headline" style="position: relative;top: 45%;transform: translateY(-50%);color: white;">
-				<span class="Texta-Regular" style="margin-right: 10px;"><a href="https://www.linkedin.com/in/visualplant" class="jsn-start" target="_blank">JSN</a></span> 
+				<span class="Texta-Regular" style="margin-right: 10px;"><a href="https://www.linkedin.com/in/visualplant" class="jsn-start" target="_blank">JSN</a></span>
 				
 				<!-- Display popover on hover/touch of element with class: jsn-start -->
 				<div id="jsn-start-popover" class="Texta-Regular" style="width: 620px;display: none;">
@@ -38,7 +38,7 @@ title: WORKS FOR THE INTERNET
 			</div> <!-- /start-headline -->
 
 			<div id="start-nav-center" class="hero-links" style="display: ;">
-				<a href="https://www.linkedin.com/in/visualplant" class="nav-links">About</a> 
+				<a href="https://www.linkedin.com/in/visualplant" class="nav-links">About</a>
 				<a href="#works-featured" rel="m_PageScroll2id" data-ps2id-offset="58" class="nav-links">Work</a>
 				<a href="https://medium.com/@visualplant" class="nav-links">Articles</a>
 			</div>
@@ -50,7 +50,7 @@ title: WORKS FOR THE INTERNET
 				</div>
 	
 				<div class="hero-links" style="text-align: left;float: left;margin-left: 85px;bottom: 17px;">
-					<a href="https://www.linkedin.com/in/visualplant" class="nav-links">About</a> 
+					<a href="https://www.linkedin.com/in/visualplant" class="nav-links">About</a>
 					<a href="/portfolio/" class="nav-links active-globalsection">Work</a>
 					<a href="https://medium.com/@visualplant" class="nav-links">Articles</a>
 				</div>
@@ -67,11 +67,11 @@ title: WORKS FOR THE INTERNET
 				<div class="Texta-Regular" style="color: #eee;background-color: black;height: 270px;line-height: 270px;text-align: center;font-size: 34px;">
 					
 					<span style="display: inline-block;vertical-align: middle;line-height: normal;">
-				  	
-				  		<span style="margin-left: 120px;color: #888;"><nobr>The work of JSN&mdash;</nobr></span><nobr><span style="background-color: #222;color: #666;padding: 4px;font-size: 18px;position: relative;top: -4px;cursor: pointer;" onMouseOver="this.style.color='#ccc'"
-				  		   onMouseOut="this.style.color='#666'">Jason Schmidt</span></nobr>
-				  	<br /><span style="color: #888;">a User Experience Designer of software platforms.</span><br /><span style="color: #fff;font-size: 56px;">Case studies.</span>
-				  </span>
+				
+				<span style="margin-left: 120px;color: #888;"><nobr>The work of JSN&mdash;</nobr></span><nobr><span style="background-color: #222;color: #666;padding: 4px;font-size: 18px;position: relative;top: -4px;cursor: pointer;" onMouseOver="this.style.color='#ccc'"
+				onMouseOut="this.style.color='#666'">Jason Schmidt</span></nobr>
+				<br /><span style="color: #888;">a User Experience Designer of software platforms.</span><br /><span style="color: #fff;font-size: 56px;">Case studies.</span>
+				</span>
 				
 				</div>
 				
@@ -178,29 +178,29 @@ title: WORKS FOR THE INTERNET
 
 		/* Show case title in global nav when scrolled below summary */
 			$('.works-featured').waypoint(function(event, direction) {
-			   $('#start-nav-center').fadeToggle( "fast", "linear" );
-			   $('#start-nav-left').fadeToggle( "fast", "linear" );
-			   
-			   setTimeout(function(){
-			     $('#feature-1').removeClass('overlay');
-			   }, 300);
-			   
-			   setTimeout(function(){	
-			   	 $('#feature-1').addClass('overlay');
-			     $('#feature-2').removeClass('overlay');
-			   }, 450);
-			   
-			   setTimeout(function(){
-			   	 $('#feature-2').addClass('overlay');
-			     $('#feature-3').removeClass('overlay');
-			   }, 600);
-			   
-			   setTimeout(function(){
-			     $('#feature-1').addClass('overlay');
-			     $('#feature-2').addClass('overlay');
-			     $('#feature-3').addClass('overlay');
-			   }, 1650);
-			    
+			$('#start-nav-center').fadeToggle( "fast", "linear" );
+			$('#start-nav-left').fadeToggle( "fast", "linear" );
+			
+			setTimeout(function(){
+			$('#feature-1').removeClass('overlay');
+			}, 300);
+			
+			setTimeout(function(){
+			$('#feature-1').addClass('overlay');
+			$('#feature-2').removeClass('overlay');
+			}, 450);
+			
+			setTimeout(function(){
+			$('#feature-2').addClass('overlay');
+			$('#feature-3').removeClass('overlay');
+			}, 600);
+			
+			setTimeout(function(){
+			$('#feature-1').addClass('overlay');
+			$('#feature-2').addClass('overlay');
+			$('#feature-3').addClass('overlay');
+			}, 1650);
+			
 			}, {
 				offset: 100
 			});

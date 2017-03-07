@@ -1,4 +1,4 @@
 markdown: 			rdiscount
-highlighter: 		true
+highlighter: 		rouge
 auto: 					true
 port: 					9002

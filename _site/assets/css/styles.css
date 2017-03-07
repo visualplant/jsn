@@ -17,7 +17,6 @@
 	padding: 20px;
 	margin: 0 0 30px 0;
 	background: #f0f0f0;
-	box-shadow: 0 1px 4px rgba(0, 0, 0, 0.27);
 }
 
 /* page curl shadows */
@@ -32,9 +31,6 @@
 	max-width: 300px; /* avoid rotation causing ugly appearance at large container widths */
 	max-height: 100px;
 	height: 55%;
-	-webkit-box-shadow: 0 8px 16px rgba(0, 0, 0, 0.6);
-	-moz-box-shadow: 0 8px 16px rgba(0, 0, 0, 0.6);
-	box-shadow: 0 8px 16px rgba(0, 0, 0, 0.6);
 	-webkit-transform: skew(-15deg) rotate(-6deg);
 	-moz-transform: skew(-15deg) rotate(-6deg);
 	-ms-transform: skew(-15deg) rotate(-6deg);
@@ -501,7 +497,7 @@ a:hover.active-globalsection {
 
 .text-cols-2 {
 	-moz-column-count: 2;
-    -moz-column-gap: 20px;
+  -moz-column-gap: 20px;
 	-webkit-column-count: 2;
 	-webkit-column-gap : 20px;
 }
@@ -572,7 +568,7 @@ section {
 
 .opener { 
 	float:left;
-	margin-top:27px;
+	margin-top:10px;
 	margin-bottom: 20px;
 	margin-right: 3%;
 	width:52%;
@@ -675,6 +671,13 @@ ul.credits {
 	background: url("/assets/images/quotation-bg.png") no-repeat;
 }
 
+.customer-sad { 
+	padding-left:45px;
+	height:45px;
+	text-transform:uppercase;
+	background: url("/assets/images/customer-sad.png") no-repeat;
+}
+
 .quote-credit { 
 	text-transform:uppercase;
 	font-size:0.7em;
@@ -723,7 +726,7 @@ ul.credits {
 .roles { 
 	text-transform:uppercase;
 	font-size:0.7em;
-	margin-bottom:5px;
+	margin-bottom:15px;
 	line-height:1.0em;
 }
 
@@ -915,6 +918,8 @@ ul.credits {
 	transition: all 0.25s linear;
 	
 	}
+	
+	
 
 .project-portal-container:hover {
 	-webkit-transform: scale(1.15);
@@ -942,10 +947,8 @@ ul.credits {
 .portal {
 	display: block;
 	margin-left: auto;
-    margin-right: auto;
-	-moz-box-shadow:inset 0px 0px 15px #666; /* FF3.5+ */
-	-webkit-box-shadow:inset 0px 0px 15px #666; /* Saf3.0+*/
-	box-shadow:inset 0px 0px 15px #666; /* Opera 10.5, IE 9 */
+  margin-right: auto;
+	
 	-moz-border-radius: 110px; /* FF1+ */
 	-webkit-border-radius: 110px; /* Saf3-4 */
 	border-radius: 110px; /* Opera 10.5, IE 9, Saf5, Chrome */
@@ -965,9 +968,7 @@ ul.credits {
 }
 
 .portal:active {
-	-moz-box-shadow:inset 0px 0px 15px #333; /* FF3.5+ */
-	-webkit-box-shadow:inset 0px 0px 15px #333; /* Saf3.0+*/
-	box-shadow:inset 0px 0px 15px #333; /* Opera 10.5, IE 9 */
+	
 	border-color: #aaa;
 }
 
@@ -979,16 +980,11 @@ ul.credits {
 a:link.portal2, a:visited.portal2 {
 	display: block;
 	margin-left: auto;
-    margin-right: auto;
-	-moz-box-shadow:inset 0px 0px 15px #666; /* FF3.5+ */
-	-webkit-box-shadow:inset 0px 0px 15px #666; /* Saf3.0+*/
-	box-shadow:inset 0px 0px 15px #666; /* Opera 10.5, IE 9 */
-	-moz-border-radius: 90px; /* FF1+ */
-	-webkit-border-radius: 90px; /* Saf3-4 */
-	border-radius: 90px; /* Opera 10.5, IE 9, Saf5, Chrome */
-	border:8px solid #ccc;
-	height:85px;
-	width:85px;
+  margin-right: auto;
+
+	border:1px solid #ccc;
+	height:125px;
+	width:175px;
 	-webkit-transition: all 0.25s linear;
 	-moz-transition: all 0.25s linear;
 	-o-transition: all 0.25s linear;
@@ -1007,9 +1003,7 @@ a:hover.portal2 {
 
 
 a:active.portal2 {
-	-moz-box-shadow:inset 0px 0px 15px #333; /* FF3.5+ */
-	-webkit-box-shadow:inset 0px 0px 15px #333; /* Saf3.0+*/
-	box-shadow:inset 0px 0px 15px #333; /* Opera 10.5, IE 9 */
+	
 	border-color: #aaa;
 }
 
@@ -1021,9 +1015,7 @@ a:link.portal3, a:visited.portal3 {
 	display: block;
 	margin-left: auto;
     margin-right: auto;
-	-moz-box-shadow:inset 0px 0px 15px #666; /* FF3.5+ */
-	-webkit-box-shadow:inset 0px 0px 15px #666; /* Saf3.0+*/
-	box-shadow:inset 0px 0px 15px #666; /* Opera 10.5, IE 9 */
+	
 	-moz-border-radius: 90px; /* FF1+ */
 	-webkit-border-radius: 90px; /* Saf3-4 */
 	border-radius: 90px; /* Opera 10.5, IE 9, Saf5, Chrome */
@@ -1033,9 +1025,7 @@ a:link.portal3, a:visited.portal3 {
 }
 
 a:active.portal3 {
-	-moz-box-shadow:inset 0px 0px 15px #333; /* FF3.5+ */
-	-webkit-box-shadow:inset 0px 0px 15px #333; /* Saf3.0+*/
-	box-shadow:inset 0px 0px 15px #333; /* Opera 10.5, IE 9 */
+	
 	border-color: #aaa;
 }
 
@@ -1322,7 +1312,7 @@ a:active.portal3 {
 		margin-bottom:30px;
 		text-align:center;
 		width:100%;
-		margin-top:10px;
+		margin-top:0px;
 		margin-bottom: 15px;
 		float:none;
 	}

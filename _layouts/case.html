@@ -2,20 +2,8 @@
 layout: base
 ---
 
-<!-- Header case for Harmonic - Remove soon! -->
-{% if page.title == 'Harmonic' %}
-
-	{% include mobile-menu-harmonic.html %}
-	{% include header-harmonic.html %}
-
-{% else %}
-	
-	{% include mobile-menu.html %}
-	{% include header.html %}
-	
-{% endif %}
-
-
+{% include mobile-menu.html %}
+{% include header.html %}
 
 {{ content }}
 
@@ -216,6 +204,7 @@ $('#play-interview-btn').click(function() {
     g.src = 'http://a.vimeocdn.com/js/froogaloop2.min.js?495ca-1328924472';
     s.parentNode.insertBefore(g, s);
 }(document, 'script'));
+
 </script>
 
 

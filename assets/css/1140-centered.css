@@ -14,14 +14,14 @@ margin-right: 0px;
 
 .row {
 width: 100%;
-max-width: 1140px;
+max-width: 1540px;
 min-width: 755px;
 margin: 0 auto;
 overflow: hidden;
 }
 
 .onecol, .twocol, .threecol, .fourcol, .fivecol, .sixcol, .sevencol, .eightcol, .ninecol, .tencol, .elevencol {
-margin-right: 3.8%;
+margin-right: 0px;
 float: left;
 min-height: 1px;
 }
@@ -31,7 +31,7 @@ width: 4.85%;
 }
 
 .row .twocol {
-width: 13.45%;
+width: 16.66666666%;
 }
 
 .row .threecol {
@@ -39,7 +39,7 @@ width: 22.05%;
 }
 
 .row .fourcol {
-width: 30.75%;
+width: 33.33333333%;
 }
 
 .row .fivecol {

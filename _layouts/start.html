@@ -13,20 +13,23 @@ title: WORKS FOR THE INTERNET
 				<span class="Texta-Regular" style="margin-right: 10px;"><a href="https://www.linkedin.com/in/visualplant" class="jsn-start" target="_blank">JSN</a></span>
 				
 				<!-- Display popover on hover/touch of element with class: jsn-start -->
-				<div id="jsn-start-popover" class="Texta-Regular" style="width: 620px;display: none;">
+				<div id="jsn-start-popover" class="Texta-Regular" style="display: none;cursor: pointer;" onclick="window.open('http://www.linkedin.com/in/visualplant','LinkedInWindow');">
 					<table style="margin-bottom: -35px;">
 						<tr>
 							<td valign="top">
-								<a href="http://www.linkedin.com/in/visualplant"><img src="/assets/images/jsn-sm.jpg" alt="Jason Schmidt" title="LinkedIn Profile" /><div style="font-size:1.2em;color:#77cce7;margin:3px;position: relative;left: 69px;top: -34px;" aria-hidden="true" data-icon="&#xe048;"></div></a>
+							
+								<a href="http://www.linkedin.com/in/visualplant"><img src="/assets/images/jsn-sm.jpg" alt="Jason Schmidt" title="LinkedIn Profile" /></a>
+							
 							</td>
 							<td>&nbsp;</td>
-							<td valign="top" class="Texta-Regular">
-								<div style="font-size: 22px;">Jason Schmidt</div>
+							<td valign="top" class="Texta-Regular"> 
+								<div style="font-size: 22px;">Jason De Haro <span class="ico-linkedin" style="color:#77cce7;" aria-hidden="true" data-icon="&#xe048;"></span></div>
 								<div style="font-size: 16px;">User Experience Designer &mdash; Software Platforms</div>
 								<div style="font-size: 16px;">Harmonic, Lightspeed, Sony, Napster, Visualplant</div>
 								<div style="font-size: 16px;">SF Bay / Silicon Valley</div>
 								<div style="font-size: 16px;">
-									<a href="#" style="color: #fff;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;text-decoration: none;padding: 2px 7px 1px 7px;border-radius: 20px;background-color: #000;margin-top: 1px;">Bio</a>
+
+									<!--<a href="#" style="color: #fff;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;text-decoration: none;padding: 2px 7px 1px 7px;border-radius: 20px;background-color: #000;margin-top: 1px;">Bio</a>-->
 								</div>
 							</td>
 						</tr>
@@ -34,8 +37,15 @@ title: WORKS FOR THE INTERNET
 				</div>
 				<!-- /popover -->
 				
-				<span class="Texta-Thin"><nobr><a href="#works-featured" rel="m_PageScroll2id" data-ps2id-offset="58" title="View work">UX/Platform Designer</a></nobr></span>
+				<span class="Texta-Thin"><nobr><a href="#works-featured" rel="m_PageScroll2id" data-ps2id-offset="58" title="View work">UX/Product Designer</a></nobr></span>
+				
+				<div style="margin-top: 20px;">
+					<a href="#works-featured" rel="m_PageScroll2id" data-ps2id-offset="58" title="View work"><img src="/assets/images/btn-touch.png" class="btn-touch"></a>
+				</div>
+				
 			</div> <!-- /start-headline -->
+			
+			
 
 			<div id="start-nav-center" class="hero-links" style="display: ;">
 				<a href="https://www.linkedin.com/in/visualplant" class="nav-links">About</a>
@@ -69,7 +79,7 @@ title: WORKS FOR THE INTERNET
 					<span style="display: inline-block;vertical-align: middle;line-height: normal;">
 				
 						<span style="color: #888;"><nobr>The work of JSN&mdash;</nobr></span><nobr><span style="background-color: #222;color: #666;padding: 4px;font-size: 18px;position: relative;top: -4px;cursor: pointer;" onMouseOver="this.style.color='#ccc'"
-				onMouseOut="this.style.color='#666'">Jason Schmidt</span>
+				onMouseOut="this.style.color='#666'">Jason De Haro</span>
 						</nobr>
 				
 						<br />
@@ -208,7 +218,7 @@ title: WORKS FOR THE INTERNET
 				offset: 100
 			});
 
-			$('a.jsn-start').webuiPopover({url:'#jsn-start-popover',trigger:'hover',width:'450'});
+			$('a.jsn-start').webuiPopover({url:'#jsn-start-popover',trigger:'hover'});
 
 		</script>
 			

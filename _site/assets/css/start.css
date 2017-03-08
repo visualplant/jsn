@@ -62,13 +62,9 @@
 	transition: opacity 0.5s ease;
   -webkit-transition: opacity 0.5s ease;
 	-moz-transition: opacity 0.5s ease;
-}
-
-
-.overlay {
 	position: relative;
-
 }
+
 
 .overlay:after {
     content: '\A';
@@ -136,6 +132,29 @@ a:hover.active-globalsection {
 /* Default display the image to replace the video on all devices */
 #videosubstitute{display:block;width:100%;height:auto;max-width:100%}
  
+ 
+ 
+ 
+ .btn-touch {
+ 	-webkit-transition: all 0.25s linear;
+ 	-moz-transition: all 0.25s linear;
+ 	-o-transition: all 0.25s linear;
+ 	transition: all 0.25s linear;
+ 	}
+
+ .btn-touch:hover {
+ 	-webkit-transform: scale(1.15);
+ 	-moz-transform: scale(1.15);
+ 	-ms-transform: scale(1.15);
+ 	transform: scale(1.15);
+ }
+ 
+ .btn-touch:active {
+ 	-webkit-transform: scale(0.85);
+ 	-moz-transform: scale(0.85);
+ 	-ms-transform: scale(0.85);
+ 	transform: scale(0.85);
+ }
 
  
  

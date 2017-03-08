@@ -1,4 +1,4 @@
-/* Mobile first */
+/* Mobile first - default */
 .start-headline { 
   font-size: 30px;
 }
@@ -10,19 +10,56 @@
 	line-height: 180px;
 	text-align: center;
 	font-size: 22px;
- }
+}
+ 
+#jsn-start-popover {
+ 	width: 220px;
+ 	height: 165px;
+}
+ 
+.ico-linkedin {
+ 	font-size:1.2em;
+}
+
+.ico-linkedin {
+	font-size:0.8em;
+	margin-top: 4px;
+	position: relative;top: 2px;
+}
+	
+.btn-touch {
+	width: 40px;
+}
+
 
 /* Now desktop */
 @media (min-width: 600px) {
   
   .start-headline { 
     font-size: 60px; 
-  }
+	}
   
   .work-intro {
   	height: 270px;
   	line-height: 270px;
   	font-size: 34px;
+  }
+   
+   #jsn-start-popover {
+   	width: 450px;
+   	height: 105px;
    }
+   
+   .ico-linkedin {
+   	font-size:1.2em;
+   	margin-top: 8px;
+   	position: relative;
+   	top: 4px;
+   }
+   
+   .btn-touch {
+   	width: 70px;
+   }
+  
   
 }

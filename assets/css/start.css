@@ -130,19 +130,29 @@ a:hover.active-globalsection {
 }
 
 
-
-
 /* Default hide the video on all devices */
 #video{display:none}
  
 /* Default display the image to replace the video on all devices */
 #videosubstitute{display:block;width:100%;height:auto;max-width:100%}
  
-/* Medium Devices, Desktops */
-@media only screen and (min-width : 992px) {
-#video{display:block}
-#videosubstitute{display:none}
+
+ 
+ 
+/* ============================= */
+/* ! Medium screens and Desktops */
+/* ============================= */@media only screen and (min-width : 992px) {
+	#video{display:block}
+	#videosubstitute{display:none}
+	
 }
+
+
+
+
+
+
+
 
 
 

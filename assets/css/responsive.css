@@ -3,11 +3,26 @@
   font-size: 30px;
 }
 
+.work-intro {
+	color: #eee;
+	background-color: black;
+	height: 180px;
+	line-height: 180px;
+	text-align: center;
+	font-size: 22px;
+ }
+
 /* Now desktop */
 @media (min-width: 600px) {
   
   .start-headline { 
     font-size: 60px; 
   }
+  
+  .work-intro {
+  	height: 270px;
+  	line-height: 270px;
+  	font-size: 34px;
+   }
   
 }

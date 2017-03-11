@@ -3,11 +3,6 @@
 /* ============================== */
 
 
-
-.work-intro {
-	font-size: 34px;
-}
-
 .box-wrap {
 	position: relative;
 	z-index: 1; /* prevent shadows falling behind containers with backgrounds */
@@ -1258,13 +1253,7 @@ a:active.portal3 {
 	}
 	
 	
-	.work-intro {
-		font-size: 24px;
-	}
-	
-	
-	
-	
+
 	.header {
 		position: static;
 	}

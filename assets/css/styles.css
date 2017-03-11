@@ -364,7 +364,7 @@ a:link.globalsection, a:visited.globalsection {
 	box-sizing: border-box;
 	text-decoration: none;
 	margin-left: -10px;
-	padding: 5px 5px 5px 15px;
+	padding: 5px 5px 5px 5px;
 	margin-right: -10px;
 	border-radius: 20px;
 	background-color: none;

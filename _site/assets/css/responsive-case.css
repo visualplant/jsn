@@ -5,6 +5,16 @@
 	margin-bottom: 15px;
 	margin-right: 0px;
 }
+
+.project-name {
+	font-size: 28px;
+	line-height:1.5em;
+}
+
+.headline { 
+	font-size:21px;
+	line-height:1.2em;
+}
 	
 
 
@@ -17,6 +27,16 @@
    	border: 1px solid #333;
    	margin-bottom: 0;
    	margin-right: 10px;
+   }
+   
+   .project-name {
+   	font-size: 38px;
+   	line-height:1.0em;
+   }
+   
+   .headline { 
+   	font-size:28px;
+   	line-height:1.3em;
    }
    
 }

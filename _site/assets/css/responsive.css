@@ -61,6 +61,11 @@
 		font-size: 27px;
 	}
 	
+	.work-subhead {
+		font-size: 21px;
+		margin-top: -3px;
+	}
+	
 	.work-more-subhead {
 		font-size: 21px;
 		margin-top: -3px;
@@ -71,7 +76,7 @@
 	font-size: 24px;
 	padding-right: 20px;
 	padding-left: 20px;
-	padding-bottom: 30px;
+	padding-bottom: 15px;
 }
 
 .jsn-logo {
@@ -187,6 +192,7 @@
    
    .work-subhead {
    	font-size: 28px;
+   	margin-top: 0;
    	line-height: 28px;
    }
    

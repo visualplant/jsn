@@ -1,0 +1,22 @@
+/* Mobile first - default */
+
+.soundcloud-clip {
+	width: 100%;
+	margin-bottom: 15px;
+	margin-right: 0px;
+}
+	
+
+
+/* Now desktop */
+@media (min-width: 600px) {
+   
+   .soundcloud-clip {
+   	float: left;
+   	max-width: 48%;
+   	border: 1px solid #333;
+   	margin-bottom: 0;
+   	margin-right: 10px;
+   }
+   
+}

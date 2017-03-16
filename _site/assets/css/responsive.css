@@ -101,6 +101,13 @@
 .feature-head {
 	display: inline;
 }
+
+.soundcloud-clip {
+	width: 100%;
+	margin-bottom: 15px;
+	margin-right: 0px;
+	border: 1px solid #333;
+}
 	
 
 
@@ -201,6 +208,15 @@
    
    .work-feature {
    	min-height: 108px;
+   }
+   
+   .soundcloud-clip {
+   	float: left;
+   	max-width: 49%;
+   	border: 1px solid #333;
+   	margin-bottom: 0;
+   	margin-right: 10px;
+   	border: 1px solid #333;
    }
    
    .work {

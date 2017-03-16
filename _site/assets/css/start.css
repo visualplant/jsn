@@ -73,15 +73,17 @@
 		height: 100%;
     top:0; 
 		left:0;
-    background:rgba(0,0,0,0.7);
+    background:rgba(0,0,0,0.4);
     opacity: 1;
     transition: opacity 0.5s;
     -webkit-transition: opacity 0.5s;
 	  -moz-transition: opacity 0.5s;
 }
+
 .overlay:hover:after {
 		opacity: 0;
 }
+
 
 
 .hide-it {
@@ -157,11 +159,19 @@ a:hover.active-globalsection {
  }
 
 
+.work {
+	color: #fff;
+	border-top: 1px solid #333;
+	padding-top: 15px;
+	padding-left: 20px !important;
+	box-sizing: border-box;
+}
  
  
 /* ============================= */
 /* ! Medium screens and Desktops */
-/* ============================= */@media only screen and (min-width : 992px) {
+/* ============================= */
+@media only screen and (min-width : 992px) {
 	#video{display:block}
 	#videosubstitute{display:none}
 	

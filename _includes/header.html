@@ -6,7 +6,7 @@
 		<ul class="menu" style="clear: both;"> 
 			
 			<!-- shows for desktop -->
-			<li><a href="http://www.linkedin.com/in/visualplant" 
+			<li><a href="/about/" 
 			
 				{% if page.section == 'about' %}
 					class="active-globalsection" 
@@ -25,7 +25,16 @@
 					class="globalsection"
 				{% endif %}
 
-				id="desktop-menu-link"><span class="work-with-project-name" onclick="location.href='/#works-featured'">Work: Case Study</span>{% if page.title == 'work' %}{% else %}<span class="project-name-in-header" onclick="location.href='#top'">: {{ page.title }}</span>{% endif %}</a>
+				id="desktop-menu-link"><span class="work-with-project-name" onclick="location.href='/#works-featured'">
+				
+				{% if page.section == 'about' %}
+					Work 
+				{% else %}
+					Work: Case Study
+				{% endif %}
+				
+				
+				</span>{% if page.title == 'work' %}{% else %}<span class="project-name-in-header" onclick="location.href='#top'">: {{ page.title }}</span>{% endif %}</a>
 			</li>
 					
 			<li><!--<a href="/articles/" --><a href="https://medium.com/@visualplant"

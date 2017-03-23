@@ -667,9 +667,36 @@ ul.credits {
 
 .customer-sad { 
 	padding-left:45px;
-	height:45px;
+	height:65px;
 	text-transform:uppercase;
 	background: url("/assets/images/customer-sad.png") no-repeat;
+}
+
+.award { 
+	padding-left:45px;
+	margin-bottom: 10px;
+	height:65px;
+	text-transform:uppercase;
+	background: url("/assets/images/award.png") no-repeat;
+	background-size: 38%;
+}
+
+.design-thinking { 
+	padding-left:45px;
+	margin-bottom: 10px;
+	height:65px;
+	text-transform:uppercase;
+	background: url("/assets/images/design-thinking.png") no-repeat;
+	background-size: 38%;
+}
+
+.money { 
+	padding-left:45px;
+	margin-bottom: 10px;
+	height:65px;
+	text-transform:uppercase;
+	background: url("/assets/images/money.png") no-repeat;
+	background-size: 38%;
 }
 
 .quote-credit { 

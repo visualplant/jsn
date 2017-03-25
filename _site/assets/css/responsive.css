@@ -15,6 +15,11 @@
 	text-align: center;
 	font-size: 22px;
 }
+
+.cred {
+	color: #eee;
+	font-size: 22px;
+}
  
 #jsn-start-popover {
  	width: 220px;

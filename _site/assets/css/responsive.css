@@ -15,11 +15,6 @@
 	text-align: center;
 	font-size: 22px;
 }
-
-.cred {
-	color: #eee;
-	font-size: 22px;
-}
  
 #jsn-start-popover {
  	width: 220px;
@@ -89,6 +84,10 @@
 	top: 2px;
 }
 
+.cred {
+	display: none;
+}
+
 .work {
 	height: 88px;
 	
@@ -131,6 +130,14 @@
     top: 45%;
     transform: translateY(-50%);
     color: white;
+	}
+	
+	.cred {
+		display: inline;
+		margin-top: 35px;
+		color: #fff;
+		font-size: 28px;
+		line-height: 26px;
 	}
   
   .work-intro {
@@ -225,10 +232,8 @@
    .soundcloud-clip {
    	float: left;
    	max-width: 49%;
-   	border: 1px solid #333;
    	margin-bottom: 0;
    	margin-right: 10px;
-   	border: 1px solid #333;
    }
    
    .work {

@@ -115,24 +115,26 @@ title: WORKS FOR THE INTERNET
 				
 					
 					<!-- 1 -->
-					<a href="/portfolio/harmonic">	
+					<a href="/portfolio/harmonic" title="View case study">	
 					
 						<div id="feature-1" class="fourcol overlay work work-feature" style="height: 100%;background-color: #ccc;padding-top: 20px;padding-left: 20px;box-sizing: border-box;position: relative;">
 						
 						
 						
 							<div style="float: left;text-align: left;">
-								<img class="feature-logo" src="/assets/images/harmonic/vos-logo-icon.png" style="height: 35px;margin-bottom: 8px;" />
+								<img class="feature-logo" src="/assets/images/harmonic/vos-logo-icon.png" style="height: 33px;margin-bottom: 8px;" />
 								<span class="feature-head work-more-headline Texta-Regular">VOS</span>
 								<div class="work-subhead Texta-Thin">Enterprise Video Platform</div>
 
-								<!--<div class="cred" style="margin-top: 50px;">
-									<span class="Texta-Thin" style="font-size: 26px;">
-										<div id="featured-success-1" style="display: none;margin-bottom: 6px;"><span style="font-size: 16px;">&starf;</span> Ushered design thinking</div>
-										<div id="featured-success-2" style="display: none;margin-bottom: 6px;"><span style="font-size: 14px;">&starf;</span> Acquired top tier customers</div>
-										<div id="featured-success-3" style="display: none;"><span style="font-size: 14px;">&starf;</span> Design innovation IBC 2016</div>
-									</span>
-								</div>-->
+								<div class="cred">
+									<div class="Texta-Regular">
+										<div id="featured-success-1" style="display: none;margin-top: 35px;">
+											<div>2016 IBC</div>
+											<div>Design Innovation</div>
+											<div>Award</div>
+										</div>
+									</div>
+								</div>
 								
 							</div>
 	
@@ -158,9 +160,19 @@ title: WORKS FOR THE INTERNET
 						<div id="feature-2" class="fourcol overlay work work-feature" style="height: 100%;background-color: #ccc;padding-top: 20px;padding-left: 20px;box-sizing: border-box;position: relative;">
 							
 							<div style="float: left;text-align: left;">
-								<img class="feature-logo" src="/assets/images/mokini/mokini-logo-icon.png" style="height: 45px;" />
+								<img class="feature-logo" src="/assets/images/mokini/mokini-logo-icon.png" style="height: 40px;" />
 								<span class="feature-head work-more-headline Texta-Regular">Mokini</span>
 								<div class="work-subhead Texta-Thin">Collegiate Social Platform</div>
+								
+								<div class="cred">
+									<div class="Texta-Regular">
+										<div id="featured-success-2" style="display: none;margin-top: 35px;">
+											<div>Lightspeed VP</div>
+											<div>Stanford Univ</div>
+										</div>
+									</div>
+								</div>
+								
 							</div>
 							
 						</div>
@@ -173,9 +185,19 @@ title: WORKS FOR THE INTERNET
 						<div id="feature-3" class="fourcol overlay work work-feature last" style="height: 100%;background-color: #ddd;padding: 20px;box-sizing: border-box;position: relative;">
 						
 							<div style="float: left;text-align: left;">
-								<img class="feature-logo" src="/assets/images/traveal/traveal-logo-icon.png" style="height: 35px;margin-bottom: 8px;" />
-								<span class="feature-head work-more-headline Texta-Regular">Traveal</span>
+								<img class="feature-logo" src="/assets/images/traveal/sabre-logo.png" style="height: 32px;margin-bottom: 8px;" />
+								<span class="feature-head work-more-headline Texta-Regular">Sabre</span>
 								<div class="work-subhead Texta-Thin">Consumer Travel App</div>
+								
+								<div class="cred">
+									<div class="Texta-Regular">
+										<div id="featured-success-3" style="display: none;margin-top: 35px;">
+											<div>Travelocity</div>
+											<div>50+ million consumers</div>
+										</div>
+									</div>
+								</div>
+								
 							</div>
 						
 						</div>
@@ -271,36 +293,31 @@ title: WORKS FOR THE INTERNET
 			$('a.jsn-start').webuiPopover({url:'#jsn-start-popover',trigger:'hover'});
 			
 			
-			$( "li.fade" ).hover(function() {
-			  $( this ).fadeOut( 100 );
-			  $( this ).fadeIn( 500 );
-			});
-			
-			
 			$('#feature-1').hover(function() {
-				
-				$('.cred').show(0);
-				
-				setTimeout(function(){
-				  $('#featured-success-1').fadeIn( "fast", "linear" );
-				}, 500);
-				
-				setTimeout(function(){
-				  $('#featured-success-2').fadeIn( "fast", "linear" );
-				}, 2500);
-				
-				setTimeout(function(){
-				  $('#featured-success-3').fadeIn( "fast", "linear" );
-				}, 4800);
-
+				$('#featured-success-1').fadeIn( "fast", "linear" );
 			});
 			
 			$('#feature-1').mouseout(function() {
-				$('.cred').hide(0);
+				$('#featured-success-1').fadeOut( "fast", "linear" );
 			});
 			
+			$('#feature-2').hover(function() {
+				$('#featured-success-2').fadeIn( "fast", "linear" );
+			});
 			
+			$('#feature-2').mouseout(function() {
+				$('#featured-success-2').fadeOut( "fast", "linear" );
+			});
 			
+			$('#feature-3').hover(function() {
+				$('#featured-success-3').fadeIn( "fast", "linear" );
+			});
+			
+			$('#feature-3').mouseout(function() {
+				$('#featured-success-3').fadeOut( "fast", "linear" );
+			});
+			
+
 
 		</script>
 			

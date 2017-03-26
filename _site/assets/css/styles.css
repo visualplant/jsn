@@ -381,7 +381,7 @@ a:link.active-globalsection, a:visited.active-globalsection  {
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
 	text-decoration: none;
-	padding: 5px 13px 5px 15px;
+	padding: 5px 13px 3px 15px;
 	border-radius: 20px;
 	background-color: #336699;
 }

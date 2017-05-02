@@ -187,8 +187,9 @@
 				<div class="caption">Fig 1: Launch Pad</div>
 				
 				<div class="full-width-box">
-					<img src="/assets/images/harmonic/launchpad-vos360.png" valign="top" class="case-image" alt="">
+					<img data-alt-src="/assets/images/harmonic/launchpad-vos360-anim.gif" class="case-image" src="/assets/images/harmonic/launchpad-vos360.png" />
 				</div>
+
 				
 				<div class="section-divider" style="margin-top:0;">&nbsp;</div>
 				
@@ -362,7 +363,7 @@
 				<div class="text-head">Define</div>
 				
 				<div class="text-cols body-text">
-					With a plethora of useful research documented, I collaborated with my Product Managers to interpret it and define solutions. Naturally, this involved a lot of trial-and-error, so we quickly presented ideas on the white-board and captured them to a photo stream for subsequent review and discussion. Then, we filtered the best from the rest, and reached consensus to proceed. From this came a product design plan with room to change and grow.</div>
+					With a plethora of useful research documented, I collaborated with my Product Managers to interpret it and define solutions. Naturally, this involved a lot of trial-and-error, so we quickly sketched ideas on the white-board and captured them to a photo stream for subsequent review. Then, we filtered the best from the rest and reached consensus to proceed. From this came a product design plan with room to change and grow.</div>
 				
 				<br clear="all" />
 				
@@ -375,7 +376,7 @@
 				<div class="section-divider" style="margin-top:0;">&nbsp;</div>
 
 				<div class="text-cols body-text">
-					 I gave more structure to our concepts by developing semi-functional wireframes and umbrella schematics. These began to solidify the platform structure, workflows, taxonomy and terminology which would be the springboard for an interaction framework.	</div>
+					 I gave more structure to our concepts by developing storyboards, wireframes and umbrella schematics. These began to solidify the platform structure, workflows, taxonomy and terminology which would be the springboard for an interaction framework.	</div>
 				
 				
 				<br clear="all" />
@@ -616,7 +617,6 @@
 	</div>
 	
 </div>
-	
 
 
 <div class="topbar-repeat"></div>
@@ -793,6 +793,26 @@ $(document).ready(function() {
 	
 	
 	
+	
+	
+	
+		
+		var sourceSwap = function () {
+        var $this = $(this);
+        var newSource = $this.data('alt-src');
+        $this.data('alt-src', $this.attr('src'));
+        $this.attr('src', newSource);
+    }
+
+    $(function() {
+        $('img[data-alt-src]').each(function() { 
+            new Image().src = $(this).data('alt-src'); 
+        }).hover(sourceSwap, sourceSwap); 
+    });
+
+
+	
+
 	
 	
 		

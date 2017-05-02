@@ -253,6 +253,7 @@ strong {
 
 .case-image:hover {
 	box-shadow:0px 1px 8px #54BBFF;
+	-webkit-box-shadow: 0px 1px 8px #54BBFF;
 }
 
 box-shadow:0px 1px 8px #54BBFF;

@@ -168,12 +168,26 @@ layout: base
       }).hover(sourceSwap, sourceSwap); 
     });
     
- 
     
-    
-    
-    
-
+    /*-------------------------------------------------------------------------------------------
+    =VIDEO THUMB — Play / Stop Thumb
+    --------------------------------------------------------------------------------------------*/
+        $(document).on("mouseover", ".hasVideo", function(){
+            $(this).children("img").hide();
+            $(this).children('.video').get(0).play();     
+        });
+        $(document).on("mouseout", ".hasVideo", function(){
+                $(this).children("img").show(); 
+                $(this).children('.video').get(0).pause();
+                $(this).children('.video').get(0).currentTime = 0;  
+        });    
+        
+        $(".work .columns article").click(function(){
+            window.location=$(this).find("a").attr("href");
+            return false;
+        });
+        
+        
 
 	{% else %}
 	{% endif %}

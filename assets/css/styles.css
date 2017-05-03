@@ -256,7 +256,10 @@ strong {
 	-webkit-box-shadow: 0px 1px 8px #54BBFF;
 }
 
-box-shadow:0px 1px 8px #54BBFF;
+.videoThumb{display: block; cursor: pointer; position: relative; width: 100%; height: auto;}
+.videoThumb video, .videoThumb img{display: block;}
+.videoThumb video{display: none;}
+.hasVideo:hover video{display: block;}
 
 .mobile-menu-item {
 	padding-top: 18px;

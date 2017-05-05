@@ -184,19 +184,21 @@
 				
 				<div>
 					<div class="caption" style="float: left;margin-right: 10px;">Fig 1: Launch Pad</div>
-					<span style="font-size:1.0em;color:#bbb;position: relative;" aria-hidden="true" data-icon="&#xe04b;"></span> 
+					
+					<span class="ico-has-video" aria-hidden="true" data-icon="&#xe04b;"></span>
+					 
 				</div>
 				
 				<div class="full-width-box">
-					
+				
 					<a href="JavaScript:Void(0);" class="videoThumb hasVideo">
-            <img src="/assets/images/harmonic/launchpad-vos360.png">
-            <video poster="/assets/images/harmonic/launchpad-vos360.png" class="video case-image" autobuffer preload="auto" tabindex="0" loop>
-              	<source type="video/mp4" src="/assets/images/harmonic/launchpad-vos360-video.mp4"></source>
-                <source type="video/ogg" src="/assets/images/harmonic/launchpad-vos360-video.ogv"></source>
-              </video>
-          </a>
-             
+					  <img src="/assets/images/harmonic/launchpad-vos360.png">
+					  <video poster="/assets/images/harmonic/launchpad-vos360.png" class="video case-image" autobuffer preload="auto" tabindex="0" loop>
+					    	<source type="video/mp4" src="/assets/images/harmonic/launchpad-vos360-video.mp4"></source>
+					      <source type="video/ogg" src="/assets/images/harmonic/launchpad-vos360-video.ogv"></source>
+					    </video>
+					</a>
+	
 					<!--<img data-alt-src="/assets/images/harmonic/launchpad-vos360-anim.gif" class="case-image" src="/assets/images/harmonic/launchpad-vos360.png" />-->
 					
 				</div>
@@ -205,7 +207,7 @@
 				
 				<div>
 					<div class="caption" style="float: left;margin-right: 10px;">Fig 2: Dashboard</div>
-					<span style="font-size:1.0em;color:#bbb;position: relative;" aria-hidden="true" data-icon="&#xe04b;"></span> 
+					<span class="ico-has-video" aria-hidden="true" data-icon="&#xe04b;"></span> 
 				</div>
 				
 				<div class="full-width-box">
@@ -836,22 +838,23 @@ $(document).ready(function() {
     --------------------------------------------------------------------------------------------*/
         $(document).on("mouseover", ".hasVideo", function(){
             $(this).children("img").hide();
-            $(this).children('.video').get(0).play();     
+            $(this).children('.video').get(0).play();
+            $(".ico-has-video").addClass('ico-highlight');  
         });
         $(document).on("mouseout", ".hasVideo", function(){
-                $(this).children("img").show(); 
-                $(this).children('.video').get(0).pause();
-                $(this).children('.video').get(0).currentTime = 0;  
+            $(this).children("img").show(); 
+            $(this).children('.video').get(0).pause();
+            $(this).children('.video').get(0).currentTime = 0;
+            $(".ico-has-video").removeClass('ico-highlight');  
         });    
         
         $(".work .columns article").click(function(){
             window.location=$(this).find("a").attr("href");
             return false;
         });
-        
-        
 
-	
+ 
+	 /* end VOS case study */
 
 	
 	
@@ -880,6 +883,7 @@ $(document).ready(function() {
    }
    // Hooray, now we're in fullscreen mode!
   }
+ 
 </script>
 
 <script type="text/javascript">

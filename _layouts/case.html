@@ -174,23 +174,24 @@ layout: base
     --------------------------------------------------------------------------------------------*/
         $(document).on("mouseover", ".hasVideo", function(){
             $(this).children("img").hide();
-            $(this).children('.video').get(0).play();     
+            $(this).children('.video').get(0).play();
+            $(".ico-has-video").addClass('ico-highlight');  
         });
         $(document).on("mouseout", ".hasVideo", function(){
-                $(this).children("img").show(); 
-                $(this).children('.video').get(0).pause();
-                $(this).children('.video').get(0).currentTime = 0;  
+            $(this).children("img").show(); 
+            $(this).children('.video').get(0).pause();
+            $(this).children('.video').get(0).currentTime = 0;
+            $(".ico-has-video").removeClass('ico-highlight');  
         });    
         
         $(".work .columns article").click(function(){
             window.location=$(this).find("a").attr("href");
             return false;
         });
-        
-        
 
+ 
 	{% else %}
-	{% endif %}
+	{% endif %} /* end VOS case study */
 
 	
 	{% if page.title == 'Mokini' %}
@@ -224,6 +225,7 @@ layout: base
    }
    // Hooray, now we're in fullscreen mode!
   }
+ 
 </script>
 
 <script type="text/javascript">

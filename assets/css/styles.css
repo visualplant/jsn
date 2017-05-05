@@ -46,12 +46,6 @@
 	transform: skew(15deg) rotate(6deg); 
 }
 
-
-
-
-
-
-
 body {
 	font-family:'Texta-Regular';
 	text-rendering:optimizeLegibility;
@@ -77,6 +71,7 @@ body.portfolio {
 
 	background: url("/assets/images/bg/debut_light.png");
 	background-attachment:fixed;
+	height: 100%;
 
 }
 
@@ -254,7 +249,23 @@ strong {
 .case-image:hover {
 	box-shadow:0px 1px 8px #54BBFF;
 	-webkit-box-shadow: 0px 1px 8px #54BBFF;
+	-moz-box-shadow: 0px 1px 8px #54BBFF;
 }
+
+.ico-has-video {
+	width: 100%;
+	transition: 0.5s ease-in-out;
+	font-size:1.0em;
+	color:#bbb;
+	position: relative;
+	margin-left: 10px;
+}
+
+.ico-highlight {
+	color: #1fbaeb;
+}
+
+
 
 .videoThumb{display: block; cursor: pointer; position: relative; width: 100%; height: auto;}
 .videoThumb video, .videoThumb img{display: block;}
@@ -338,9 +349,6 @@ strong {
 	padding-top: 10px;
 	font-size: 1.6em;
 }
-
-
-
 
 
 /* HEADER */

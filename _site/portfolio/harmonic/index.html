@@ -846,7 +846,7 @@ $(document).ready(function() {
 	
 	
 		
-		var sourceSwap = function () {
+	  var sourceSwap = function () {
       var $this = $(this);
       var newSource = $this.data('alt-src');
       $this.data('alt-src', $this.attr('src'));
@@ -857,6 +857,7 @@ $(document).ready(function() {
       $('img[data-alt-src]').each(function() { 
           new Image().src = $(this).data('alt-src'); 
       }).hover(sourceSwap, sourceSwap); 
+
     });
 
     
@@ -882,6 +883,9 @@ $(document).ready(function() {
 
  
 	 /* end VOS case study */
+
+	
+	 /* end VaultifyTrade case study */
 
 	
 	

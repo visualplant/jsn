@@ -155,7 +155,7 @@ layout: base
 	
 	{% if page.title == 'VOS' %}
 		
-		var sourceSwap = function () {
+	  var sourceSwap = function () {
       var $this = $(this);
       var newSource = $this.data('alt-src');
       $this.data('alt-src', $this.attr('src'));
@@ -166,6 +166,7 @@ layout: base
       $('img[data-alt-src]').each(function() { 
           new Image().src = $(this).data('alt-src'); 
       }).hover(sourceSwap, sourceSwap); 
+
     });
 
     
@@ -192,6 +193,47 @@ layout: base
  
 	{% else %}
 	{% endif %} /* end VOS case study */
+
+	{% if page.title == 'VaultifyTrade' %}
+		
+	  var sourceSwap = function () {
+      var $this = $(this);
+      var newSource = $this.data('alt-src');
+      $this.data('alt-src', $this.attr('src'));
+      $this.attr('src', newSource);
+    }
+
+    $(function() {
+      $('img[data-alt-src]').each(function() { 
+          new Image().src = $(this).data('alt-src'); 
+      }).hover(sourceSwap, sourceSwap); 
+
+    });
+
+    
+    /*-------------------------------------------------------------------------------------------
+    =VIDEO THUMB — Play / Stop Thumb
+    --------------------------------------------------------------------------------------------*/
+        $(document).on("mouseover", ".hasVideo", function(){
+            $(this).children("img").hide();
+            $(this).children('.video').get(0).play();
+            $(".ico-has-video").addClass('ico-highlight');  
+        });
+        $(document).on("mouseout", ".hasVideo", function(){
+            $(this).children("img").show(); 
+            $(this).children('.video').get(0).pause();
+            $(this).children('.video').get(0).currentTime = 0;
+            $(".ico-has-video").removeClass('ico-highlight');  
+        });    
+        
+        $(".work .columns article").click(function(){
+            window.location=$(this).find("a").attr("href");
+            return false;
+        });
+
+ 
+	{% else %}
+	{% endif %} /* end VaultifyTrade case study */
 
 	
 	{% if page.title == 'Mokini' %}

@@ -28,6 +28,26 @@
   text-align: center !important;
 }
 
+.opener-image-rambus img {
+  width: 150px !important;
+  }
+
+.responsive {
+  position: relative;
+  padding-bottom: 67%;
+  height: 0;
+  margin: 10px 0;
+  overflow: hidden;
+}
+
+.responsive iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
 
 /* Now desktop */
 @media (min-width: 600px) {
@@ -59,5 +79,9 @@
    top: 110px !important;
    right: 50px;
 }
+
+.opener-image-rambus img {
+  width: 220px !important;
+  }
    
 }

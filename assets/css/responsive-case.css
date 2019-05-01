@@ -20,7 +20,13 @@
 	opacity: 0;
 	height: 10px;
 }
-	
+
+.opener-image-rambus {
+  position:relative;
+  top: 10px !important;
+  right: 0px !important;
+  text-align: center !important;
+}
 
 
 /* Now desktop */
@@ -47,5 +53,11 @@
     opacity: 1.0;
     height: 65px;
    }
+
+  .opener-image-rambus {
+   position:relative;
+   top: 110px !important;
+   right: 50px;
+}
    
 }

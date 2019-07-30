@@ -22,6 +22,11 @@
 
 
 
+<!-- About styles -->
+
+<link rel="stylesheet" href="/assets/css/timeline.min.css" />
+
+
 <!-- Custom styles -->
 <link rel="stylesheet" href="/assets/css/styles.css" type="text/css" media="screen" />
 
@@ -150,6 +155,40 @@
 					<br  clear="all" />
 
 					<!-- begin content -->
+
+					<div class="timeline" data-mode="vertical" data-vertical-start-position="left">
+    <div class="timeline__wrap">
+        <div class="timeline__items">
+            <div class="timeline__item">
+                <div class="timeline__content">
+                	<div class="headline" style="float:left;">2018 - 2019</div>
+                    <div style="float:left;">I joined <a href="http://rambus.com" target="_blank">Rambus</a> Payments Group to lead and evolve an innovative platform for fintechs and ecommerce merchants leveraging our <a href="https://www.rambus.com/security/payments/retail-ecommerce-payments/token-gateway/" target="_blank">Token Gateway</a> for secure tokenization of user credentials. Our group was acquired by Visa in July 2019.</div>
+                    <br clear="All">
+                </div>
+            </div>
+            <div class="timeline__item">
+                <div class="timeline__content">
+                    Content / markup here
+                </div>
+            </div>
+            <div class="timeline__item">
+                <div class="timeline__content">
+                    Content / markup here
+                </div>
+            </div>
+            <div class="timeline__item">
+                <div class="timeline__content">
+                    Content / markup here
+                </div>
+            </div>
+            <div class="timeline__item">
+                <div class="timeline__content">
+                    Content / markup here
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 					
 					<div class="text-cols body-text">
 
@@ -195,6 +234,8 @@
 					</div>
 					
 					<br />
+
+
 
 					<!--<div class="section-divider">&nbsp;</div>-->
 					
@@ -355,8 +396,12 @@
 <!-- Web UI Popover -->
 <script type="text/javascript" src="/assets/js/web-ui-popover/jquery.webui-popover.min.js"></script>
 
+<!-- Timeline - About page -->
+<script src="/assets/js/timeline.min.js"></script>
 
-
+<script type="text/javascript">
+jQuery('.timeline').timeline();
+</script>
 
 
 <script type="text/javascript">

@@ -16,6 +16,12 @@
 	line-height:1.2em;
 }
 
+img.company-logo-about { 
+  max-width: 150px;
+  position: relative;
+  top: -2px;
+}
+
 .success-icon {
 	opacity: 0;
 	height: 10px;
@@ -68,6 +74,12 @@
    	font-size:28px;
    	line-height:1.3em;
    }
+
+  img.company-logo-about { 
+    max-width: 150px;
+    position: relative;
+    top: 3px;
+  }
    
    .success-icon {
     opacity: 1.0;

@@ -107,7 +107,12 @@ a:active {
 }
 
 a:hover {
-	/*background-color:#ffffe5;*/
+	background-color:#faf2f4;
+	/* text-decoration: underline; */
+	-webkit-transition: all 0.25s linear;
+ 	-moz-transition: all 0.25s linear;
+ 	-o-transition: all 0.25s linear;
+ 	transition: all 0.25s linear;
 }
 
 

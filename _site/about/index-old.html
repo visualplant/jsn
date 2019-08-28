@@ -16,6 +16,8 @@
 <link rel='stylesheet' href='/assets/css/1140.css' type='text/css' media='screen' /> 
 <link rel='stylesheet' href='/assets/css/fonts.css' type='text/css' media='screen' />
 <link rel='stylesheet' href='/assets/css/responsive-case.css' type='text/css' media='screen' />
+<link rel='stylesheet' href='/assets/js/web-ui-popover/jquery.webui-popover.css' type='text/css' media='screen' />
+<link rel='stylesheet' href='/assets/css/dropdown-menu.css' type='text/css' media='screen' />
 
 
 <!-- Articles styles -->
@@ -98,15 +100,17 @@
 				
 			
 				id="desktop-menu-link">About</a>
+
 			</li>
 			
-			<li><a href="/#works-featured" rel="m_PageScroll2id" data-ps2id-offset="58" 
+			<li><a href="/#works-featured" rel="m_PageScroll2id" data-ps2id-offset="58" data-placement="bottom" 
 
 				
-					class="globalsection"
+					class="globalsection work-nav-hover"
 				
 
 				id="desktop-menu-link"><span class="work-with-project-name">
+
 				
 				
 					Work 
@@ -114,7 +118,27 @@
 				
 				
 				</span><span class="project-name-in-header" onclick="location.href='#top'">: about</span></a>
+
+				<!-- Display popover on hover/touch of element with class: work-nav-hover -->
+
+					<div id="work-nav-popover" class="webui-popover-content" style="display: none;cursor: pointer;">
+				          <ul class="dropdown-menu">
+				          	<li><a href="/portfolio/harmonic">VOS</a></li>
+				            <li><a href="/portfolio/rambus">VaultifyTrade</a></li>
+				            <li><a href="/portfolio/mokini">Mokini</a></li>
+				            <li role="separator" class="divider"></li>
+				            <li><a href="/#works-featured" rel="m_PageScroll2id" data-ps2id-offset="58">All work</a></li>
+				          </ul>
+			         </div>
+
+				<!-- /popover -->
+				
+
 			</li>
+
+			
+
+
 					
 			<li><!--<a href="/articles/" --><a href="https://medium.com/@visualplant"
 			
@@ -309,6 +333,7 @@
 <!-- Web UI Popover -->
 <script type="text/javascript" src="/assets/js/web-ui-popover/jquery.webui-popover.min.js"></script>
 
+
 <!-- Timeline - About page -->
 <script src="/assets/js/timeline.min.js"></script>
 
@@ -394,6 +419,7 @@ $(document).ready(function() {
     });
 </script>
 
+
 <script src="/assets/js/bootstrap-scrollspy.js"></script>
 
 <!-- Inview  -->
@@ -410,6 +436,8 @@ $(document).ready(function() {
 	}, {
 		offset: 0
 	});
+
+	$('a.work-nav-hover').webuiPopover({url:'#work-nav-popover',trigger:'hover'});
 	
 /* Case study Waypoints */
 		
@@ -477,6 +505,7 @@ $('#play-interview-btn').click(function() {
     g.src = 'http://a.vimeocdn.com/js/froogaloop2.min.js?495ca-1328924472';
     s.parentNode.insertBefore(g, s);
 }(document, 'script'));
+
 
 </script>
 

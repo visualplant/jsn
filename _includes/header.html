@@ -15,17 +15,19 @@
 				{% endif %}
 			
 				id="desktop-menu-link">About</a>
+
 			</li>
 			
-			<li><a href="/#works-featured" rel="m_PageScroll2id" data-ps2id-offset="58" 
+			<li><a href="/#works-featured" rel="m_PageScroll2id" data-ps2id-offset="58" data-placement="bottom" 
 
 				{% if page.section == 'portfolio' %}
-					class="active-globalsection" 
+					class="active-globalsection work-nav-hover" 
 				{% else %}
-					class="globalsection"
+					class="globalsection work-nav-hover"
 				{% endif %}
 
 				id="desktop-menu-link"><span class="work-with-project-name">
+
 				
 				{% if page.section == 'about' %}
 					Work 
@@ -35,7 +37,27 @@
 				
 				
 				</span>{% if page.title == 'work' %}{% else %}<span class="project-name-in-header" onclick="location.href='#top'">: {{ page.title }}</span>{% endif %}</a>
+
+				<!-- Display popover on hover/touch of element with class: work-nav-hover -->
+
+					<div id="work-nav-popover" class="webui-popover-content" style="display: none;cursor: pointer;">
+				          <ul class="dropdown-menu">
+				          	<li><a href="/portfolio/harmonic">VOS</a></li>
+				            <li><a href="/portfolio/rambus">VaultifyTrade</a></li>
+				            <li><a href="/portfolio/mokini">Mokini</a></li>
+				            <li role="separator" class="divider"></li>
+				            <li><a href="/#works-featured" rel="m_PageScroll2id" data-ps2id-offset="58">All work</a></li>
+				          </ul>
+			         </div>
+
+				<!-- /popover -->
+				
+
 			</li>
+
+			
+
+
 					
 			<li><!--<a href="/articles/" --><a href="https://medium.com/@visualplant"
 			

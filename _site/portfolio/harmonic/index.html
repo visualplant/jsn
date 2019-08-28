@@ -16,6 +16,8 @@
 <link rel='stylesheet' href='/assets/css/1140.css' type='text/css' media='screen' /> 
 <link rel='stylesheet' href='/assets/css/fonts.css' type='text/css' media='screen' />
 <link rel='stylesheet' href='/assets/css/responsive-case.css' type='text/css' media='screen' />
+<link rel='stylesheet' href='/assets/js/web-ui-popover/jquery.webui-popover.css' type='text/css' media='screen' />
+<link rel='stylesheet' href='/assets/css/dropdown-menu.css' type='text/css' media='screen' />
 
 
 <!-- Articles styles -->
@@ -97,15 +99,17 @@
 				
 			
 				id="desktop-menu-link">About</a>
+
 			</li>
 			
-			<li><a href="/#works-featured" rel="m_PageScroll2id" data-ps2id-offset="58" 
+			<li><a href="/#works-featured" rel="m_PageScroll2id" data-ps2id-offset="58" data-placement="bottom" 
 
 				
-					class="active-globalsection" 
+					class="active-globalsection work-nav-hover" 
 				
 
 				id="desktop-menu-link"><span class="work-with-project-name">
+
 				
 				
 					Work: Case Study
@@ -113,7 +117,27 @@
 				
 				
 				</span><span class="project-name-in-header" onclick="location.href='#top'">: VOS</span></a>
+
+				<!-- Display popover on hover/touch of element with class: work-nav-hover -->
+
+					<div id="work-nav-popover" class="webui-popover-content" style="display: none;cursor: pointer;">
+				          <ul class="dropdown-menu">
+				          	<li><a href="/portfolio/harmonic">VOS</a></li>
+				            <li><a href="/portfolio/rambus">VaultifyTrade</a></li>
+				            <li><a href="/portfolio/mokini">Mokini</a></li>
+				            <li role="separator" class="divider"></li>
+				            <li><a href="/#works-featured" rel="m_PageScroll2id" data-ps2id-offset="58">All work</a></li>
+				          </ul>
+			         </div>
+
+				<!-- /popover -->
+				
+
 			</li>
+
+			
+
+
 					
 			<li><!--<a href="/articles/" --><a href="https://medium.com/@visualplant"
 			
@@ -156,9 +180,6 @@
 		<!-- grid place-holder for local nav (above) -->
 		<div class="twocol"></div>
 
-
-
-
 		<div class="tencol last">
 			<div class="box work">
 			
@@ -177,10 +198,10 @@
 					
 					
 
-					<div class="opener-image" style="margin-top: -30px;">
+					<div class="opener-image" style="margin-top: -20px;">
 						<div class="quote-small" style="line-height: 1.4em;font-size: 22px;">
 						
-						I was the founding product designer of an <a href="https://www.harmonicinc.com/products/product-detail/vos-360/" target="_blank">award-winning</a> platform for media companies to deliver live TV and VOD to their consumers on every screen.
+						I was the founding product designer of an <a href="https://www.harmonicinc.com/products/product-detail/vos-360/" target="_blank">award-winning</a> platform for media companies to deliver live and on demand video on every screen.
 						</div>
 						
 
@@ -300,11 +321,11 @@
 				
 				<div class="caption">Background</div>
 
-				<div class="text-cols body-text background-text" style="margin-top: 0;">
-					I joined <a href="http://www.harmonicinc.com" target="_blank">this video tech company</a> to help them transition their legacy hardware products to modern, cloud-native software, and in the process, solve a growing problem. They had over 50 different product user interfaces in their portfolio with non-intuitive workflows that mostly looked terrible. The UIs were inconsistent with each other, bound by no ecosystem and often overlapped in functionality&mdash;the cumulative effect of many product initiatives and acquisitions with various, questionable design standards.
+				<div class="text-cols body-text-sm background-text" style="margin-top: 0;">
+					I joined <a href="http://www.harmonicinc.com" target="_blank">this video tech company</a> to help them transition their legacy hardware products to modern, cloud-native software, and in the process, solve a dire problem. They had over 50 different user interfaces in their portfolio with non-intuitive workflows that mostly looked bad and behaved worse. The UIs were inconsistent with each other, bound by no ecosystem and often overlapped in functionality&mdash;the cumulative effect of many product initiatives and acquisitions with various, lacking design standards.
 				</div>
 
-				<div class="caption">Fig 6: <span style="font-weight: bold;font-style: normal;">Before</span>&mdash;50+ products with no ecosystem. Non-intuitive, unattractive and inconsistent UIs</div>
+				<div class="caption">Fig 6: <span style="font-weight: bold;font-style: normal;">Before</span>&mdash;50+ disconnected products. Non-intuitive, unattractive and inconsistent UIs</div>
 
 				<div class="full-width-box">
 					<img src="/assets/images/harmonic/old-uis.jpg" valign="top" class="case-image" alt="">
@@ -319,7 +340,7 @@
 				<div class="text-head">Approach &amp; Process</div>
 				
 				<div class="text-cols body-text">
-					In the past, my employer's Product Managers would take every customer-requested feature and have it added to their products, exposing the same feature to thousands of other, unexpecting users. This approach resulted in "death by a thousand cuts" and major code-bloat which hampered agility. In effect, the lack of a good process led to this dysfunctional dynamic, and it needed to change before the product design could improve. So, one of my first jobs was to evangelize a design-driven software process and change minds at my employer. I presented my approach to internal stake holders to get us started on the right foot.  
+					In the past, my employer's Product Managers would take nearly every customer-requested feature and add it to their products, also exposing the same to thousands of other, unexpecting users. This approach resulted in "death by a thousand cuts" and code-bloat which hampered agility. In effect, the lack of a good process led to this dysfunctional dynamic, and it needed to change before the product design could improve. So, one of my first jobs was to evangelize a design-driven software process and change minds at my employer. I presented my approach to internal stake holders to get us started on the right foot.  
 				</div>
 				
 				<br clear="all" />
@@ -491,6 +512,33 @@
 
 				<div class="section-divider" style="margin-top:0;">&nbsp;</div>
 
+				<div class="full-width-box" style="margin-top: 45px;">
+
+				<div class="caption">Fig 14: Video&mdash;Use case walkthrough</div>
+						
+					<div class="fourcol body-text">
+						 
+						Because our team was globally distributed, my deliverables on UXHub offered design guidance including narrated, video walthroughs of UX patterns applied to product use cases. Product Managers and Engineers could "lean back" and review my presentations asychronously in their respective time zones. 
+
+					</div>
+					
+					<div class="eightcol" style="margin-right: 0;">
+						
+						<script src="https://fast.wistia.com/embed/medias/a72mqiro6a.jsonp" async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><div class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;"><div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><div class="wistia_embed wistia_async_a72mqiro6a videoFoam=true time=2m15 s" style="height:100%;width:100%">&nbsp;</div></div></div>
+
+					</div>
+
+				</div>
+
+				<br clear="all" /><br clear="all" />
+
+				<div class="section-divider" style="margin-top:0;">&nbsp;</div>
+
+				<br clear="all" />
+	
+
+
+
 				
 				<section id="develop"></section>
 								
@@ -506,7 +554,7 @@
 				
 				<br />
 				
-				<div class="caption">Fig 14: Prototype code tested and ready for Production integration</div>
+				<div class="caption">Fig 15: Prototype code tested and ready for Production integration</div>
 																				
 				<div class="full-width-box">
 					<img src="/assets/images/harmonic/code.png" valign="top" alt="">
@@ -743,6 +791,7 @@
 <!-- Web UI Popover -->
 <script type="text/javascript" src="/assets/js/web-ui-popover/jquery.webui-popover.min.js"></script>
 
+
 <!-- Timeline - About page -->
 <script src="/assets/js/timeline.min.js"></script>
 
@@ -828,6 +877,7 @@ $(document).ready(function() {
     });
 </script>
 
+
 <script src="/assets/js/bootstrap-scrollspy.js"></script>
 
 <!-- Inview  -->
@@ -844,6 +894,8 @@ $(document).ready(function() {
 	}, {
 		offset: 0
 	});
+
+	$('a.work-nav-hover').webuiPopover({url:'#work-nav-popover',trigger:'hover'});
 	
 /* Case study Waypoints */
 		
@@ -948,6 +1000,7 @@ $('#play-interview-btn').click(function() {
     g.src = 'http://a.vimeocdn.com/js/froogaloop2.min.js?495ca-1328924472';
     s.parentNode.insertBefore(g, s);
 }(document, 'script'));
+
 
 </script>
 

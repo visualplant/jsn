@@ -34,6 +34,7 @@ layout: base
     });
 </script>
 
+
 <script src="/assets/js/bootstrap-scrollspy.js"></script>
 
 <!-- Inview  -->
@@ -50,6 +51,8 @@ layout: base
 	}, {
 		offset: 0
 	});
+
+	$('a.work-nav-hover').webuiPopover({url:'#work-nav-popover',trigger:'hover'});
 	
 /* Case study Waypoints */
 		
@@ -289,6 +292,7 @@ $('#play-interview-btn').click(function() {
     g.src = 'http://a.vimeocdn.com/js/froogaloop2.min.js?495ca-1328924472';
     s.parentNode.insertBefore(g, s);
 }(document, 'script'));
+
 
 </script>
 

@@ -500,8 +500,13 @@ a:hover.active-globalsection {
 }
 
 .body-text {
+	font-size:1.0em;
+	line-height:1.25em;
+}
+
+.body-text-sm {
 	font-size:0.9em;
-	line-height:1.4em;
+	line-height:1.2em;
 }
 
 .text-cols-1 {

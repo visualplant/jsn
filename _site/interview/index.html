@@ -118,15 +118,19 @@
 				
 				</span><span class="project-name-in-header" onclick="location.href='#top'">: Interview</span></a>
 
-				<!-- Display popover on hover/touch of element with class: work-nav-hover -->
+			</li>
+
+			<!-- Display popover on hover/touch of element with class: work-nav-hover -->
 
 					<div id="work-nav-popover" class="webui-popover-content" style="display: none;cursor: pointer;">
-				          <ul class="dropdown-menu">
+				          <ul class="dropdown-menu" style="margin-bottom: -10px;">
 				          	<li role="header" style="margin-bottom: 10px;color: #aaa;">Top Case Studies</li>
 				          	
 				          	<li>
 
 				          		<a href="/portfolio/harmonic">
+
+				          			
 				          			<div style="width: 60px;float: left;">VOS</div>
 				          			<div style="width: 15px;float: left;">></div>
 				          			Enterprise Video
@@ -134,6 +138,7 @@
 				          	</li>
 				            <li>
 				            <a href="/portfolio/rambus">
+				            		
 				            		<div style="width: 60px;float: left;">Vaultify</div>
 				            		<div style="width: 15px;float: left;">></div>
 				            		Digital Wallet
@@ -141,6 +146,7 @@
 				            </li>
 				            <li>
 				            	<a href="/portfolio/mokini">
+				            		
 				            		<div style="width: 60px;float: left;">Mokini</div>
 				            		<div style="width: 15px;float: left;">></div>
 				            		Social Platform
@@ -152,9 +158,6 @@
 			         </div>
 
 				<!-- /popover -->
-				
-
-			</li>
 
 			
 
@@ -583,7 +586,6 @@ $(document).ready(function() {
 		offset: 0
 	});
 
-	$('a.work-nav-hover').webuiPopover({url:'#work-nav-popover',trigger:'hover'});
 	
 /* Case study Waypoints */
 		
@@ -659,4 +661,7 @@ $('#play-interview-btn').click(function() {
 
 </body>
 
+<script type="text/javascript">
+$('a.work-nav-hover').webuiPopover({url:'#work-nav-popover',trigger:'hover'});
+</script>
 </html>

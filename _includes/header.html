@@ -38,15 +38,19 @@
 				
 				</span>{% if page.title == 'work' %}{% else %}<span class="project-name-in-header" onclick="location.href='#top'">: {{ page.title }}</span>{% endif %}</a>
 
-				<!-- Display popover on hover/touch of element with class: work-nav-hover -->
+			</li>
+
+			<!-- Display popover on hover/touch of element with class: work-nav-hover -->
 
 					<div id="work-nav-popover" class="webui-popover-content" style="display: none;cursor: pointer;">
-				          <ul class="dropdown-menu">
+				          <ul class="dropdown-menu" style="margin-bottom: -10px;">
 				          	<li role="header" style="margin-bottom: 10px;color: #aaa;">Top Case Studies</li>
 				          	
 				          	{% if page.title == 'VOS' %}<li class="dropdown-menu-selected">{% else %}<li>{% endif %}
 
 				          		<a href="/portfolio/harmonic">
+
+				          			{% if page.title == 'VOS' %}<div style="float: left;"><img src="/assets/images/bull.png" style="width:3px;height:3px;position: relative;left: -7px;top:-3px;"></div>{% else %}{% endif %}
 				          			<div style="width: 60px;float: left;">VOS</div>
 				          			<div style="width: 15px;float: left;">></div>
 				          			Enterprise Video
@@ -54,6 +58,7 @@
 				          	</li>
 				            {% if page.title == 'VaultifyTrade' %}<li class="dropdown-menu-selected">{% else %}<li>{% endif %}
 				            <a href="/portfolio/rambus">
+				            		{% if page.title == 'Vaultify' %}<div style="float: left;"><img src="/assets/images/bull.png" style="width:3px;height:3px;position: relative;left: -7px;top:-3px;"></div>{% else %}{% endif %}
 				            		<div style="width: 60px;float: left;">Vaultify</div>
 				            		<div style="width: 15px;float: left;">></div>
 				            		Digital Wallet
@@ -61,6 +66,7 @@
 				            </li>
 				            {% if page.title == 'Mokini' %}<li class="dropdown-menu-selected">{% else %}<li>{% endif %}
 				            	<a href="/portfolio/mokini">
+				            		{% if page.title == 'Mokini' %}<div style="float: left;"><img src="/assets/images/bull.png" style="width:3px;height:3px;position: relative;left: -7px;top:-3px;"></div>{% else %}{% endif %}
 				            		<div style="width: 60px;float: left;">Mokini</div>
 				            		<div style="width: 15px;float: left;">></div>
 				            		Social Platform
@@ -72,9 +78,6 @@
 			         </div>
 
 				<!-- /popover -->
-				
-
-			</li>
 
 			
 
